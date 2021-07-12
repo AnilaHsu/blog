@@ -1,7 +1,7 @@
 ---
 title: "My journey in Seattle - Part I"
 date: 2020-12-18
-draft: true
+draft: false
 categories: 
 - Travel
 tags:

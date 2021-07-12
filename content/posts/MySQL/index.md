@@ -2,7 +2,7 @@
 title: "MySQL 基礎語法認識"
 description: ""
 date: 2021-06-30
-draft: true
+draft: false
 categories: 
 - MySQL
 tags:
