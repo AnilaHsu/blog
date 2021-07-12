@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://simple1017.github.io/tags/az-900/</loc>
+    <loc>https://simple1017.github.io/posts/az_900/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://simple1017.github.io/posts/az-900/</loc>
+    <loc>https://simple1017.github.io/categories/azure/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://simple1017.github.io/tags/azure/</loc>
+    <loc>https://simple1017.github.io/tags/azure-900/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://simple1017.github.io/categories/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/tags/microsoft/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://simple1017.github.io/</loc>
@@ -21,12 +24,6 @@
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://simple1017.github.io/tags/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://simple1017.github.io/tags/%E8%AD%89%E7%85%A7/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://simple1017.github.io/categories/%E9%9B%B2%E7%AB%AF/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url>
 </urlset>
