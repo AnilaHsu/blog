@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cat on My New Hugo Site</title>
+    <link>https://simple1017.github.io/categories/cat/</link>
+    <description>Recent content in Cat on My New Hugo Site</description>
+    <image>
+      <url>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simple1017.github.io/categories/cat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新手喵咪日誌 - 喵</title>
+      <link>https://simple1017.github.io/posts/%E8%88%87%E8%B2%93%E5%92%AA%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/posts/%E8%88%87%E8%B2%93%E5%92%AA%E7%94%9F%E6%B4%BB/</guid>
+      <description>&lt;h3 id=&#34;我領養了一隻來自彰化的貓咪-mimi&#34;&gt;我領養了一隻來自彰化的貓咪 mimi！&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

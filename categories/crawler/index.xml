@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Crawler on My New Hugo Site</title>
+    <link>https://simple1017.github.io/categories/crawler/</link>
+    <description>Recent content in Crawler on My New Hugo Site</description>
+    <image>
+      <url>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simple1017.github.io/categories/crawler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>實戰篇：如何用 Python 撰寫 PTT Web Crawler?</title>
+      <link>https://simple1017.github.io/posts/ptt_job_crawler_two/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/posts/ptt_job_crawler_two/</guid>
+      <description>&lt;h3 id=&#34;了解網路爬蟲的概念後那我們就接著來實作看看吧&#34;&gt;了解網路爬蟲的概念後，那我們就接著來實作看看吧！&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>入門篇：如何用 Python 撰寫 PTT Web Crawler?</title>
+      <link>https://simple1017.github.io/posts/ptt_job_crawler_one/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/posts/ptt_job_crawler_one/</guid>
+      <description>&lt;h3 id=&#34;什麼是網路爬蟲呢讓我們來一探究竟&#34;&gt;什麼是網路爬蟲呢？讓我們來一探究竟!&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

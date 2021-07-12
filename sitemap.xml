@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://simple1017.github.io/categories/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/tags/mysql/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/categories/mysql/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/posts/mysql/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/posts/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/tags/</loc>
+    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/tags/cat/</loc>
+    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/categories/cat/</loc>
+    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/posts/%E8%88%87%E8%B2%93%E5%92%AA%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://simple1017.github.io/posts/az_900/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,19 +41,34 @@
     <loc>https://simple1017.github.io/tags/azure-900/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://simple1017.github.io/categories/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://simple1017.github.io/tags/microsoft/</loc>
     <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://simple1017.github.io/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+    <loc>https://simple1017.github.io/tags/crawler/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://simple1017.github.io/posts/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+    <loc>https://simple1017.github.io/categories/crawler/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://simple1017.github.io/tags/</loc>
-    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+    <loc>https://simple1017.github.io/tags/python/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/posts/ptt_job_crawler_two/</loc>
+    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/posts/ptt_job_crawler_one/</loc>
+    <lastmod>2020-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/posts/seattle_one/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/tags/seattle/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/tags/studytour/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://simple1017.github.io/categories/travel/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
 </urlset>

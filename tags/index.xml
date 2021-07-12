@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 10 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simple1017.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simple1017.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL</title>
+      <link>https://simple1017.github.io/tags/mysql/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cat</title>
+      <link>https://simple1017.github.io/tags/cat/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/tags/cat/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Azure 900</title>
       <link>https://simple1017.github.io/tags/azure-900/</link>
@@ -26,6 +44,42 @@
       <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://simple1017.github.io/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crawler</title>
+      <link>https://simple1017.github.io/tags/crawler/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/tags/crawler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://simple1017.github.io/tags/python/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seattle</title>
+      <link>https://simple1017.github.io/tags/seattle/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/tags/seattle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StudyTour</title>
+      <link>https://simple1017.github.io/tags/studytour/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://simple1017.github.io/tags/studytour/</guid>
       <description></description>
     </item>
     
