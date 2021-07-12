@@ -1,5 +1,5 @@
 ---
-title: "MySQL 基礎語法認識"
+title: "MySQL - 基礎語法認識"
 description: ""
 date: 2021-06-30
 draft: false
