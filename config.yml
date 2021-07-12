@@ -57,9 +57,9 @@ params:
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        # imageUrl: "<img location>"
+        title: Anila Blog
+        subtitle: "Hi.   Nice to meet u !"
+        imageUrl: "profile.png"
         # imageWidth: 120
         # imageHeight: 120
         # imageTitle: my image
@@ -97,7 +97,7 @@ params:
 
     editPost:
         URL: "https://github.com/<path_to_repo>/content"
-        Text: "修改建議" # edit text
+        Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
     # for search
@@ -112,16 +112,16 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: 文章
-          name: 文章
+        - identifier: Archive
+          name: Archive
           url: /posts/
           weight: 5
-        - identifier: 分類
-          name: 分類
+        - identifier: Categories
+          name: Categories
           url: /categories/
           weight: 10
-        - identifier: 標籤
-          name: 標籤
+        - identifier: Tags
+          name: Tags
           url: /tags/
           weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
