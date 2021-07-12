@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on My New Hugo Site</title>
-    <link>https://simple1017.github.io/categories/</link>
+    <link>https://anila.me/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <image>
-      <url>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simple1017.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL</title>
-      <link>https://simple1017.github.io/categories/mysql/</link>
+      <link>https://anila.me/categories/mysql/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simple1017.github.io/categories/mysql/</guid>
+      <guid>https://anila.me/categories/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cat</title>
-      <link>https://simple1017.github.io/categories/cat/</link>
+      <link>https://anila.me/categories/cat/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simple1017.github.io/categories/cat/</guid>
+      <guid>https://anila.me/categories/cat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Azure</title>
-      <link>https://simple1017.github.io/categories/azure/</link>
+      <link>https://anila.me/categories/azure/</link>
       <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simple1017.github.io/categories/azure/</guid>
+      <guid>https://anila.me/categories/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crawler</title>
-      <link>https://simple1017.github.io/categories/crawler/</link>
+      <link>https://anila.me/categories/crawler/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simple1017.github.io/categories/crawler/</guid>
+      <guid>https://anila.me/categories/crawler/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Travel</title>
-      <link>https://simple1017.github.io/categories/travel/</link>
+      <link>https://anila.me/categories/travel/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://simple1017.github.io/categories/travel/</guid>
+      <guid>https://anila.me/categories/travel/</guid>
       <description></description>
     </item>
     

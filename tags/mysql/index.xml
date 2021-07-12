@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MySQL on My New Hugo Site</title>
-    <link>https://simple1017.github.io/tags/mysql/</link>
+    <link>https://anila.me/tags/mysql/</link>
     <description>Recent content in MySQL on My New Hugo Site</description>
     <image>
-      <url>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://simple1017.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://simple1017.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL - 基礎語法認識</title>
-      <link>https://simple1017.github.io/posts/mysql/</link>
+      <link>https://anila.me/posts/mysql/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://simple1017.github.io/posts/mysql/</guid>
+      <guid>https://anila.me/posts/mysql/</guid>
       <description>&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;
 &lt;p&gt;SQL 為 Structured Query Language 縮寫，念 S.Q.L 或 sequel。 中文稱結構化查詢語言。&lt;/p&gt;</description>
     </item>
