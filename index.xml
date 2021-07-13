@@ -10,23 +10,33 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MySQL - 基礎語法認識</title>
-      <link>https://anila.me/posts/mysql/</link>
+      <title>Python - Function 重點觀念整理</title>
+      <link>https://anila.me/posts/python_fun_parti/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/python_fun_parti/</guid>
+      <description>&lt;h2 id=&#34;一函式的基本認識&#34;&gt;一、函式的基本認識&lt;/h2&gt;
+&lt;p&gt;函式是程式中的&lt;strong&gt;子程式&lt;/strong&gt;或&lt;strong&gt;副程式&lt;/strong&gt;。概念有點類似於數學上的函數，它負責處理程式碼中的某項功能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MySQL - 使用資料庫的必備語法</title>
+      <link>https://anila.me/posts/mysql_basic/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/mysql/</guid>
+      <guid>https://anila.me/posts/mysql_basic/</guid>
       <description>&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;
 &lt;p&gt;SQL 為 Structured Query Language 縮寫，念 S.Q.L 或 sequel。 中文稱結構化查詢語言。&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>新手喵咪日誌 - 喵</title>
-      <link>https://anila.me/posts/%E8%88%87%E8%B2%93%E5%92%AA%E7%94%9F%E6%B4%BB/</link>
+      <title>喵：新手喵咪日誌</title>
+      <link>https://anila.me/posts/cat_life_parti/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/%E8%88%87%E8%B2%93%E5%92%AA%E7%94%9F%E6%B4%BB/</guid>
+      <guid>https://anila.me/posts/cat_life_parti/</guid>
       <description>&lt;h3 id=&#34;我領養了一隻來自彰化的貓咪-mimi&#34;&gt;我領養了一隻來自彰化的貓咪 mimi！&lt;/h3&gt;</description>
     </item>
     
@@ -41,28 +51,28 @@
     
     <item>
       <title>實戰篇：如何用 Python 撰寫 PTT Web Crawler?</title>
-      <link>https://anila.me/posts/ptt_job_crawler_two/</link>
+      <link>https://anila.me/posts/ptt_job_crawler_partii/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/ptt_job_crawler_two/</guid>
+      <guid>https://anila.me/posts/ptt_job_crawler_partii/</guid>
       <description>&lt;h3 id=&#34;了解網路爬蟲的概念後那我們就接著來實作看看吧&#34;&gt;了解網路爬蟲的概念後，那我們就接著來實作看看吧！&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>入門篇：如何用 Python 撰寫 PTT Web Crawler?</title>
-      <link>https://anila.me/posts/ptt_job_crawler_one/</link>
+      <link>https://anila.me/posts/ptt_job_crawler_parti/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/ptt_job_crawler_one/</guid>
+      <guid>https://anila.me/posts/ptt_job_crawler_parti/</guid>
       <description>&lt;h3 id=&#34;什麼是網路爬蟲呢讓我們來一探究竟&#34;&gt;什麼是網路爬蟲呢？讓我們來一探究竟！&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>My journey in Seattle - Part I</title>
-      <link>https://anila.me/posts/seattle_one/</link>
+      <link>https://anila.me/posts/seattle_parti/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/seattle_one/</guid>
+      <guid>https://anila.me/posts/seattle_parti/</guid>
       <description>&lt;h1 id=&#34;20180803&#34;&gt;&lt;strong&gt;2018.08.03&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;The two-week study tour, I have been looking forward to it for two years！&lt;/p&gt;</description>
     </item>

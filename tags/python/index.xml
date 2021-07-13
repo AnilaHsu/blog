@@ -13,19 +13,19 @@
     <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>實戰篇：如何用 Python 撰寫 PTT Web Crawler?</title>
-      <link>https://anila.me/posts/ptt_job_crawler_two/</link>
+      <link>https://anila.me/posts/ptt_job_crawler_partii/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/ptt_job_crawler_two/</guid>
+      <guid>https://anila.me/posts/ptt_job_crawler_partii/</guid>
       <description>&lt;h3 id=&#34;了解網路爬蟲的概念後那我們就接著來實作看看吧&#34;&gt;了解網路爬蟲的概念後，那我們就接著來實作看看吧！&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>入門篇：如何用 Python 撰寫 PTT Web Crawler?</title>
-      <link>https://anila.me/posts/ptt_job_crawler_one/</link>
+      <link>https://anila.me/posts/ptt_job_crawler_parti/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/ptt_job_crawler_one/</guid>
+      <guid>https://anila.me/posts/ptt_job_crawler_parti/</guid>
       <description>&lt;h3 id=&#34;什麼是網路爬蟲呢讓我們來一探究竟&#34;&gt;什麼是網路爬蟲呢？讓我們來一探究竟！&lt;/h3&gt;</description>
     </item>
     
