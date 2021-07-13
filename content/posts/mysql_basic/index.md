@@ -1,5 +1,5 @@
 ---
-title: "MySQL - 基礎語法認識"
+title: "MySQL - 使用資料庫的必備語法"
 description: ""
 date: 2021-06-30
 draft: false
@@ -204,7 +204,7 @@ delete from students where name in ('naomi','josh');
 
 ### 4. Insert Into 與 Update 使用差異
 
-**新增一個 column 為 gender**
+**新增一個 column 為 gender，並設定為 varchar(6)**
 
 ```sql
 alter table students add gender varchar(6);
@@ -212,9 +212,7 @@ alter table students add gender varchar(6);
 
 
 
-因為原本的 row 已經有值，**不能**使用 insert into 來新增 gender 的值，
-應該使用 update 來新增 gender 的值。
-**update 使用範例：**
+**因為原本的 row 已經有值，不能使用 insert into 來新增 gender 的值，應該使用 **update** 來新增 gender 的值，使用範例：**
 
 ```sql
 update students set gender = 'm' where name = 'frank';
@@ -223,7 +221,7 @@ update students set gender = 'm' where name = 'frank';
 
 ![](6.png)
 
-**insert into 適用的情況為新增新的 row 時候** 
+**insert into 適用於新增新的 row 的情況，使用範例：** 
 
 ```sql
 insert into students(name,chinese,english,math) values('naomi',79,84,93,'f'),('josh',8,64,73,'m');
@@ -232,7 +230,7 @@ insert into students(name,chinese,english,math) values('naomi',79,84,93,'f'),('j
 ![](7.png)
 
 
-**若一次 update 多個 gender 的值**
+**若一次 update 多個 gender 的值的時候，使用範例：**
 
 ```sql
 update students set gender = case name when 'frank' then 'm' when 'andy' then 'm' when 'mimi' then 'f' when 'Ace' then 'm' else gender end;
@@ -255,7 +253,7 @@ alter table students add hobby varchar(100) not null;
 
 ![](10.png)
 
-範例：
+**update 使用範例：**
 
 ```sql
 update students set age = case name when 'frank' then 21 else age end;
@@ -264,10 +262,8 @@ update students set age = case name when 'frank' then 21 else age end;
 
 ![](12.png)
 
-![](13.png)
 
-
-## 輔助指令
+### 輔助指令
 
 ### 1. ORDER BY 資料排序
 
@@ -300,7 +296,7 @@ select gender,count(*) from students group by gender;
 ![](12.png)
 
 
-## Aggregate Function 函式
+### Aggregate Function 函式
 
 **常見函式如 count、sum、max、min、age**
 
