@@ -31,7 +31,7 @@ SQL 語法主要分成 **DDL(Data Definition language)**、**DQL(Data Quary lang
 **建立資料庫**
 
 ```sql
-create database school
+create database if not exists school
 collate utf8mb4_unicode_ci;
 ```
 
@@ -42,7 +42,7 @@ use school
 ```
 
 ```sql
-create table stdents(
+create table if not exists stdents(
 name varchar(10) not null,
 chinese int,
 english int,
@@ -72,13 +72,13 @@ alter table students drop society;
 **刪除資料庫**
 
 ```sql
-drop database school;
+drop database if exists school;
 ```
 
 **刪除資料表**
 
 ```sql
-drop table students;
+drop table if not exists students;
 ```
 
 ### 4. 使用 SHOW 查看資料庫/資料表
