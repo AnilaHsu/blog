@@ -10,22 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>function</title>
-      <link>https://anila.me/tags/function/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Numpy</title>
+      <link>https://anila.me/tags/numpy/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/tags/function/</guid>
+      <guid>https://anila.me/tags/numpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pyrhon</title>
       <link>https://anila.me/tags/pyrhon/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/tags/pyrhon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>function</title>
+      <link>https://anila.me/tags/function/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/tags/function/</guid>
       <description></description>
     </item>
     

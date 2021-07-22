@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Pyrhon on My New Hugo Site</title>
-    <link>https://anila.me/tags/pyrhon/</link>
-    <description>Recent content in Pyrhon on My New Hugo Site</description>
+    <title>Numpy on My New Hugo Site</title>
+    <link>https://anila.me/tags/numpy/</link>
+    <description>Recent content in Numpy on My New Hugo Site</description>
     <image>
       <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/pyrhon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python 資料分析 - NumPy</title>
       <link>https://anila.me/posts/python_numpy-i/</link>
@@ -19,16 +19,6 @@
       <guid>https://anila.me/posts/python_numpy-i/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;在資料科學中，我們常常需要面對大量的資料來進行資料的加工、運算及分析，為了有效率的對資料進行各式各樣的處理，我們常常會匯入 Python 的套件來使用，以減少在資料處理過程中繁複的程式碼。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Python - Function 重點觀念整理</title>
-      <link>https://anila.me/posts/python_fun-i/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/python_fun-i/</guid>
-      <description>&lt;h2 id=&#34;一函式的基本認識&#34;&gt;一、函式的基本認識&lt;/h2&gt;
-&lt;p&gt;函式是程式中的&lt;strong&gt;子程式&lt;/strong&gt;或&lt;strong&gt;副程式&lt;/strong&gt;。概念有點類似於數學上的函數，它負責處理程式碼中的某項功能。&lt;/p&gt;</description>
     </item>
     
   </channel>
