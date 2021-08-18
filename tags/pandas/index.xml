@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Pyrhon on My New Hugo Site</title>
-    <link>https://anila.me/tags/pyrhon/</link>
-    <description>Recent content in Pyrhon on My New Hugo Site</description>
+    <title>Pandas on My New Hugo Site</title>
+    <link>https://anila.me/tags/pandas/</link>
+    <description>Recent content in Pandas on My New Hugo Site</description>
     <image>
       <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/pyrhon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pandas 基礎 - Python 資料分析</title>
       <link>https://anila.me/posts/python_pandas-i/</link>
@@ -23,26 +23,6 @@
 Pandas 的主要的特色如下：
  提供兩種主要的資料結構：Series、DataFrame。Series 主要用於建立索引的一維陣列，用來處理時間序列相關的資料；而 DataFrame 則是有列索引和欄標籤的二維資料集，類似於 Excel 的資料表或是 SQL 的關聯式資料庫。 透過 Pandas 的資料結構及結構化物件的方法，將資料進行更多元的處理。像是將資料進行空值的填補、刪除或取代。 在異質資料的讀取、轉換和處理上更容易。像是從資料當中找出符合某個條件的欄或列，或是對資料進行分隔、結合等操作等。 更多樣的輸入來源及整合性的輸出方式。像是可以從 CSV 或資料庫讀取資料轉成 DataFrame ，也可以將處理完的資料轉成CSV 或資料庫。  透過 Pandas 的套件，使我們可以跨越 Excel 的限制，也使資料分析的工作更方便輕鬆，而且能夠更快速地發現資料中的資訊與其中的意義。
 安裝 pip3 install pandas 匯入 import pandas as pd 二、Series (序列) 建立 Series 是類似於一維陣列的物件。我可以使用 Python 的 list 資料型別或是 dictionary 資料型別來建立 Series：</description>
-    </item>
-    
-    <item>
-      <title>NumPy 基礎 - Python 資料分析</title>
-      <link>https://anila.me/posts/python_numpy-i/</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/python_numpy-i/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;在資料科學中，我們常常需要面對大量的資料來進行資料的加工、運算及分析，為了有效率的對資料進行各式各樣的處理，我們常常會匯入 Python 的套件來使用，以減少在資料處理過程中繁複的程式碼。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Python - Function 重點觀念整理</title>
-      <link>https://anila.me/posts/python_fun-i/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/python_fun-i/</guid>
-      <description>&lt;h2 id=&#34;一函式的基本認識&#34;&gt;一、函式的基本認識&lt;/h2&gt;
-&lt;p&gt;函式是程式中的&lt;strong&gt;子程式&lt;/strong&gt;或&lt;strong&gt;副程式&lt;/strong&gt;。概念有點類似於數學上的函數，它負責處理程式碼中的某項功能。&lt;/p&gt;</description>
     </item>
     
   </channel>

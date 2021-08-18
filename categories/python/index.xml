@@ -10,9 +10,23 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python 資料分析 - NumPy</title>
+      <title>Pandas 基礎 - Python 資料分析</title>
+      <link>https://anila.me/posts/python_pandas-i/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/python_pandas-i/</guid>
+      <description>前言 在 Python 套件生態系中，Numpy、Pandas、Matplotlib、Scipy 以及 scikit-learn 是常用來進行資料分析、資料科學和機器學習應用的重要套件和模組。
+實際上，Pandas 不算是資料科學的工具，而是資料科學分析工具前階段的工具。 本篇文章主要會針對 Pandas 中，重要的資料結構 Series 和 DataFrame 的基礎使用進行介紹。
+一、Pandas 的認識 Pandas 是將資料預處理及分析資料非常好用的函式庫。它結合了Numpy 的特性，並擁有 Excel 和 SQL 的資料操作能力，使我們藉由 DataFrame 的形式，對各式各樣的資料進行各種有彈性的加工。
+Pandas 的主要的特色如下：
+ 提供兩種主要的資料結構：Series、DataFrame。Series 主要用於建立索引的一維陣列，用來處理時間序列相關的資料；而 DataFrame 則是有列索引和欄標籤的二維資料集，類似於 Excel 的資料表或是 SQL 的關聯式資料庫。 透過 Pandas 的資料結構及結構化物件的方法，將資料進行更多元的處理。像是將資料進行空值的填補、刪除或取代。 在異質資料的讀取、轉換和處理上更容易。像是從資料當中找出符合某個條件的欄或列，或是對資料進行分隔、結合等操作等。 更多樣的輸入來源及整合性的輸出方式。像是可以從 CSV 或資料庫讀取資料轉成 DataFrame ，也可以將處理完的資料轉成CSV 或資料庫。  透過 Pandas 的套件，使我們可以跨越 Excel 的限制，也使資料分析的工作更方便輕鬆，而且能夠更快速地發現資料中的資訊與其中的意義。
+安裝 pip3 install pandas 匯入 import pandas as pd 二、Series (序列) 建立 Series 是類似於一維陣列的物件。我可以使用 Python 的 list 資料型別或是 dictionary 資料型別來建立 Series：</description>
+    </item>
+    
+    <item>
+      <title>NumPy 基礎 - Python 資料分析</title>
       <link>https://anila.me/posts/python_numpy-i/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       

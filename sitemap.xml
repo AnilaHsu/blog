@@ -3,27 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://anila.me/categories/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/pandas/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/posts/python_pandas-i/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/posts/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/pyrhon/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/categories/python/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/</loc>
+    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/numpy/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/pyrhon/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/categories/python/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://anila.me/posts/python_numpy-i/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/function/</loc>
