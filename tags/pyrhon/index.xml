@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/pyrhon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pandas 基礎 - Python 資料分析</title>
-      <link>https://anila.me/posts/python_pandas-i/</link>
+      <link>https://anila.me/posts/python_pandas/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_pandas-i/</guid>
+      <guid>https://anila.me/posts/python_pandas/</guid>
       <description>前言 在 Python 套件生態系中，Numpy、Pandas、Matplotlib、Scipy 以及 scikit-learn 是常用來進行資料分析、資料科學和機器學習應用的重要套件和模組。
 實際上，Pandas 不算是資料科學的工具，而是資料科學分析工具前階段的工具。 本篇文章主要會針對 Pandas 中，重要的資料結構 Series 和 DataFrame 的基礎使用進行介紹。
 一、Pandas 的認識 Pandas 是將資料預處理及分析資料非常好用的函式庫。它結合了Numpy 的特性，並擁有 Excel 和 SQL 的資料操作能力，使我們藉由 DataFrame 的形式，對各式各樣的資料進行各種有彈性的加工。
