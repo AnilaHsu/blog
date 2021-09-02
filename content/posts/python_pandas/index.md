@@ -1,5 +1,5 @@
 ---
-title: "Pandas 基礎 - Python 資料分析"
+title: "Pandas - Series 與 DataFrame 建立 "
 description: ""
 date: 2021-08-18
 draft: false

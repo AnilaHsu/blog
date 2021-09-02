@@ -203,6 +203,7 @@ delete from students where name in ('naomi','josh');
 
 
 ### 4. Insert Into 與 Update 使用差異
+當資料不存在時就 Insert Into（新增)，已存在就 Update（更新）。
 
 **新增一個 column 為 gender，並設定為 varchar(6)**
 
@@ -212,7 +213,7 @@ alter table students add gender varchar(6);
 
 
 
-**因為原本的 row 已經有值，不能使用 insert into 來新增 gender 的值，應該使用 **update** 來新增 gender 的值，使用範例：**
+**因為原本的 row 已經有資料，不能使用 insert into 來新增 gender 的值，應該使用 **update** 來新增 gender 的值，使用範例：**
 
 ```sql
 update students set gender = 'm' where name = 'frank';
@@ -221,7 +222,7 @@ update students set gender = 'm' where name = 'frank';
 
 ![](6.png)
 
-**insert into 適用於新增新的 row 的情況，使用範例：** 
+**insert into 適用於資料不存在的情況，如新增新的 row 的情況，使用範例：** 
 
 ```sql
 insert into students(name,chinese,english,math) values('naomi',79,84,93,'f'),('josh',8,64,73,'m');
