@@ -13,16 +13,28 @@
     <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/pyrhon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pandas - Series 與 DataFrame 建立 </title>
-      <link>https://anila.me/posts/python_pandas/</link>
+      <link>https://anila.me/posts/python_pandas-i/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_pandas/</guid>
+      <guid>https://anila.me/posts/python_pandas-i/</guid>
       <description>前言 在 Python 套件生態系中，Numpy、Pandas、Matplotlib、Scipy 以及 scikit-learn 是常用來進行資料分析、資料科學和機器學習應用的重要套件和模組。
 實際上，Pandas 不算是資料科學的工具，而是資料科學分析工具前階段的工具。 本篇文章主要會針對 Pandas 中，重要的資料結構 Series 和 DataFrame 的基礎使用進行介紹。
 一、Pandas 的認識 Pandas 是將資料預處理及分析資料非常好用的函式庫。它結合了Numpy 的特性，並擁有 Excel 和 SQL 的資料操作能力，使我們藉由 DataFrame 的形式，對各式各樣的資料進行各種有彈性的加工。
 Pandas 的主要的特色如下：
  提供兩種主要的資料結構：Series、DataFrame。Series 主要用於建立索引的一維陣列，用來處理時間序列相關的資料；而 DataFrame 則是有列索引和欄標籤的二維資料集，類似於 Excel 的資料表或是 SQL 的關聯式資料庫。 透過 Pandas 的資料結構及結構化物件的方法，將資料進行更多元的處理。像是將資料進行空值的填補、刪除或取代。 在異質資料的讀取、轉換和處理上更容易。像是從資料當中找出符合某個條件的欄或列，或是對資料進行分隔、結合等操作等。 更多樣的輸入來源及整合性的輸出方式。像是可以從 CSV 或資料庫讀取資料轉成 DataFrame ，也可以將處理完的資料轉成CSV 或資料庫。  透過 Pandas 的套件，使我們可以跨越 Excel 的限制，也使資料分析的工作更方便輕鬆，而且能夠更快速地發現資料中的資訊與其中的意義。
 安裝 pip3 install pandas 匯入 import pandas as pd 二、Series (序列) 建立 Series 是類似於一維陣列的物件。我可以使用 Python 的 list 資料型別或是 dictionary 資料型別來建立 Series：</description>
+    </item>
+    
+    <item>
+      <title>Pandas - 好用的資料選擇方法 </title>
+      <link>https://anila.me/posts/python_pandas-ii/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/python_pandas-ii/</guid>
+      <description>前言 本篇會針對 Pandas 中 DataFrame 的取值方法進行介紹，主要分為三個部分：
+ 基本的資料選擇 DataFrame.loc 的方法 DataFrame.iloc 的方法  在下文介紹的 .loc 及 .iloc 方法中，資料選擇的規則是「先列再行，並以逗號間隔列與行的資料」 ex [列, 行]，因此在取資料的時候要特別注意。那話不多說就實際來看看這些方法要如何操作~~!
+一、基本的資料選擇 在 DataFrame 的資料結構中，我們可以透過直接透過 index 和 column 來找到某一筆符合條件的資料。那我們以 df_student_index 為例來實際操作看看如何篩選和取出資料吧。
+dict_student = {&amp;#39;ID&amp;#39;:[1100101, 1100102, 1100103, 1100104, 1100105], &amp;#39;Sex&amp;#39;:[&amp;#39;f&amp;#39;, &amp;#39;m&amp;#39;, &amp;#39;f&amp;#39;, &amp;#39;f&amp;#39;, &amp;#39;m&amp;#39;], &amp;#39;Chinese&amp;#39;:[60, 70, 77, 69, 70], &amp;#39;Math&amp;#39;:[66, 75, 74, 88, 94],&amp;#39;English&amp;#39;:[70, 88, 67, 89, 97]} df_student_index = pd.DataFrame(dict_student,index=[&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;,&amp;#39;d&amp;#39;,&amp;#39;e&amp;#39;]) print(df_student_index) # print(df_student_index) ID Sex Chinese Math English a 1100101 f 60 66 70 b 1100102 m 70 75 88 c 1100103 f 77 74 67 d 1100104 f 69 88 89 e 1100105 m 70 94 97 1.</description>
     </item>
     
     <item>
