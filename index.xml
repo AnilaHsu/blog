@@ -79,7 +79,7 @@ list_1 = [[1, 2], [3, 4]] x = np.array(list_1) print(list_1*3) print(&amp;#39;\n
     </item>
     
     <item>
-      <title>喵：新手喵咪日誌</title>
+      <title>喵 - 新手喵咪日誌</title>
       <link>https://anila.me/posts/cat_life-i/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -88,7 +88,7 @@ list_1 = [[1, 2], [3, 4]] x = np.array(list_1) print(list_1*3) print(&amp;#39;\n
     </item>
     
     <item>
-      <title> Microsoft Certified ：Azure Fundamentals(AZ-900) </title>
+      <title> Microsoft Certified : Azure Fundamentals(AZ-900) </title>
       <link>https://anila.me/posts/az_900/</link>
       <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -97,7 +97,7 @@ list_1 = [[1, 2], [3, 4]] x = np.array(list_1) print(list_1*3) print(&amp;#39;\n
     </item>
     
     <item>
-      <title>實戰篇：如何用 Python 撰寫 PTT Web Crawler?</title>
+      <title>實戰篇 - 如何用 Python 撰寫 PTT Web Crawler?</title>
       <link>https://anila.me/posts/ptt_job_crawler-ii/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -106,7 +106,7 @@ list_1 = [[1, 2], [3, 4]] x = np.array(list_1) print(list_1*3) print(&amp;#39;\n
     </item>
     
     <item>
-      <title>入門篇：如何用 Python 撰寫 PTT Web Crawler?</title>
+      <title>入門篇 - 如何用 Python 撰寫 PTT Web Crawler?</title>
       <link>https://anila.me/posts/ptt_job_crawler-i/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
