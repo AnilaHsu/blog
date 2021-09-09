@@ -1,5 +1,5 @@
 ---
-title: "入門篇：如何用 Python 撰寫 PTT Web Crawler?"
+title: "入門篇 - 如何用 Python 撰寫 PTT Web Crawler?"
 date: 2020-12-30
 draft: false
 categories: 

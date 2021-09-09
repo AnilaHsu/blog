@@ -1,5 +1,5 @@
 ---
-title: " Microsoft Certified ：Azure Fundamentals(AZ-900) "
+title: " Microsoft Certified : Azure Fundamentals(AZ-900) "
 date: 2021-04-10
 categories: 
 - Azure

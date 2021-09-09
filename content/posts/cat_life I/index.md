@@ -1,5 +1,5 @@
 ---
-title: "喵：新手喵咪日誌"
+title: "喵 - 新手喵咪日誌"
 description: ""
 date: 2021-04-20
 draft: false
