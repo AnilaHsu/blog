@@ -205,7 +205,7 @@ delete from students where name in ('naomi','josh');
 ### 4. Insert Into 與 Update 使用差異
 當資料不存在時就 Insert Into（新增)，已存在就 Update（更新）。
 
-**新增一個 column 為 gender，並設定為 varchar(6)**
+**首先，我們先新增一個 column 為 gender，並設定為 varchar(6)**
 
 ```sql
 alter table students add gender varchar(6);
@@ -213,22 +213,16 @@ alter table students add gender varchar(6);
 
 
 
-**因為原本的 row 已經有資料，不能使用 insert into 來新增 gender 的值，應該使用 **update** 來新增 gender 的值，使用範例：**
+**接著使用 update更新 gender 欄位的資料，使用範例:**
 
 ```sql
 update students set gender = 'm' where name = 'frank';
 ```
+>因為原本的 row 已經有資料，不能使用 insert into 來新增 gender 的值，應該使用 **update** 來新增 gender 的值
 
 
 ![](6.png)
 
-**insert into 適用於資料不存在的情況，如新增新的 row 的情況，使用範例：** 
-
-```sql
-insert into students(name,chinese,english,math) values('naomi',79,84,93,'f'),('josh',8,64,73,'m');
-```
-
-![](7.png)
 
 
 **若一次 update 多個 gender 的值的時候，使用範例：**
@@ -242,7 +236,17 @@ update students set gender = case name when 'frank' then 'm' when 'andy' then 'm
 
 ![](9.png)
 
-**新增 age 為 int、hobby 為 varchar(100) 並且皆為 not null 的欄位**
+**insert into 適用於資料不存在的情況，如新增新的 row 的情況，使用範例：** 
+
+```sql
+insert into students(name,chinese,english,math) values('naomi',79,84,93,'f'),('josh',8,64,73,'m');
+```
+
+![](7.png)
+
+
+
+**在 update 的使用上有一點值得注意的地方，當我們新增 age 為 int、hobby 為 varchar(100) 並且皆為 not null 的欄位：**
 
 ```sql
 alter table students add age int not null;
