@@ -76,11 +76,11 @@ params:
 
     socialIcons:
         - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
+          url: "https://twitter.com/3B6gDLWPgAr8BE5"
+        - name: linkedln
+          url: "https://www.linkedin.com/in/AnilaHsu"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/simple1017"
 
     analytics:
         google:
