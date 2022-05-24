@@ -8,7 +8,7 @@ categories:
 tags:
 - Python Function
 cover:
-    image: "photo/cover1.jpeg"
+    image: "photo/cover.jpeg"
     relative: true
 ---
 
