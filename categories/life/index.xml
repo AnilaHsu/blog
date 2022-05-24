@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Life on My New Hugo Site</title>
+    <link>https://anila.me/categories/life/</link>
+    <description>Recent content in Life on My New Hugo Site</description>
+    <image>
+      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>喵 - 新手喵咪日誌</title>
+      <link>https://anila.me/posts/cat_life-i/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/cat_life-i/</guid>
+      <description>&lt;h3 id=&#34;我領養了一隻來自彰化的貓咪-mimi&#34;&gt;我領養了一隻來自彰化的貓咪 mimi！&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

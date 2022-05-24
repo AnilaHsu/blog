@@ -10,40 +10,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python</title>
-      <link>https://anila.me/categories/python/</link>
+      <title>Marketing Analytics</title>
+      <link>https://anila.me/categories/marketing-analytics/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/categories/marketing-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Analytics</title>
+      <link>https://anila.me/categories/data-analytics/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/python/</guid>
+      <guid>https://anila.me/categories/data-analytics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MySQL</title>
-      <link>https://anila.me/categories/mysql/</link>
+      <title>Python Note</title>
+      <link>https://anila.me/categories/python-note/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/categories/python-note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL Note</title>
+      <link>https://anila.me/categories/mysql-note/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/mysql/</guid>
+      <guid>https://anila.me/categories/mysql-note/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cat</title>
-      <link>https://anila.me/categories/cat/</link>
+      <title>Life</title>
+      <link>https://anila.me/categories/life/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/cat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Crawler</title>
-      <link>https://anila.me/categories/crawler/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/categories/crawler/</guid>
+      <guid>https://anila.me/categories/life/</guid>
       <description></description>
     </item>
     

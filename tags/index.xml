@@ -10,40 +10,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pandas</title>
-      <link>https://anila.me/tags/pandas/</link>
-      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      <title>GTM</title>
+      <link>https://anila.me/tags/gtm/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/tags/pandas/</guid>
+      <guid>https://anila.me/tags/gtm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pyrhon</title>
-      <link>https://anila.me/tags/pyrhon/</link>
+      <title>Python Pandas</title>
+      <link>https://anila.me/tags/python-pandas/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/tags/pyrhon/</guid>
+      <guid>https://anila.me/tags/python-pandas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Numpy</title>
-      <link>https://anila.me/tags/numpy/</link>
+      <title>Python Numpy</title>
+      <link>https://anila.me/tags/python-numpy/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/tags/numpy/</guid>
+      <guid>https://anila.me/tags/python-numpy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>function</title>
-      <link>https://anila.me/tags/function/</link>
+      <title>Python Function</title>
+      <link>https://anila.me/tags/python-function/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/tags/function/</guid>
+      <guid>https://anila.me/tags/python-function/</guid>
       <description></description>
     </item>
     
@@ -66,38 +66,20 @@
     </item>
     
     <item>
-      <title>Crawler</title>
-      <link>https://anila.me/tags/crawler/</link>
+      <title>Python Crawler</title>
+      <link>https://anila.me/tags/python-crawler/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/tags/crawler/</guid>
+      <guid>https://anila.me/tags/python-crawler/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://anila.me/tags/python/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seattle</title>
-      <link>https://anila.me/tags/seattle/</link>
+      <title>Seattle Study Tour</title>
+      <link>https://anila.me/tags/seattle-study-tour/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/tags/seattle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>StudyTour</title>
-      <link>https://anila.me/tags/studytour/</link>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/tags/studytour/</guid>
+      <guid>https://anila.me/tags/seattle-study-tour/</guid>
       <description></description>
     </item>
     

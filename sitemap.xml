@@ -3,12 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://anila.me/categories/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/posts/gtm-ii/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/gtm/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/categories/marketing-analytics/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/pandas/</loc>
+    <loc>https://anila.me/posts/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/</loc>
+    <lastmod>2021-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/posts/gtm-i/</loc>
+    <lastmod>2021-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/categories/data-analytics/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/python_pandas-i/</loc>
@@ -17,58 +35,46 @@
     <loc>https://anila.me/posts/python_pandas-ii/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/</loc>
+    <loc>https://anila.me/tags/python-pandas/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/pyrhon/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/categories/python/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/numpy/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/python_numpy-ii/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/python-numpy/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/python_numpy-i/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/function/</loc>
+    <loc>https://anila.me/posts/python_fun-i/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/python_fun-i/</loc>
+    <loc>https://anila.me/tags/python-function/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/categories/python-note/</loc>
     <lastmod>2021-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/mysql/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/categories/mysql/</loc>
+    <loc>https://anila.me/posts/mysql_basic/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/mysql_basic/</loc>
+    <loc>https://anila.me/categories/mysql-note/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/cat/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/categories/cat/</loc>
+    <loc>https://anila.me/categories/life/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/cat_life-i/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/crawler/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/categories/crawler/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/python/</loc>
+    <loc>https://anila.me/tags/python-crawler/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/ptt_job_crawler-ii/</loc>
@@ -80,10 +86,7 @@
     <loc>https://anila.me/posts/seattle-i/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/seattle/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/studytour/</loc>
+    <loc>https://anila.me/tags/seattle-study-tour/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/categories/travel/</loc>
