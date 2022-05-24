@@ -3,10 +3,9 @@ title: "入門篇 - 如何用 Python 撰寫 PTT Web Crawler?"
 date: 2020-12-30
 draft: false
 categories: 
-- Crawler
+- Python Note
 tags:
-- Python
-- Crawler
+- Python Crawler
 ---
 
 ### 什麼是網路爬蟲呢？讓我們來一探究竟！

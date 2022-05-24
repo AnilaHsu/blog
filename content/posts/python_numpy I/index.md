@@ -4,10 +4,9 @@ description: ""
 date: 2021-07-13
 draft: false
 categories: 
-- Python
+- Data Analytics
 tags:
-- Pyrhon
-- Numpy
+- Python Numpy
 cover:
     image: "cover.jpeg"
     relative: true

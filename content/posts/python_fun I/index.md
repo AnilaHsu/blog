@@ -4,10 +4,9 @@ description: ""
 date: 2021-07-10
 draft: false
 categories: 
-- Python
+- Python Note
 tags:
-- Pyrhon
-- function
+- Python Function
 cover:
     image: "photo/cover1.jpeg"
     relative: true
@@ -52,7 +51,6 @@ calc_add(4,9)
 ```
 
 ## 三、函式的變數範圍
-
 
 
 在程式語言中，變數皆有一個有效範圍，根據變數所在的位置，會影響所存取的值，可分為：「全域變數」及「區域變數」。

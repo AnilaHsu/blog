@@ -5,8 +5,7 @@ draft: false
 categories: 
 - Travel
 tags:
-- Seattle
-- StudyTour
+- Seattle Study Tour
 cover:
     image: "photo/seattle.jpeg"
     relative: true

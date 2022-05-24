@@ -4,7 +4,7 @@ description: ""
 date: 2021-04-20
 draft: false
 categories: 
-- Cat
+- Life
 tags:
 - Cat
 cover:

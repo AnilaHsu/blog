@@ -4,10 +4,9 @@ description: ""
 date: 2021-08-18
 draft: false
 categories: 
-- Python
+- Data Analytics
 tags:
-- Pyrhon
-- Pandas
+- Python Pandas
 cover:
     image: "cover.jpeg"
     relative: true

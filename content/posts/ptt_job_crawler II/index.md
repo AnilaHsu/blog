@@ -3,10 +3,9 @@ title: "實戰篇 - 如何用 Python 撰寫 PTT Web Crawler?"
 date: 2021-01-12
 draft: false
 categories: 
-- Crawler
+- Python Note
 tags:
-- Python
-- Crawler
+- Python Crawler
 cover:
     image: "photo/ptt3.jpeg"
     relative: true

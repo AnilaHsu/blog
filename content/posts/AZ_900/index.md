@@ -3,10 +3,7 @@ title: " Microsoft Certified : Azure Fundamentals(AZ-900) "
 date: 2021-04-10
 draft: true
 categories: 
-- Azure
 tags:
-- Microsoft
-- Azure 900
 cover:
     image: "cover.jpg"
     relative: true
