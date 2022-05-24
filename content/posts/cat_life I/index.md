@@ -8,7 +8,7 @@ categories:
 tags:
 - Cat
 cover:
-    image: "photo/cover.jpg"
+    image: "cover.jpg"
     relative: true
 ---
 
