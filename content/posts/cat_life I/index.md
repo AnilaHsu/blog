@@ -1,5 +1,5 @@
 ---
-title: "喵 - 新手喵咪日誌"
+title: "Meow - Newbie's Meow Diary"
 description: ""
 date: 2021-04-20
 draft: false

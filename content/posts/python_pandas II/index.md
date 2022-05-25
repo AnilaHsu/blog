@@ -1,5 +1,5 @@
 ---
-title: "Pandas - 好用的資料選擇方法 "
+title: "Pandas - Easy way to select data "
 description: ""
 date: 2021-08-18
 draft: false

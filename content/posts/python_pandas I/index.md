@@ -1,5 +1,5 @@
 ---
-title: "Pandas - Series 與 DataFrame 建立 "
+title: "Pandas - Series and DataFrame create"
 description: ""
 date: 2021-08-18
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "NumPy - 基礎概念及簡易使用"
+title: "NumPy - Basic concepts and simple usage"
 description: ""
 date: 2021-07-13
 draft: false

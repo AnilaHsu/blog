@@ -1,5 +1,6 @@
 ---
-title: "Google Tag Manager 如何埋設代碼？
+title: "How to embed Google Tag Manager?
+Step By Step Instruction
 "
 description: ""
 date: 2021-09-26

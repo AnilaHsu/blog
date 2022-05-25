@@ -1,5 +1,5 @@
 ---
-title: "MySQL - 使用資料庫的必備語法"
+title: "MySQL - The essential syntax for using the database"
 description: ""
 date: 2021-06-30
 draft: false

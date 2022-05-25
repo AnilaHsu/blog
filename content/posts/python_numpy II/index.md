@@ -1,5 +1,5 @@
 ---
-title: "Numpy - Array 與 Matrix 運算"
+title: "Numpy - Array and Matrix operation"
 description: ""
 date: 2021-07-16
 draft: false
