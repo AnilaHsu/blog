@@ -334,7 +334,7 @@ print(x)
 
 ```python
 #寫法一
-sum =(lambda x,y:x+y)
+sum = (lambda x,y:x+y)
 print(sum((4,5)))
 
 # 寫法二
