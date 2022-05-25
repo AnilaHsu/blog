@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/python-note/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python - Function 重點觀念整理</title>
+      <title>Python - A key concept of Function</title>
       <link>https://anila.me/posts/python_fun-i/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>實戰篇 - 如何用 Python 撰寫 PTT Web Crawler?</title>
+      <title>How to Build a Web Crawler in Python - PTT as an example</title>
       <link>https://anila.me/posts/ptt_job_crawler-ii/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>入門篇 - 如何用 Python 撰寫 PTT Web Crawler?</title>
+      <title>The concept of Building a Web Crawler in Python - PTT as an example</title>
       <link>https://anila.me/posts/ptt_job_crawler-i/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       

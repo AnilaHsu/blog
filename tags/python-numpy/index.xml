@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/python-numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Numpy - Array 與 Matrix 運算</title>
+      <title>Numpy - Array and Matrix operation</title>
       <link>https://anila.me/posts/python_numpy-ii/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@ list_1 = [[1, 2], [3, 4]] x = np.array(list_1)  print(list_1*3) print(&amp;#39;\
     </item>
     
     <item>
-      <title>NumPy - 基礎概念及簡易使用</title>
+      <title>NumPy - Basic concepts and simple usage</title>
       <link>https://anila.me/posts/python_numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
