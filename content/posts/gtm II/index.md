@@ -1,7 +1,5 @@
 ---
-title: "How to embed Google Tag Manager?
-Step By Step Instruction
-"
+title: "How to embed Google Tag Manager?"
 description: ""
 date: 2021-09-26
 draft: false
@@ -26,7 +24,7 @@ cover:
 代碼是網頁或行動應用程式上執行追蹤事件的一段程式碼，在代碼管理工具中，大多是用來將追蹤資訊從的網站傳送到第三方，像是 Google Analytics 代碼或 Google Ads 轉換追蹤。
 
 ### 2.觸發條件
-觸發條件定義了代碼如何被觸發，接著可以設定該代碼要觸發的條件。
+觸發條件定義了代碼如何被觸發，可使用內建的觸發條件，也可新增自己需要的觸發條件，進而設定該代碼在使用者與網站互動的特定情況與行為下被觸發。
 
 ### 3. 變數
 變數代表了觸發的條件，定義了觸發條件的執行細節。也就是追蹤事件觸發程式代碼執行的時機，主要由變數（Variables）、運算符號（Operators）與值（Values）所組成。

@@ -1,5 +1,5 @@
 ---
-title: " Google Tag Manager with Google Analytics"
+title: "Connect Google Tag Manager to Google Analytics"
 description: ""
 date: 2021-09-25
 draft: false
