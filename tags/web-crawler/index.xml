@@ -17,7 +17,8 @@
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/posts/ptt_job_crawler-ii/</guid>
-      <description>&lt;h3 id=&#34;了解網路爬蟲的概念後那我們就接著來實作看看吧&#34;&gt;了解網路爬蟲的概念後，那我們就接著來實作看看吧！&lt;/h3&gt;</description>
+      <description>&lt;h3 id=&#34;了解網路爬蟲的概念後那我們就接著來實作看看吧&#34;&gt;了解網路爬蟲的概念後，那我們就接著來實作看看吧！&lt;/h3&gt;
+&lt;p&gt;其實網路爬蟲的原理就是模擬我們操作網頁的行為，只是這過程許多行為都是透過瀏覽器幫我們完成的，因此我們才需要先了解瀏覽器運作的原理。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,7 +27,8 @@
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/posts/ptt_job_crawler-i/</guid>
-      <description>&lt;h3 id=&#34;什麼是網路爬蟲呢讓我們來一探究竟&#34;&gt;什麼是網路爬蟲呢？讓我們來一探究竟！&lt;/h3&gt;</description>
+      <description>&lt;h3 id=&#34;什麼是網路爬蟲呢&#34;&gt;什麼是網路爬蟲呢？&lt;/h3&gt;
+&lt;p&gt;在撰寫爬蟲之前先來建立一些基礎觀念。&lt;/p&gt;</description>
     </item>
     
   </channel>
