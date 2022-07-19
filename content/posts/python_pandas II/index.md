@@ -1,5 +1,5 @@
 ---
-title: "Pandas - Easy way to select data "
+title: "Pandas - 存取 DataFrame 資料的好用方法 "
 description: ""
 date: 2021-08-18
 draft: false

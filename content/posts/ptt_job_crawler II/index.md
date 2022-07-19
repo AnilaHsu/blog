@@ -1,5 +1,5 @@
 ---
-title: "How to Build a Web Crawler in Python - PTT as an example"
+title: "Python 建構 Web Crawler - 入門實作"
 date: 2021-01-12
 draft: false
 categories: 
@@ -47,7 +47,7 @@ print(resp.status_code)
 
 
 
-### Python BeautifulSoup 語法小教室
+### Python BeautifulSoup 
 
 當請求成功後，我們接著可以透過 BeautifulSoup 套件來解析網頁內容，要特別注意的是我們 requests.get() 的時候是拿到網頁的所有資訊，其中也包含 HTTP 的狀態碼，當我們在使用 BeautifulSoup 的時候則是針對 HTML 的內容，也就是 resp.text 進行解析。
 
@@ -147,4 +147,4 @@ for rent in rents:
 
 ## 結語
 
-希望這篇教學能幫助正在入門爬蟲的你，也希望能幫助想將程式變成第二外語的你們(´・ω・`)/ 喜歡的話給我小小的掌聲，我會很開心的噢！
+希望這篇教學能幫助正在入門爬蟲的你 (´・ω・`)/ 

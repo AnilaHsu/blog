@@ -1,5 +1,5 @@
 ---
-title: "The concept of Building a Web Crawler in Python - PTT as an example"
+title: " Python 建構 Web Crawler - 基礎概念"
 date: 2020-12-30
 draft: false
 categories: 
@@ -55,7 +55,7 @@ Python的套件管理工具中，集合了下載、安裝、升級、管理、�
 
 在網路爬蟲中，我們會透過 requests 向網頁法送請求並接收回應。我們來看看 Python 的 requests 套件溜~
 
-### Python requests 語法小教室
+### Python requests
 
 可以模擬各種網路請求。如：get、post、put、delete。下面會分別介紹requests 的 get 及 post 請求。
 
@@ -117,6 +117,3 @@ resp = request.get('網址',verify = False) # 關閉憑證查驗
 
 這次的入門篇就介紹到這邊，下次我們再來講 BeautifulSoup 套件，以及更詳細的 PTT 網路爬蟲實作，帶大家用 Python 爬取 PTT 咯！
 
-## **結語**
-
-希望這篇教學能幫助正在入門爬蟲的你，也希望能幫助想將程式變成第二外語的你們(´・ω・`)/ 喜歡的話給我小小的掌聲，我會很開心的噢！

@@ -1,5 +1,5 @@
 ---
-title: "Python - A key concept of Function"
+title: "Python - Function 入門的重要概念"
 description: ""
 date: 2021-07-10
 draft: false

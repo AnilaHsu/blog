@@ -1,5 +1,5 @@
 ---
-title: "Numpy - Array and Matrix operation"
+title: "Python -  Numpy 的陣列 & 矩陣運算"
 description: ""
 date: 2021-07-16
 draft: false

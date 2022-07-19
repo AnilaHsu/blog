@@ -1,5 +1,5 @@
 ---
-title: "Pandas - Series and DataFrame create"
+title: " Python - 使用 Pandas 進行 Series & DataFrame 的資料操作"
 description: ""
 date: 2021-08-18
 draft: false

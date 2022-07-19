@@ -1,5 +1,5 @@
 ---
-title: "MySQL - The essential syntax for using the database"
+title: "MySQL - 基本觀念＆指令操作"
 description: ""
 date: 2021-06-30
 draft: false
@@ -492,4 +492,4 @@ to Blackmaple
 
 
 ## 結論
-那SQL 語法就先介紹到這邊 ! 大家有空也可以動手試試才能真正了解整個資料庫的使用噢。
+大家可以動手試試才能真正了解整個資料庫的使用噢。
