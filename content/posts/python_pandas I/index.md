@@ -16,7 +16,7 @@ cover:
 ## 前言
 
 在 Python 套件生態系中，Numpy、Pandas、Matplotlib、Scipy 以及 scikit-learn 是常用來進行資料分析、資料科學和機器學習應用的重要套件和模組。
-
+ <!--more-->
 實際上，Pandas 不算是資料科學的工具，而是資料科學分析工具前階段的工具。 本篇文章主要會針對 Pandas 中，重要的資料結構 Series 和 DataFrame 的基礎使用進行介紹。
 
 ## 一、Pandas 的認識

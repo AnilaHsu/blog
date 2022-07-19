@@ -16,7 +16,9 @@ cover:
 ## 前言
 
 在 Numpy 中，array 用於表示通用的 N 維陣列，matrix 則特定用於線性代數計算。二維的 array 和 matrix 都可以用來表示矩陣，但二者在進行乘法運算的時後，有一些不同的地方。
+ <!--more-->
 Array 的運算是針對每一個元素進行運算，Matrix 的運算則是對矩陣進行運算。
+
 
 ## 一、List 與 Numpy array 的常數乘法運算
 
