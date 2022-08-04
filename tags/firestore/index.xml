@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Firestore on My New Hugo Site</title>
+    <link>https://anila.me/tags/firestore/</link>
+    <description>Recent content in Firestore on My New Hugo Site</description>
+    <image>
+      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/firestore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firebase - Cloud Firestore in Web</title>
+      <link>https://anila.me/posts/firebase_firestore/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/firebase_firestore/</guid>
+      <description>What is the Cloud Firestore Cloud Firestore Database of Google Cloud, provide to mobile, Web, and sever development. Through realtime listeners and offers offline support so we can build responsive apps without network latency or Internet connectivity.
+step1: create project and application Create a project and add application as needed then register applications.
+step2: add the Firebase SDK to our project in development. First, we install the latest version of Firebase.</description>
+    </item>
+    
+  </channel>
+</rss>
