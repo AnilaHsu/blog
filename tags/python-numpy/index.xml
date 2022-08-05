@@ -12,23 +12,23 @@
     <language>zh-TW</language>
     <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/python-numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python -  Numpy 的陣列 &amp; 矩陣運算</title>
+      <title>Python - Numpy Array &amp; Matrix Operations</title>
       <link>https://anila.me/posts/python_numpy-ii/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/posts/python_numpy-ii/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;在 Numpy 中，array 用於表示通用的 N 維陣列，matrix 則特定用於線性代數計算。二維的 array 和 matrix 都可以用來表示矩陣，但二者在進行乘法運算的時後，有一些不同的地方。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;In Numpy, array is used to represent general-purpose N-dimensional arrays, and matrix is used specifically for linear algebra calculations. Both two-dimensional array and matrix can be used to represent matrices, but there are some differences between the two when multiplication is performed.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Python - NumPy 創建與使用方法</title>
+      <title>Python - How to create and use NumPy</title>
       <link>https://anila.me/posts/python_numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/posts/python_numpy-i/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;在資料科學中，我們常常需要面對大量的資料來進行資料的加工、運算及分析，為了有效率的對資料進行各式各樣的處理，我們常常會匯入 Python 的套件來使用，以減少在資料處理過程中繁複的程式碼。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;In data science, we often need to deal with a large amount of data to process, calculate and analyze the data. In order to efficiently process various data, we often import Python packages for use to reduce Complex code during data processing.&lt;/p&gt;</description>
     </item>
     
   </channel>
