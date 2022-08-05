@@ -8,7 +8,7 @@ categories:
 tags:
 - Firestore
 cover:
-    image: "photo/cover2.jpeg"
+    image: "cover.jpg"
     relative: true
 ---
 
@@ -119,7 +119,7 @@ await updateDoc(washingtonRef, {
 
 ### step7: read data stored in firebase
 
-We can call `getDoc()` and `onSnapshot()` to get data in Cloud Firestore, if we just want to get data once, we can call `getDoc()` to get the data, or if we want to receive data changes in  realtime, we can set a listener use `onSnapshot()`.
+We can call `getDoc()` or `onSnapshot()` to get data in Cloud Firestore, if we just want to get data once, we can call `getDoc()` to get the data, or if we want to receive data changes in  realtime, we can set a listener use `onSnapshot()`.
 
 - **`getDoc()`**：This method is for us to take the initiative to get data from Firestore, unless we call it again to get the new data, we will not know any changes to the date on the Firestore.
     
@@ -208,6 +208,24 @@ const unsubscribe = onSnapshot(query, (querySnapshot) => {
 });
 ```
 
+**Detach a listener**
+
+
+```
+import { collection, onSnapshot } from "firebase/firestore";
+
+const unsubscribe = onSnapshot(collection(db, "user"), () => {
+  // Respond to data
+  // ...
+});
+
+// Later ...
+
+// Stop listening to changes
+unsubscribe();
+```
+
+Finally, remember detach the listener through unsubscribe when we no longer need to listen our data.
     
 
 ### Conclusion
