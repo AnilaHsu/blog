@@ -12,6 +12,21 @@
     <language>zh-TW</language>
     <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/python-pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A useful way to access DataFrame data with Pandas</title>
+      <link>https://anila.me/posts/python_pandas-ii/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/python_pandas-ii/</guid>
+      <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;This article will introduce the value method of DataFrame in Pandas, which is mainly divided into three parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic data selection&lt;/li&gt;
+&lt;li&gt;Methods of &lt;code&gt;DataFrame.loc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Methods of &lt;code&gt;DataFrame.iloc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Data manipulation of Series &amp; DataFrame with Pandas</title>
       <link>https://anila.me/posts/python_pandas-i/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
@@ -19,21 +34,6 @@
       <guid>https://anila.me/posts/python_pandas-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Pandas - 存取 DataFrame 資料的好用方法 </title>
-      <link>https://anila.me/posts/python_pandas-ii/</link>
-      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/python_pandas-ii/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;本篇會針對 Pandas 中 DataFrame 的取值方法進行介紹，主要分為三個部分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;基本的資料選擇&lt;/li&gt;
-&lt;li&gt;DataFrame.loc 的方法&lt;/li&gt;
-&lt;li&gt;DataFrame.iloc 的方法&lt;/li&gt;
-&lt;/ul&gt;</description>
     </item>
     
   </channel>
