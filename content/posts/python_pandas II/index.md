@@ -1,5 +1,5 @@
 ---
-title: "A useful way to access DataFrame data with Pandas"
+title: "Pandas - A useful way to access DataFrame data"
 description: ""
 date: 2021-08-18
 draft: false
