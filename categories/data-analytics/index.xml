@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/data-analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A useful way to access DataFrame data with Pandas</title>
+      <title>Pandas - A useful way to access DataFrame data</title>
       <link>https://anila.me/posts/python_pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
@@ -27,7 +27,7 @@
     </item>
     
     <item>
-      <title>Data manipulation of Series &amp; DataFrame with Pandas</title>
+      <title>Pandas - Data manipulation of Series &amp; DataFrame</title>
       <link>https://anila.me/posts/python_pandas-i/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
