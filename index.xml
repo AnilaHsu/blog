@@ -23,33 +23,13 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>如何將追蹤代碼嵌入至 Google Tag Manager?</title>
-      <link>https://anila.me/posts/gtm-ii/</link>
-      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/gtm-ii/</guid>
-      <description>&lt;h2 id=&#34;一前言&#34;&gt;一、前言&lt;/h2&gt;
-&lt;p&gt;上篇我們介紹了如何講 GTM 的數據連接至 GA，這次讓我們來實作代碼的設定，來追蹤我們網站上想要追蹤的事件吧。在開始新增網頁上的 GTM 追蹤代碼之前，我們先來了解構成 GTM 追蹤代碼的三大元件：代碼、觸發條件、變數。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何將 Google Tag Manager 導入至 Google Analytics?</title>
-      <link>https://anila.me/posts/gtm-i/</link>
-      <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/gtm-i/</guid>
-      <description>&lt;h2 id=&#34;一認識-gtm&#34;&gt;一、認識 GTM&lt;/h2&gt;
-&lt;p&gt;GTM 是一套代碼管理的平台，主要是用來追蹤網站上各個元素所發生的事件，並管所有追蹤的程式碼之平台。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title> Python - 使用 Pandas 進行 Series &amp; DataFrame 的資料操作</title>
+      <title>Data manipulation of Series &amp; DataFrame with Pandas</title>
       <link>https://anila.me/posts/python_pandas-i/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/posts/python_pandas-i/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
-&lt;p&gt;在 Python 套件生態系中，Numpy、Pandas、Matplotlib、Scipy 以及 scikit-learn 是常用來進行資料分析、資料科學和機器學習應用的重要套件和模組。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.&lt;/p&gt;</description>
     </item>
     
     <item>
