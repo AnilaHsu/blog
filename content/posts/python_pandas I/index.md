@@ -1,5 +1,5 @@
 ---
-title: " Python - 使用 Pandas 進行 Series & DataFrame 的資料操作"
+title: "Data manipulation of Series & DataFrame with Pandas"
 description: ""
 date: 2021-08-18
 draft: false
@@ -12,43 +12,45 @@ cover:
     relative: true
 ---
 
+## Foreword
 
-## 前言
+Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.
+  <!--more-->
+In fact, Pandas is not a tool for data science, but a tool for the pre-analytical stage of data science. This article will mainly introduce the basic use of important data structures Series and DataFrame in Pandas.
 
-在 Python 套件生態系中，Numpy、Pandas、Matplotlib、Scipy 以及 scikit-learn 是常用來進行資料分析、資料科學和機器學習應用的重要套件和模組。
- <!--more-->
-實際上，Pandas 不算是資料科學的工具，而是資料科學分析工具前階段的工具。 本篇文章主要會針對 Pandas 中，重要的資料結構 Series 和 DataFrame 的基礎使用進行介紹。
+## Knowledge of Pandas
 
-## 一、Pandas 的認識
+Pandas is a very useful library for data preprocessing and analysis. It combines the characteristics of Numpy and has data manipulation capabilities similar to Excel and SQL, allowing us to perform various flexible processing of various data in the form of DataFrame.
 
-Pandas 是將資料預處理及分析資料非常好用的函式庫。它結合了Numpy 的特性，並擁有 Excel 和 SQL 的資料操作能力，使我們藉由 DataFrame 的形式，對各式各樣的資料進行各種有彈性的加工。
+The main features of Pandas are as follows:
 
-Pandas 的主要的特色如下：
+- Provides two main data structures: Series, DataFrame. Series is mainly used to create a one-dimensional array of indexes to process data related to time series; while DataFrame is a two-dimensional data set with column indexes and column labels, similar to Excel's data table or SQL's relational database .
 
-- 提供兩種主要的資料結構：Series、DataFrame。Series 主要用於建立索引的一維陣列，用來處理時間序列相關的資料；而 DataFrame 則是有列索引和欄標籤的二維資料集，類似於 Excel 的資料表或是 SQL 的關聯式資料庫。
-- 透過 Pandas 的資料結構及結構化物件的方法，將資料進行更多元的處理。像是將資料進行空值的填補、刪除或取代。
-- 在異質資料的讀取、轉換和處理上更容易。像是從資料當中找出符合某個條件的欄或列，或是對資料進行分隔、結合等操作等。
-- 更多樣的輸入來源及整合性的輸出方式。像是可以從 CSV 或資料庫讀取資料轉成 DataFrame ，也可以將處理完的資料轉成CSV 或資料庫。
+- Through the data structure of Pandas and the method of structuring objects, the data is processed in a more diverse manner. Such as filling, deleting or replacing data with null values.
 
-透過 Pandas 的套件，使我們可以跨越 Excel 的限制，也使資料分析的工作更方便輕鬆，而且能夠更快速地發現資料中的資訊與其中的意義。
+- Easier to read, convert and process heterogeneous data. For example, to find out a column or column that meets a certain condition from the data, or to separate and combine the data, etc.
 
-### 安裝
+- More diverse input sources and integrated output methods. For example, you can read data from CSV or database into DataFrame, and you can also convert processed data into CSV or database.
+
+Through Pandas, we can overcome the limitations of Excel, and also make the work of data analysis more convenient and easier, and can more quickly discover the information in the data and its meaning.
+
+### Install
 
 ```python
 pip3 install pandas
 ```
 
-### 匯入
+### Import
 
 ```python
 import pandas as pd
 ```
 
-## 二、Series (序列) 建立
+## Create Series
 
-Series 是類似於一維陣列的物件。我可以使用 Python 的 list 資料型別或是 dictionary 資料型別來建立 Series：
+Series are objects similar to one-dimensional arrays. We can use Python's list data type or dictionary data type to create a Series:
 
-### 1. 使用 list 來建立 Series
+### 1. Use list to create Series
 
 ```python
 list_1 = [10, 20, 30, 40, 50, 60]
@@ -57,7 +59,7 @@ print(data)
 ```
 
 ```python
-# 輸出
+# output
 0    10
 1    20
 2    30
@@ -67,7 +69,7 @@ print(data)
 dtype: int64
 ```
 
-左邊的部分為 index (索引值)，右邊的部分為 value (資料值)，除了指定資料的 value 以外，我們也可以透過 index 參數來指定資料的索引值：
+The left part is index and the right part is value . In addition to specifying the value of the data, we can also specify the index value of the data through the index parameter:
 
 ```python
 list_1 = [10, 20, 30, 40, 50, 60]
@@ -76,7 +78,7 @@ print(data)
 ```
 
 ```python
-# 輸出
+# output
 a    10
 b    20
 c    30
@@ -86,8 +88,7 @@ f    60
 dtype: int64
 ```
 
-### 2. 使用 dictionary 來建立 Series
-
+### 2. Use dictionary to create Series
 ```python
 dict1 = {'a':10, 'b':20, 'c':30, 'd':40, 'e':50}
 data = pd.Series(dict1)
@@ -95,7 +96,7 @@ print(data)
 ```
 
 ```python
-# 輸出
+# output
 a    10
 b    20
 c    30
@@ -104,7 +105,7 @@ e    50
 dtype: int64
 ```
 
-對於資料的 index 和 value，我們可以使用 index 屬性和 values 屬性各自取出：
+For the index and value of the data, we can use the index attribute and the values attribute to retrieve them respectively:
 
 ```python
 dict1 = {'a':10, 'b':20, 'c':30, 'd':40, 'e':50}
@@ -114,14 +115,15 @@ print(data.values)
 ```
 
 ```python
-# 輸出
+# output
 # print(data.index)
 Index(['a', 'b', 'c', 'd', 'e'], dtype='object')
 # print(data.values)
 [10 20 30 40 50]
 ```
 
-值得注意的是，Series 的自訂索引值不適用於 dict 的資料型態，因為 dict 本身有 Key 來指定 Series 的 index 值，當自訂 index 的值會變成 NaN (無資料)。
+It is worth noting that the custom index value of Series does not apply to the data type of dict, because the dict itself has a Key to specify the index value of the Series, and the value of the custom index will become NaN (no data).
+
 
 ```python
 dict1 = {'a':10, 'b':20, 'c':30, 'd':40, 'e':50}
@@ -130,7 +132,7 @@ print(data)
 ```
 
 ```python
-# 輸出
+# output
 f   NaN
 g   NaN
 h   NaN
@@ -139,7 +141,7 @@ j   NaN
 dtype: float64
 ```
 
-但我們可以透過改變 index 的排列來改變資料的順序：
+But we can change the order of the data by changing the order of the index:
 
 ```python
 dict1 = {'a':10, 'b':20, 'c':30, 'd':40, 'e':50}
@@ -148,7 +150,7 @@ print(data)
 ```
 
 ```python
-# 輸出
+# output
 b    20
 a    10
 d    40
@@ -157,15 +159,15 @@ c    30
 dtype: int64
 ```
 
-## 三、DataFrame (資料框) 建立
+## Create DataFrame
 
-DataFrame 是一個具有 index (索引值) 和 column (欄位) 的二維資料物件，是 Pandas 最重要的資料結構。基本上我們在使用 Pandas 進行資料的操作和分析時，大多都是使用 DataFrame 的資料結構。
+DataFrame is a two-dimensional data object with index and column, which is the most important data structure in Pandas. Basically, when we use Pandas for data manipulation and analysis, we mostly use the data structure of DataFrame. 
 
-DataFrame 對於各個 column 可以設定不同的 dtype (資料型別)，如 int、str、bool 等。我們除了可以使用 dictionary、ndarray 來創建 DataFrame，還可以透過讀取外部資料(如：CSV、SQL、JOSN、HTML)的方式來創建。
+DataFrame can set different dtypes for each column, such as int, str, bool, etc. In addition to using dictionary and ndarray to create DataFrame, we can also create it by reading external data (such as: CSV, SQL, JOSN, HTML).
 
-### 1. 使用 dictionary 來創建 DataFrame
+### 1. Use dictionary to create DataFrame
 
-使用 dictionary 來創建 DataFrame 只要將 dict 型態的資料轉成 DataFrame 就可以：
+To create a DataFrame with a dictionary, just convert the data in the dict type into a DataFrame:
 
 ```python
 dict_student = {'ID':[1100101, 1100102, 1100103, 1100104, 1100105],'Sex':['f', 'm', 'f', 'f', 'm'],'Chinese':[60, 70, 77, 69, 70], 'Math':[66, 75, 74, 88, 94]}
@@ -174,7 +176,7 @@ print(df)
 ```
 
 ```python
-# 輸出
+# output
         ID Sex  Chinese  Math
 0  1100101   f       60    66
 1  1100102   m       70    75
@@ -183,9 +185,9 @@ print(df)
 4  1100105   m       70    94
 ```
 
-### 2. 使用 ndarray 來創建 DataFrame
+### 2. Use ndarray to create DataFrame
 
-我們也可以使用單純的 array 來創建 DataFrame，並透過 columns 的參數來設定欄位名稱：
+We can also use a simple array to create a DataFrame, and set the column names through the columns parameter:
 
 ```python
 student =(np.array([[1100101, 'f', 60, 66], [1100102, 'm', 70, 75], [1100103, 'f', 77, 74], [1100104, 'f', 69, 88],[1100105, 'm', 70, 94]]))
@@ -194,7 +196,7 @@ print(df_student)
 ```
 
 ```python
-# 輸出
+# output
         ID Sex Chinese Math
 0  1100101   f      60   66
 1  1100102   m      70   75
@@ -203,27 +205,10 @@ print(df_student)
 4  1100105   m      70   94
 ```
 
-我們也可以使用單純的 array 來創建 DataFrame，透過是 columns 的參數來設定欄位名稱：
 
-```python
-arr_student =([1100101, 'f', 60, 66],[1100102, 'm', 70, 75], [1100103, 'f', 77, 74], [1100104, 'f', 69, 88], [1100105, 'm', 70, 94])
-df_student = pd.DataFrame(student,columns=['ID', 'Sex', 'Chinese', 'Math'])
-print(df_student)
-```
+### 3. Read external data to create DataFrame
 
-```python
-# 輸出
-        ID Sex  Chinese  Math
-0  1100101   f       60    66
-1  1100102   m       70    75
-2  1100103   f       77    74
-3  1100104   f       69    88
-4  1100105   m       70    94
-```
-
-### 3.  讀取外部資料來創建 DataFrame
-
-前面有說到我們可以讀取外部資料，如 CSV、SQL、JOSN、HTML 來轉換成 DataFrame 的資料結構。比如我們想載入 CSV 檔可以這以這樣撰寫：
+As mentioned earlier, we can read external data, such as CSV, SQL, JOSN, HTML, to convert it into a DataFrame data structure. For example, if we want to load a CSV file, we can write it like this:
 
 ```python
 df = pd.read_csv('檔名')
@@ -233,9 +218,9 @@ df = pd.read_csv('檔名')
 df = pd.read_html('檔名')
 ```
 
-### 4. 自訂資料的 index (索引值)
+### 4. Index of custom data
 
-而DataFrame 與 Series 相同，也可以透過 index 參數來自訂資料的索引值：
+The DataFrame is the same as the Series, and the index value of the data can also be customized through the index parameter:
 
 ```python
 dict_student = {'ID':[1100101, 1100102, 1100103, 1100104, 1100105], 'Sex':['f', 'm', 'f', 'f', 'm'], 'Chinese':[60, 70, 77, 69, 70], 'Math':[66, 75, 74, 88, 94]}
@@ -244,7 +229,7 @@ print(df_student_index)
 ```
 
 ```python
-# 輸出
+# output
         ID Sex  Chinese  Math
 a  1100101   f       60    66
 b  1100102   m       70    75
@@ -253,7 +238,7 @@ d  1100104   f       69    88
 e  1100105   m       70    94
 ```
 
-要特別注意的是，在自訂 DataFrame 的索引值，data 適用於為未轉換成 DataFrame 的資料，比如上方的例子 data = dict_student 或是上方的例子 data = student ：
+It should be noted that in the index value of the custom DataFrame, data is applicable to data that has not been converted into a DataFrame, such as the above example **data = dict_student** or the above example **data = student** :
 
 ```python
 student =([1100101, 'f', 60, 66], [1100102, 'm', 70, 75], [ 1100103, 'f', 77, 74], [1100104, 'f', 69, 88], [1100105, 'm', 70, 94])
@@ -262,7 +247,7 @@ print(df_student)
 ```
 
 ```python
-# 輸出
+# output
         ID Sex  Chinese  Math
 a  1100101   f       60    66
 b  1100102   m       70    75
@@ -271,10 +256,10 @@ d  1100104   f       69    88
 e  1100105   m       70    94
 ```
 
-若將資料轉換成 DataFrame 再使用自訂義的 index 會變成 NaN。主要是因為資料再轉換成 DataFrame 的過程中已經被賦予 index 的值，如下：
+In the process of converting to DataFrame, the value of index has been assigned, as follows:
 
 ```python
-# 轉換成 df
+# convert to df
 dict_student = {'ID':[1100101, 1100102, 1100103, 1100104, 1100105], 'Sex':['f', 'm', 'f', 'f', 'm'], 'Chinese':[60, 70, 77, 69, 70], 'Math':[66, 75, 74, 88, 94]}
 df = pd.DataFrame(dict_student)
 print(df)
@@ -289,10 +274,10 @@ print(df)
 4  1100105   m       70    94 
 ```
 
-當自訂 index 的值時，原本的資料會變成 NaN (無資料)，這與 Series 的 dict 要訂定索引值的狀況相似。
+When the value of index is customized, the original data will become NaN (no data), which is similar to the situation where the index value of the Series dict needs to be determined.
 
 ```python
-# 將轉換成 df 的資料新增自訂義的 index
+# Add a custom index to the data converted to df
 df_student_index = pd.DataFrame(df,index=['a', 'b', 'c', 'd', 'e'])
 print(df_student_index)
 ```
@@ -306,7 +291,7 @@ d NaN  NaN      NaN   NaN
 e NaN  NaN      NaN   NaN
 ```
 
-我們實際來驗證一下被轉換成 DataFrame 的資料再轉換回字典的樣子：
+Let's actually verify what it looks like when the data is converted to a DataFrame and then converted back to a dictionary:
 
 ```python
 dict_student = {'ID':[1100101, 1100102, 1100103, 1100104, 1100105], 'Sex':['f', 'm', 'f', 'f', 'm'], 'Chinese':[60, 70, 77, 69, 70], 'Math':[66, 75, 74, 88, 94]}
@@ -318,37 +303,37 @@ print(df.to_dict())
 {'ID': {0: 1100101, 1: 1100102, 2: 1100103, 3: 1100104, 4: 1100105}, 'Sex': {0: 'f', 1: 'm', 2: 'f', 3: 'f', 4: 'm'}, 'Chinese': {0: 60, 1: 70, 2: 77, 3: 69, 4: 70}, 'Math': {0: 66, 1: 75, 2: 74, 3: 88, 4: 94}} 
 ```
 
-我們可以看見已經轉換成 DataFrame 的資料，的確已經被賦予 index 值了。
+We can see that the data that has been converted into a DataFrame has indeed been assigned an index value.
 
-### 5. 更改 column 順序、新增新的 column
+### 5. Change column order, add new column
 
-在進行資料分析的過程中，我們有可能會需要更改 column 的順序或是新增 column ，這些需求也可以透過 column 參數來幫助我們。
+In the process of data analysis, we may need to change the order of columns or add new columns. These requirements can also be helped us through the column parameter.
 
-如果是要更改 column 順序，可以這樣撰寫：
+If you want to change the column order, you can write it like this:
 
 ```python
 dict_student = {'ID':[1100101, 1100102, 1100103, 1100104, 1100105], 'Sex':['f', 'm', 'f', 'f', 'm'], 'Chinese':[60, 70, 77, 69, 70], 'Math':[66, 75, 74, 88, 94]}
 df = pd.DataFrame(dict_student)
 print(df)
 
-# 方法一
+# method 1
 df_columns1 = pd.DataFrame(df,columns=['ID', 'Sex', 'Math', 'Chinese'])
-# 方法二
+# method 2
 df_columns2 = pd.DataFrame(dict_student,columns=['ID', 'Sex', 'Math', 'Chinese'])
 print(df_columns2)
 
 ```
 
 ```python
-# 輸出
-# 原本的資料順序
+# output
+# original data order
         ID Sex  Chinese  Math
 0  1100101   f       60    66
 1  1100102   m       70    75
 2  1100103   f       77    74
 3  1100104   f       69    88
 4  1100105   m       70    94
-# 更改後的資料順序 
+# Changed data order
         ID Sex  Math  Chinese
 0  1100101   f    66       60
 1  1100102   m    75       70
@@ -357,18 +342,18 @@ print(df_columns2)
 4  1100105   m    94       70
 ```
 
-若是要新增新的 column，則可以這樣撰寫：
+If you want to add a new column, you can write it like this:
 
 ```python
-# 方法一
+# method 1
 df_columns_add1 = pd.DataFrame(df,columns=['ID', 'Sex', 'Math', 'Chinese', 'English']
-# 方法二
+# method 2
 df_columns_add2 = pd.DataFrame(dict_student,columns=['ID', 'Sex', 'Math', 'Chinese', 'English'])
 print(df_columns_add2)
 ```
 
 ```python
-# 輸出 
+# output 
         ID Sex  Math  Chinese  English
 0  1100101   f    66       60      NaN
 1  1100102   m    75       70      NaN
@@ -377,7 +362,7 @@ print(df_columns_add2)
 4  1100105   m    94       70      NaN
 ```
 
-可以看到成功新增了一個 English 的 column，接著透過 list 給 English 值：
+You can see that an English column has been successfully added, and then the English value is given through the list:
 
 ```python
 list_English = [70,88,67,89,97]
@@ -386,7 +371,7 @@ print(df_columns_add2)
 ```
 
 ```python
-# 輸出 
+# output 
         ID Sex  Math  Chinese  English
 0  1100101   f    66       60       70
 1  1100102   m    75       70       88
@@ -395,9 +380,9 @@ print(df_columns_add2)
 4  1100105   m    94       70       97
 ```
 
-## 四、DataFrame 資料資訊
+## DataFrame data information
 
-當我們創建完 DataFrame 之後，可以使用 DataFrame 資料結構中的方法或屬性來查看資料的資訊，比較常見的方法如：.shape、.head()、.tail()、.describe()、.index、.columns 。那以下方的 df_student 為例，我們來實際操作看看這些方法。
+After we have created the DataFrame, we can use the methods or properties in the DataFrame data structure to view the information of the data. The more common methods are: .shape, .head(), .tail(), .describe(), .index, .columns . Let's take df_student below as an example, let's take a look at these methods in practice.
 
 ```python
 dict_student = {'ID':[1100101, 1100102, 1100103, 1100104, 1100105], 'Sex':['f', 'm', 'f', 'f', 'm'], 'Chinese':[60, 70, 77, 69, 70], 'Math':[66, 75, 74, 88, 94], 'English':[70, 88, 67, 89, 97]}
@@ -415,9 +400,9 @@ print(df_score)
 4  1100105   m    94       70       97
 ```
 
-### 1. 查看資料的 row (列數), column (欄數)
+### 1. View data row, column
 
-當我們要查看 df_student 有幾個 row 和幾個 column 的時候，可以使用 .shape，結果即為 (row, column)：
+When we want to see how many rows and columns df_student has, we can use .shape, and the result is (row, column):
 
 ```python
 # .shape
@@ -425,13 +410,13 @@ print(df_student.shape)
 ```
 
 ```python
-# 輸出
+# output
 (5, 5)
 ```
 
-### 2. 查看前面 n 筆資料的值
+### 2. View the value of the previous n data
 
-當我們要查看 df_student 前面幾筆資料的值時，可以使用 .head()。預設為顯示 5 筆，我們也可以在 .head() 裡面代入數值來指定要顯示的筆數，比如查看前 2 筆資料：
+When we want to view the values of the previous records of df_student, we can use .head(). The default is to display 5 records. We can also specify the number of records to be displayed by substituting a value in .head(), such as viewing the first 2 records:
 
 ```python
 # .head()
@@ -439,15 +424,15 @@ print(df_student.head(2))
 ```
 
 ```python
-# 輸出
+# output
         ID Sex  Math  Chinese  English
 0  1100101   f    66       60       70
 1  1100102   m    75       70       88
 ```
 
-### 3. 查看最後 n 筆資料的值
+### 3. View the value of the last n records
 
-當我們要查看 df_student 最後幾筆資料的值時，可以使用 .tail()。預設同樣為顯示 5 筆，我們可以在 .tail() 裡面代入數值來指定要顯示的筆數，比如查看後 2 筆資料：
+When we want to see the value of the last few records of df_student, we can use .tail(). The default is also to display 5 records. We can specify the number of records to be displayed by substituting a value in .tail(), for example, to view the last 2 records:
 
 ```python
 # .tail()
@@ -461,11 +446,11 @@ print(df_student.tail(2))
 4  1100105   m    94       70       97
 ```
 
-*要注意的是 .head() 和 .tail() 最多皆只能顯示 5 筆資料
+*It should be noted that both .head() and .tail() can only display up to 5 pieces of data
 
-### 4. 查看資料的描述性統計
+### 4. View descriptive statistics for a profile
 
-當我們要查看 df_student 描述性統計的資料時，可以使用 .describe()，透過這個方法我們便可以更方便的了解整個資料的概要：
+ When we want to view the descriptive statistics of df_student, we can use .describe(), through which we can more easily understand the summary of the entire data:
 
 ```python
 # .describe()
@@ -473,7 +458,7 @@ print(df_student.describe())
 ```
 
 ```python
-# 輸出
+# output 
                  ID       Math    Chinese    English
 count  5.000000e+00   5.000000   5.000000   5.000000
 mean   1.100103e+06  79.400000  69.200000  82.200000
@@ -485,9 +470,9 @@ min    1.100101e+06  66.000000  60.000000  67.000000
 max    1.100105e+06  94.000000  77.000000  97.000000
 ```
 
-### 5. 查看資料的 index (索引值)
+### 5. View the index of the profile
 
-當要查看 df_student 的 index 時，我們可以使用 .index 的屬性：
+When we want to see the index of df_student, we can use the .index property:
 
 ```python
 # .index
@@ -499,9 +484,9 @@ print(df_student.index)
 RangeIndex(start=0, stop=5, step=1)
 ```
 
-### 6. 查看資料的所有 column (欄位) 名稱
+### 6. View all column names of the data
 
-當要查看 df_student 所有的欄位名稱時，我們則可以使用 .columns 的屬性：
+When we want to see all the column names in df_student, we can use the .columns property:
 
 ```python
 # .columns
@@ -509,13 +494,13 @@ print(df_student.columns)
 ```
 
 ```python
-# 輸出
+# output
 Index(['ID', 'Sex', 'Math', 'Chinese', 'English'], dtype='object')
 ```
 
-### 7. 查看資料的內容
+### 7. View the content of the profile
 
-若要查看 df_student 的資料內容時，我們可以使用 .info 的屬性：
+To view the data content of df_student, we can use the properties of .info:
 
 ```python
 # .info
@@ -523,8 +508,8 @@ print(df_student.info)
 ```
 
 ```python
-# 輸出
-<bound method DataFrame.info of         ID Sex  Math  Chinese  English
+# output
+<bound method DataFrame.info of ID Sex  Math  Chinese  English
 0  1100101   f    66       60       70
 1  1100102   m    75       70       88
 2  1100103   f    74       77       67
@@ -532,9 +517,9 @@ print(df_student.info)
 4  1100105   m    94       70       97>
 ```
 
-### 8. 將 row (列) 與 column (行) 進行轉換
+### 8. Convert row (column) to column (row)
 
-DataFrame 除了這些查看資料資訊的方法， 也提供如同矩陣轉置的操作，可以使 .T 的方法將行與列進行交換：
+In addition to these methods for viewing data information, DataFrame also provides operations like matrix transpose, allowing the .T methods to swap rows and columns:
 
 ```python
 # .T
@@ -542,7 +527,7 @@ print(df_student.T)
 ```
 
 ```python
-# 輸出
+# output
                0        1        2        3        4
 ID       1100101  1100102  1100103  1100104  1100105
 Sex            f        m        f        f        m
@@ -551,8 +536,9 @@ Chinese       60       70       77       69       70
 English       70       88       67       89       97
 ```
 
-當在我們做資料前處理的時候，經常會透過這些方法來幫助我們更了解整個資料的內容與概況，接著再來執行資料的處理與加工，像是：資料的取出、資料的刪除、合併或排序等等，甚至是空值與異常值的處理等更進階的操作。
 
-那由於本篇文章的篇幅有限，下一篇我們再接著學習 Pandas 的資料前處理及 DataFrame 的操作方法吧 !  
+When we do data processing before, we often use these methods to help us better understand the content and overview of the entire data, and then perform data processing and processing, such as: data extraction, data deletion, merging or Sorting, etc., and even more advanced operations such as handling of nulls and outliers.
 
-讀到這邊，不知道你們對於 Pandas 有沒有更多的認識呢 ?~
+Then, due to the limited space of this article, in the next article, let's learn about Pandas' data preprocessing and how to operate DataFrame!
+
+After reading this, do you know more about Pandas?~
