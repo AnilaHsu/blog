@@ -28,7 +28,7 @@ The main features of Pandas are as follows:
 
 - Through the data structure of Pandas and the method of structuring objects, the data is processed in a more diverse manner. Such as filling, deleting or replacing data with null values.
 
-- Easier to read, convert and process heterogeneous data. For example, to find out a column or column that meets a certain condition from the data, or to separate and combine the data, etc.
+- Easier to read, convert and process heterogeneous data. For example, to find out a column or row that meets a certain condition from the data, or to separate and combine the data, etc.
 
 - More diverse input sources and integrated output methods. For example, you can read data from CSV or database into DataFrame, and you can also convert processed data into CSV or database.
 
@@ -517,7 +517,7 @@ print(df_student.info)
 4  1100105   m    94       70       97>
 ```
 
-### 8. Convert row (column) to column (row)
+### 8. Convert row to column 
 
 In addition to these methods for viewing data information, DataFrame also provides operations like matrix transpose, allowing the .T methods to swap rows and columns:
 
