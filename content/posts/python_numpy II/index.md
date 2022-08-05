@@ -1,5 +1,5 @@
 ---
-title: "Python -  Numpy 的陣列 & 矩陣運算"
+title: "Python - Numpy Array & Matrix Operations"
 description: ""
 date: 2021-07-16
 draft: false
@@ -13,16 +13,15 @@ cover:
 ---
 
 
-## 前言
+## Foreword
 
-在 Numpy 中，array 用於表示通用的 N 維陣列，matrix 則特定用於線性代數計算。二維的 array 和 matrix 都可以用來表示矩陣，但二者在進行乘法運算的時後，有一些不同的地方。
- <!--more-->
-Array 的運算是針對每一個元素進行運算，Matrix 的運算則是對矩陣進行運算。
+In Numpy, array is used to represent general-purpose N-dimensional arrays, and matrix is used specifically for linear algebra calculations. Both two-dimensional array and matrix can be used to represent matrices, but there are some differences between the two when multiplication is performed.
+  <!--more-->
+The operation of Array is to operate on each element, and the operation of Matrix is to operate on the matrix.
 
+## Constant multiplication of List and Numpy array
 
-## 一、List 與 Numpy array 的常數乘法運算
-
-我們可以看到 list 在進行常數乘法運算時，會將原本 list 重複串接 N 倍，若要針對每個元素個別運算需要使用 for 迴圈迭代，因為 list 具備異質資料型態的特性。而 ndarray 在常數的乘法運算時則會直接將各個元素乘上 N 倍數，這是 ndarray 同質資料型態的表現。
+We can see that when a list performs a constant multiplication operation, the original list is repeatedly concatenated by N times. To perform individual operations on each element, a for loop iteration needs to be used, because the list has the characteristics of heterogeneous data types. And ndarray will directly multiply each element by N multiples during the multiplication of constants, which is the performance of ndarray homogeneous data type.
 
 ```python
 list_1 = [[1, 2], [3, 4]]
@@ -37,7 +36,7 @@ print(x*3)
 ```
 
 ```python
-# 輸出：
+# output
 # print(list_1*3)
 [[1, 2], [3, 4], [1, 2], [3, 4], [1, 2], [3, 4]]
 
@@ -51,9 +50,9 @@ print(x*3)
 ```
 []()
 
-## 二、Numpy array 的數量積(點乘)與矢量積(叉乘)
+## Quantity product (dot product) and vector product (cross product) of Numpy array
 
-我們可以看到 Numpy 的 array 使用 * 進行運算的結果為數量積，而使用函數 dot() 進行運算的結果為矢量積：
+We can see that the result of Numpy's array operation using * is the product of quantities, while the result of operation using the function dot() is the product of vectors:
 
 ```python
 
@@ -68,13 +67,13 @@ print('np.dot(x, y) =',np.dot(x,y))
 ```
 
 ```python
-# 輸出：
-# array 使用 *
+# output
+# array using *
 x * y =
  [[ 5 12]
  [21 32]]
 
-# array 使用函數 dot()
+# array using method dot()
 np.dot(x, y) =
  [[19 22]
  [43 50]]
@@ -82,9 +81,9 @@ np.dot(x, y) =
 
 []()
 
-## 三、Numpy array 的轉置
+## Transpose of Numpy array
 
-透過 Numpy array 來進行一維陣列的轉置時，結果是一樣的：
+When transposing a one-dimensional array through Numpy array, the result is the same:
 
 ```python
 z = np.array([1, 2, 3, 4])
@@ -94,7 +93,7 @@ print(z.T)
 ```
 
 ```python
-# 輸出：
+# output
 # print(z)
 [1 2 3 4]
 # print(z.T)
@@ -102,8 +101,8 @@ print(z.T)
 ```
 []()
 
-## 四、List 與 Numpy  matrix 的乘法運算
-同樣的，matrix 在進行常數乘法運算時，會將各個元素乘上常數的倍數：
+## Multiplication of List and Numpy matrix
+Similarly, when a matrix performs a constant multiplication operation, each element is multiplied by a multiple of the constant:
 
 ```python
 list_1 = [[1, 2], [3, 4]]
@@ -115,7 +114,7 @@ print(x*3)
 ```
 
 ```python
-# 輸出：
+# output
 # print(x)
 [[1 2]
  [3 4]]
@@ -127,9 +126,9 @@ print(x*3)
 
 []()
 
-## 五、Numpy matrix 的數量積(點乘)與矢量積(叉乘)
-
-與 array 不同的是，在 matrix 使用 * 進行運算時，結果為矢量積，而使用 multiply() 進行運算的結果則為數量積：
+## Quantity product (dot product) and vector product (cross product) of Numpy matrix
+ 
+Unlike arrays, when a matrix is operated on with *, the result is a vector product, while a multiply() operation results in a quantitative product:
 
 ```python
 list_1 = [[1, 2], [3, 4]]
@@ -143,23 +142,22 @@ print('np.dot(x, y) =\n',np.dot(x, y))
 ```
 
 ```python
-# 輸出：
-# matrix 使用 * 
+# output
+# matrix using * 
 x * y =
  [[19 22]
  [43 50]]
 
-# matrix 使用 multiply()
+# matrix using multiply()
 np.multiply(x, y) = 
  [[ 5 12]
  [21 32]]
 ```
 
-[]()
 
-## 六、Numpy matrix 的轉置
+## transpose of Numpy matrix
 
-透過 Numpy array 來進行一維陣列的轉置時，結果和 array 的轉置結果不相同：
+When transposing a one-dimensional array through Numpy array, the result is not the same as the transposing result of array:
 
 ```python
 list_3 = [1, 2, 3, 4]
@@ -170,7 +168,7 @@ print(z.T)
 ```
 
 ```python
-# 輸出：
+# output
 # print(z)
 [[1, 2, 3, 4]]
 # print(z.T)

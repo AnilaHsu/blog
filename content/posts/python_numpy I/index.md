@@ -1,5 +1,5 @@
 ---
-title: "Python - NumPy 創建與使用方法"
+title: "Python - How to create and use NumPy"
 description: ""
 date: 2021-07-13
 draft: false
@@ -12,59 +12,59 @@ cover:
     relative: true
 ---
 
-## 前言
+## Foreword
 
-在資料科學中，我們常常需要面對大量的資料來進行資料的加工、運算及分析，為了有效率的對資料進行各式各樣的處理，我們常常會匯入 Python 的套件來使用，以減少在資料處理過程中繁複的程式碼。
+In data science, we often need to deal with a large amount of data to process, calculate and analyze the data. In order to efficiently process various data, we often import Python packages for use to reduce Complex code during data processing.
 
 <!--more-->
 
-經常使用的函式庫如 Numpy、Scipy、Pandas、以及 Matplotlib ，這四種是在資料進行預處理以及資料視覺化時非常方便的工具。其中， Numpy 是 Pandas、SciPy、Scikit learn 等相關套件的重要基礎，對於往後學習其他資料科學相關套件會非常有幫助。
+Frequently used function libraries such as Numpy, Scipy, Pandas, and Matplotlib, these four are very convenient tools for data preprocessing and data visualization. Among them, Numpy is an important foundation for related packages such as Pandas, SciPy, Scikit learn, etc. It will be very helpful for learning other data science related packages in the future.
 
-那這篇主要會針對 Numpy 的基礎方法進行介紹。事不宜遲，就開始吧。
+This article will mainly introduce the basic methods of Numpy. Without further ado, let's get started.
 
-## 一、NumPy 的認識
+## Knowledge of NumPy
 
-NumPy 是 Numerical Python 的縮寫，底層以 C 和 Fortran 語言實作，是科學計算與資料科學的套件，不僅能夠處理維度陣列與矩陣的運算，針對陣列的運算也提供大量的數學函式函式庫，且處理速度非常的快速，它具有以下幾個重要特色：
+NumPy is the abbreviation of Numerical Python. The bottom layer is implemented in C and Fortran languages. It is a suite of scientific computing and data science. It can not only handle the operations of dimensional arrays and matrices, but also provide a large number of mathematical function libraries for array operations. And the processing speed is very fast, it has the following important features:
 
-- 提供高效能的多維度陣列數學函式庫
-- 可以整合 C/C++ 及 Fortran 的程式碼
-- 具備同值資料型態的特性
-- 具平行處理能力來快速操作陣列
-- 利用 NumPy Array 替代 Python List
+- Provides a high-performance multi-dimensional array math library
+- Can integrate C/C++ and Fortran code
+- Has the property of equivalence data type
+- Parallel processing capability to quickly manipulate arrays
+- Replacing Python List with NumPy Array
 
-### 1. 安裝
+### 1. Install
 
-在使用 Python 第三方的函式庫時，我們可以在終端機透過 pip(Python Package Index) 的指令來安裝 Numpy，如果使用的是 Python 3.x 的版本則使用 pip3 進行安裝。
+When using a Python third-party library, we can install Numpy through the command of pip (Python Package Index) in the terminal, or use pip3 if the Python 3.x version is used.
 
 ```python
 pip3 install numpy
 ```
 
-### 2. 匯入
+### 2. Import
 
-並透過 import 匯入 Numpy ，而下方的 np 是可以自由指定的名稱，可以使用 as 來進行指定，慣例上會使用套件名稱的縮寫。
+Import Numpy through import, and the np below is a name that can be freely specified, which can be specified using as, and the abbreviation of the package name is conventionally used. 
 
 ```python
 import numpy as np
 ```
 
-### 3. Ndarray 與 List
+### 3. Ndarray and List
 
-ndarray (陣列) 一個非常類似於 list (串列) 的序列型態 ，實際上 ndarray 是 Numpy 的陣列資料型態，而 list 則是 Python 內建的資料型態。
+ndarray is a sequence type very similar to list, in fact ndarray is Numpy's array data type, and list is Python's built-in data type.
 
-ndarray 和 list 最大的不同在於，list 具備了儲存異質資料型態的特性，在 list 中，每個元素都是一個完整的 Python 物件，具備了各自的類別與資訊，因此在計算同質資料時，需要透過 for 迴圈迭代，將裡面的物件一一取出來進行運算。
+The biggest difference between ndarray and list is that list has the characteristic of storing heterogeneous data types. In list, each element is a complete Python object with its own category and information. Therefore, when calculating homogeneous data, it is necessary to Through the for loop iteration, the objects inside are taken out one by one for operation.
 
-而 Numpy 的 ndarray 則具備了同質資料型態的特性，也就是在 ndarray 裡**每一個元素都必須有相同的資料型態**，因此在計算時，ndarray 的效能和語法相較內建的 list 更快速簡潔。
+Numpy's ndarray has the characteristics of homogeneous data type, that is, every element in the ndarray must have the same data type, so when calculating, the performance and syntax of ndarray are compared to the built-in ones. list is faster and more concise.
 
-## 二、 Ndarray 的創建
+## Creation of Ndarray
 
-在 Numpy 裡，ndarray 是由 array 物件組成。在匯入 Numpy 之後，我們可以使用兩種方式來創建數值陣列。第一種方式是使用 Numpy 裡的 array() 方法將 list 轉換成 ndarray，第二種方式是使用 Numpy 的多樣化函式來創建 ndarray。
+In Numpy, an ndarray consists of array objects. After importing into Numpy, we can create numeric arrays in two ways. The first way is to use the array() method in Numpy to convert a list to an ndarray, and the second way is to use Numpy's diversification functions to create an ndarray.
 
-### **1. 將 list 轉換成 ndarray**
+### **1. Convert list to ndarray**
 
 - **np.array()**
 
-    我們可以使用 np.array() 將單層的 list 轉換成一維的數值陣列：
+    We can use np.array() to convert a single-level list into a one-dimensional array of numbers:
 
     ```python
     list_1=[0, 1, 2, 3, 4, 5]
@@ -75,14 +75,14 @@ ndarray 和 list 最大的不同在於，list 具備了儲存異質資料型態�
     ```
 
     ```python
-    # 輸出：
-    [1 2 3 4 5]               #  data 陣列的值
-    <class 'numpy.ndarray'>   #  data 陣列的型別
-    int64                     #  data 陣列內物件的型別
+    # output
+    [1 2 3 4 5]               #  data array value
+    <class 'numpy.ndarray'>   #  the type of the data array
+    int64                     #  The type of the objects in the data array
     ```
     []()
 
-    np.array() 也可以將兩層 list 轉換成二維的數值陣列：
+    np.array() can also convert a two-level list into a two-dimensional array of numbers:
 
     ```python
     list_2=[[0, 1, 2, 3, 4], [5, 6, 7, 8, 9]]
@@ -93,21 +93,20 @@ ndarray 和 list 最大的不同在於，list 具備了儲存異質資料型態�
     ```
 
     ```python
-    # 輸出：
-    [[0 1 2 3 4]              #  data 陣列的值
+    # output
+    [[0 1 2 3 4]              #  data array value
      [5 6 7 8 9]]
-    <class 'numpy.ndarray'>   #  data 陣列的型別
-    int64                     #  data 陣列內物件的型別
+    <class 'numpy.ndarray'>   #  the type of the data array
+    int64                     #  The type of the objects in the data array
     ```
 
-    > 使用 print('\n') 列印空白列，也就是進行換行的動作
+    > Use print('\n') to print blank columns, that is, to perform a newline.
 
-### 2. 使用 Numpy 的多樣化函式來創建 ndarray
-Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import numpy as np 後，即可以藉由「 np.方法名稱」來使用 Numpy 所提供的各種方法。
-
+### 2. Create Ndarray using Numpy diversification functions
+In Numpy, many methods are also provided to allow us to quickly create arrays. After importing numpy as np, you can use the various methods provided by Numpy by using the "np. method name".
 - **np.zeros()**
 
-    可以使用 np.zeros() 快速建立所有元素為 0 的陣列，比如創建所有元素為 0，長度為 5，型別為 int 的一維數值陣列：
+   You can use np.zeros() to quickly create an array with all elements 0, such as creating a one-dimensional numeric array with all elements 0, length 5, and type int:
 
     ```python
     # np.zeros()
@@ -115,13 +114,13 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
     ```
 
     ```python
-    # 輸出：
+    # output
     [0 0 0 0 0]
     ```
 
 - **np.ones()**
 
-    也可以使用 np.ones() 快速建立所有元素為 1 的陣列，比如創建所有元素為 1 ，長度為 2x5，型別為 float 的二維數值陣列：
+    We can also use np.ones() to quickly create an array with all elements of 1, such as creating a two-dimensional numeric array with all elements of 1, length 2x5, and type float:
 
     ```python
     # np.ones()
@@ -129,14 +128,14 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
     ```
 
     ```python
-    # 輸出：
+    # output
     [[1. 1. 1. 1. 1.]
      [1. 1. 1. 1. 1.]]
     ```
 
 - **np.full()：**
 
-    除了 0 和 1 之外，我們還可以建立所有元素為指定值的陣列，比如創建所有元素指定為 2，長度為 3x2x5，型別為 int 的三維數值陣列：
+    In addition to 0 and 1, we can also create an array with all elements as specified values, such as creating a three-dimensional numeric array with all elements specified as 2, length 3x2x5, and type int:
 
     ```python
     # np.full()
@@ -144,7 +143,7 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
     ```
 
     ```python
-    # 輸出：
+    # output
     [[[2 2 2 2 2]
       [2 2 2 2 2]]
 
@@ -157,7 +156,7 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
 
 - **np.random.random()**
 
-    或是建立所有元素為 0 到 1 之間隨機數值的陣列，比如建立元素為 0 到 1 之間的隨機數值，長度為 3x4 的二維數值陣列：
+    Or create an array with all random values between 0 and 1, such as creating a two-dimensional array of random values with elements between 0 and 1 and a length of 3x4:
 
     ```python
     # np.random.random()
@@ -165,7 +164,7 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
     ```
 
     ```python
-    # 輸出：
+    # output
     [[0.78837773 0.78191722 0.38002785 0.17772392]
      [0.94851325 0.08781078 0.00229052 0.63474405]
      [0.51463031 0.91391908 0.1534682  0.88046589]]
@@ -173,7 +172,7 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
 
 - **np.ramdom.randint()**
 
-    除了浮點數之外，也可以建立所有元素為指定範圍間隨機整數的陣列，比如建立所有元素為 0 到 10 之間的隨機整數，長度為 3x4 的二維數值陣列：
+    In addition to floating point numbers, you can also create an array with all elements of random integers in a specified range, such as creating a two-dimensional numeric array with all elements between 0 and 10 and a length of 3x4:
 
     ```python
     # np.ramdom.randint()
@@ -181,7 +180,7 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
     ```
 
     ```python
-    # 輸出：
+    # output
     [[9 7 1 5]
      [5 3 8 2]
      [9 2 9 2]]
@@ -189,7 +188,7 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
 
 - **np.arange()**
 
-    若要建立指定範圍的連續整數陣列，常常也會使用 np.arange()的方法，比如創建從 0 到 11 的連續整數陣列：
+    To create a contiguous array of integers with a specified range, the np.arange() method is often used, such as creating a contiguous array of integers from 0 to 11:
 
     ```python
     # np.arange()
@@ -197,30 +196,30 @@ Numpy 中，也提供許多的方法來讓我們快速建立陣列，在 import 
     ```
 
     ```python
-    # 輸出：
+    # output
     [ 0  1  2  3  4  5  6  7  8  9 10 11]
 
     ```
 
-    另外，可以透過 reshape() 函式重新組合陣列，比如 3x4 二維數值陣列：
+    Alternatively, you can reshape arrays, such as 3x4 2D numeric arrays, with the reshape() function:
 
     ```python
-    # 組合長度為 3x4 的二維陣列
+    # Combine a 2D array of length 3x4
     print(np.arange(12).reshape(3, 4))
     ```
 
     ```python
-    # 輸出：
+    # output
     [[ 0  1  2  3]
      [ 4  5  6  7]
      [ 8  9 10 11]]
     ```
 
-    > 以句點區隔來查詢物件的狀態、執行物件具有的功能(如函式、方法、屬性)，是物件導向程式設計的特徵。
+    > Querying the state of an object and executing the functions (such as functions, methods, properties) of objects separated by periods are the characteristics of object-oriented programming.
 
-## 三、維度與元素數量
+## Dimensions and number of elements
 
-在 Numpy 中我們可以透過 ndim 屬性及 size 屬性來取得陣列的維度與元素數量，藉由這些屬性，我們就可以得知資料的大小：
+In Numpy, we can get the dimension and number of elements of the array through the ndim attribute and the size attribute. With these attributes, we can know the size of the data:
 
 ```python
 data = np.random.randint(0, 10, (3, 4))
@@ -232,85 +231,85 @@ print('元素數量:',data.size)
 ```
 
 ```python
-# 輸出：
+# output
 [[8 7 8 5]
  [8 3 3 9]
  [3 0 1 4]]
 
-維度: 2
-形狀: (3, 4)
-元素數量: 12
+dimension: 2
+shape: (3, 4)
+number of elements: 12
 ```
 
 
-## 四、不同維度的陣列
+## Array of different dimensions
 
-如同上方的例子，我們可以依照不同需求來創建一維陣列、二維陣列，甚至是多維度的陣列，而根據不同維度的陣列，也擁有各自的名稱，分別為**純量、向量、矩陣、張量**。
+As in the example above, we can create one-dimensional arrays, two-dimensional arrays, and even multi-dimensional arrays according to different needs, and arrays with different dimensions also have their own names, namely **scalar, vector, and matrix. , Tensor**.
 
-### 1. 純量 (Scalar)
-純量是指沒有維度的數值：
+### 1. Scalar
+A scalar is a numeric value with no dimensions:
 
 ```python
 scalar = np.array(1234)
 print(scalar)
-print('維度:',scalar.ndim)
-print('形狀:',scalar.shape)
+print('dimension:',scalar.ndim)
+print('shape:',scalar.shape)
 ```
 
 ```python
-# 輸出：
+# output
 1234
-維度:0
-形狀:()
+dimension:0
+shape:()
 ```
 
-### 2. 向量 (Vector)
-向量指具有一個維度的數值陣列：
+### 2. Vector
+A vector refers to a numeric array with one dimension:
 
 ```python
 vector = np.array([1, 2, 3, 4])
 print(vector)
-print('維度:',vector.ndim)
-print('形狀:',vector.shape)
+print('dimension:',vector.ndim)
+print('shape:',vector.shape)
 ```
 
 ```python
-# 輸出：
+# output
 [1 2 3 4]
-維度:1
-形狀:(4,)
+dimension:1
+shape:(4,)
 ```
 
-### 3. 矩陣 (Matrix)
-矩陣是指具有兩個維度的數值陣列：
+### 3. Matrix
+A matrix is a numeric array with two dimensions:
 
 ```python
 matrix = np.array([1, 2, 3, 4]).reshape(2, 2)
 print(matrix)
-print('維度:',matrix.ndim)
-print('形狀:',matrix.shape)
+print('dimension:',matrix.ndim)
+print('shape:',matrix.shape)
 ```
 
 ```python
-# 輸出：
+# output
 [[1 2]
     [3 4]]
-維度:2
-形狀:(2, 2)
+dimension:2
+shape:(2, 2)
 ```
 
-### 4. 張量 (Tensor)
-張量指三個維度以及超過三個維度的數值陣列：
+### 4. Tensor
+Tensors refer to numeric arrays of three dimensions and more:
 
 ```python
 tensor = np.array([1, 2, 3, 4]*3).reshape(3, 2, 2)
 print(tensor)
-print('維度:',tensor.ndim)
-print('形狀:',tensor.shape)
+print('dimension:',tensor.ndim)
+print('shape:',tensor.shape)
 ```
 
 ```python
-# 輸出：
+# output
 [[[1 2]
     [3 4]]
 
@@ -319,39 +318,38 @@ print('形狀:',tensor.shape)
 
     [[1 2]
     [3 4]]]
-維度:3
-形狀:(3, 2, 2)
+dimension:3
+shape:(3, 2, 2)
 ```
 
 
 
-## 六、亂數種子
+## Random number seeds
 
-所謂的亂數是指不具規則性的隨機數值，在資料分析時，多用於將收集的資料進行隨機分離或加上隨機值使資料不一致。
+The so-called random number refers to the random value with irregularity. In data analysis, it is mostly used to randomly separate the collected data or add random values to make the data inconsistent.
 
-而亂數在每次執行得到的結果可能都不相同，但在進行資料分析時，經常需要在之後進行驗證，為了確保結果的一致，我們可以設定亂數種子，使每次亂數執行的結果不會改變。
+The result of random numbers may be different in each execution, but when performing data analysis, it is often necessary to verify later. In order to ensure the consistency of the results, we can set the random number seed to make the result of each random number execution. will not change.
 
-對於該隨機數值的初始值即稱為種子，我們可以使用 np 的 random.seed() 進行種子的設定：
+The initial value of the random value is called the seed, and we can use np's random.seed() to set the seed:
 
 ```python
-# 種子設定
+# seed setting
 np.random.seed(0)
 
-# 產生常態分佈(平均為0標準差為1)的 10 個亂數
+# Generate 10 random numbers with a normal distribution (mean 0 standard deviation 1)
 print(np.random.randn(10))
 ```
 
 ```python
-# 輸出：
+# output
 [ 1.76405235  0.40015721  0.97873798  2.2408932   1.86755799 -0.97727788
   0.95008842 -0.15135721 -0.10321885  0.4105985 ]
 ```
 
-> Python 本身也提供亂數的功能，但在資料分析中通常使用 Numpy 的亂數功能。
+> Python itself also provides the function of random numbers, but the random number function of Numpy is usually used in data analysis.
 
 
-[]()
-[]()
 
 
-Nupmpy 還提供許多非常好用的方法和功能，想了解和學習更多的話，可以參考官方文件： [Numpy Documentation](https://numpy.org/) ㄛ!
+
+Nupmpy also provides many very useful methods and functions. If you want to know and learn more, you can refer to the official documents: [Numpy Documentation](https://numpy.org/) !
