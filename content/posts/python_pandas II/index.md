@@ -8,7 +8,7 @@ categories:
 tags:
 - Python Pandas
 cover:
-    image: "cover.jpeg"
+    image: "cover.jpg"
     relative: true
 ---
 
