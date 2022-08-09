@@ -1,5 +1,5 @@
 ---
-title: "MySQL - 基本觀念＆指令操作"
+title: "MySQL - Basic Concepts & Command Operations"
 description: ""
 date: 2021-06-30
 draft: false
@@ -12,30 +12,32 @@ cover:
     relative: true
 ---
 
-### 前言
-SQL 為 Structured Query Language 縮寫，念 S.Q.L 或 sequel。 中文稱結構化查詢語言。
+### Foreword
+SQL is short for Structured Query Language, pronounced S.Q.L or sequel. Chinese is called Structured Query Language.
+
 <!--more-->
-SQL 語法主要分成 **DDL(Data Definition language)**、**DQL(Data Quary language)**
-、**DML(Data Manipulation Language)**、**DCL(Data Control Language)**。
 
-而 ＭySQL 是一個開放原始碼的資料庫軟體，我們可以透過 MySQL 中的 SQL 語法來操作 MySQL 的資料庫，
-讓我們來認識 MySQL 的基礎語法吧。
+SQL syntax is mainly divided into **DDL(Data Definition Language)**, **DQL(Data Query language)**
+, **DML(Data Manipulation Language)**, **DCL(Data Control Language)**.
+
+And MySQL is an open source database software, we can operate the MySQL database through the SQL syntax in MySQL,
+Let's get to know the basic syntax of MySQL.
 
 
-## 一、DDL(Data Definition language)
+## DDL(Data Definition Language)
 
-中文表示為資料定義語言，用來定義資料庫、資料表、檢視表、索引、預存程序、觸發程序、函數等資料庫物件。
+DDL is used to define database objects such as database, data table, view table, index, pre-stored program, trigger program, and function.
 
-### 1. 使用 CREATE 建立資料庫/資料表
+### 1. Use CREATE to create a database/table
 
-**建立資料庫**
+**Create a database**
 
 ```sql
 create database if not exists school
 collate utf8mb4_unicode_ci;
 ```
 
-**建立資料表**
+**Create a table**
 
 ```sql
 use school
@@ -51,161 +53,153 @@ id int auto_increment primary key
 );
 ```
 
-> id 設為自動累加，即使刪掉某些 row，id 仍會繼續自動累加
+> id is set to be automatically accumulated, even if some rows are deleted, the id will continue to be automatically accumulated
 
-### 2. 使用 ALTER 修改資料表欄位
+### 2. Use ALTER to modify data table fields
 
-**資料表新增欄位**
+**Add a new field to the table**
 
 ```sql
 alter table students add society int;
 ```
 
-**資料表刪除欄位**
+**Delete field from table**
 
 ```sql
 alter table students drop society;
 ```
 
-### 3. 使用 DROP 刪除資料庫/資料表
+### 3. Delete database/table with DROP
 
-**刪除資料庫**
-
+**Delete database**
 ```sql
 drop database if exists school;
 ```
 
-**刪除資料表**
+**Delete table**
 
 ```sql
 drop table if not exists students;
 ```
 
-### 4. 使用 SHOW 查看資料庫/資料表
+### 4. Use SHOW to query the database/table
 
-**查看資料庫**
+**Query database**
 
 ```sql
 show databases;
 ```
 
-**查看資料表**
+**Query table**
 
 ```sql
 show tables;
 ```
 
-**查看資料表所有欄位**
+**Query all fields in the table**
 
 ```sql
-show columns from students ;
+show columns from students;
 ```
-![](12.png)
-
-![](13.png)
 
 
-## 二、DQL(Data Quary language)
-中文表示為資料查詢語言，用來進行資料查詢，並不會對資料本身進行修改的語句。
+## DQL(Data Query Language)
+DQL is used to query data without modifying the data itself.
 
-### 1.使用 SElECT 查詢資料
+### 1.Use SElECT to query data
 
-**查看資料表所有欄位的值**
+**Query data for all fields in the table**
 
 ```sql
 select * from students;
 ```
 
-**查看資料表特定欄位的資料** 
-- 查看 math 成績
+**Query data for specific field in the table** 
+- Query data in the math field
 
     ```sql
     select math from students;
     ```
 
 
-**查看特定條件的值**
+**Query data under specific conditions**
 
-- 查看分數大於等於 60 的 english 成績
+- Query data with scores greater than or equal to 60 in the english field
 
     ```sql
     select english from students where english >= 60;
     ```
 
-- 查看學生 frank 的所有成績：
+- Query data for all fields whose name field is frank:
 
     ```sql
     select * from students where name = 'frank';
     ```
 
-- 查看 chinese 大於 60，且 math 為 60 的學生：
+- Query the names of students whose chinese field is greater than 60 and math is 60:
 
     ```sql
     select name from students where chinese > 60 and math = 60;
     ```
 
-![](5.png)
-![](12.png)
 
 
+## DML(Data Manipulation Language)
 
-## 三、DML(Data Manipulation Language)
+DML is used to process the data in the table.
 
-中文表示為資料操作語言，用來處理資料表裡的資料。
+### 1. INSERT INTO
 
-### 1. INSERT INTO 插入資料
+**Insert into is used when adding a new row**
 
-**insert into 為新增新的 row 的時候使用**
-
-- 插入一筆資料到資料表
+- Insert a piece of data into the table.
 
     ```sql
     insert into students values('Ace',59,60,93,5);
     ```
 
--  插入一筆資料到資料表指定欄位
+-  Insert a piece of data into the specified field of the table.
 
     ```sql
     insert into students(name,chinese,english,math) values(
     'frank',70,50,80);
 
     ```
-    > 如果不給自動累加的 id 值的時候，需要用指定的方式
+> If you do not give the automatically accumulated id value, you need to use the specified method.
 
-
-- 插入多筆資料到資料表指定欄位
+- Insert multiple data into the specified field of the table.
 
     ```sql
     insert into students(name,chinese,english,math) values('andy',75,91,60),('mimi',60,75,92);
     ```
 
-### 2. UPDATE 更新資料
+### 2. UPDATE
 
-**更新資料表資料**
+**Update the data in the table**
 
 ```sql
 update students set id=4 where name='Ace'
 ```
 
-### 3. DELETE 刪除資料
+### 3. DELETE
 
-**刪除單個 row 的值**
+**Delete data of a single row**
 
 ```sql
 delete from students where name = 'naomi';
 ```
 
-**刪除多個 row 的值**
+**Delete multiple rows of data**
 
 ```sql
 delete from students where name in ('naomi','josh');
 ```
 
 
-### 4. Insert Into 與 Update 使用差異
-當資料不存在時就 Insert Into（新增)，已存在就 Update（更新）。
+### 4. Differences between Insert Into and Update
+Insert Into when the data does not exist, and Update when it already exists.
 
-**首先，我們先新增一個 column 為 gender，並設定為 varchar(6)**
+**First, we add a column for gender and set it to varchar(6)**
 
 ```sql
 alter table students add gender varchar(6);
@@ -213,40 +207,32 @@ alter table students add gender varchar(6);
 
 
 
-**接著使用 update更新 gender 欄位的資料，使用範例:**
+**Then use update to update the data in the gender field, example:**
 
 ```sql
 update students set gender = 'm' where name = 'frank';
 ```
->因為原本的 row 已經有資料，不能使用 insert into 來新增 gender 的值，應該使用 **update** 來新增 gender 的值
+>Because the original row already has data, you cannot use insert into to add the value of gender, you should use **update** to add the value of gender
 
-
-![](6.png)
-
-
-
-**若一次 update 多個 gender 的值的時候，使用範例：**
+**When updating multiple gender values at a time, example:**
 
 ```sql
 update students set gender = case name when 'frank' then 'm' when 'andy' then 'm' when 'mimi' then 'f' when 'Ace' then 'm' else gender end;
 ```
->使用 gender = case name when ... then ...
->若在不更動 naomi、josh 的 gender 值進行 update 記得要加 else gender，否則 naomi、josn 的值會變成null。
->結束需加上 end;
+>use `gender = case name when ... then ...`
 
-![](9.png)
+>If you do the update without changing the gender values of naomi and josh, remember to add else gender, otherwise the values of naomi and josn will become null.
 
-**insert into 適用於資料不存在的情況，如新增新的 row 的情況，使用範例：** 
+>End with end;
+
+
+**Insert into is suitable for situations where data does not exist, such as adding a new row, example:**
 
 ```sql
 insert into students(name,chinese,english,math) values('naomi',79,84,93,'f'),('josh',8,64,73,'m');
 ```
 
-![](7.png)
-
-
-
-**在 update 的使用上有一點值得注意的地方，當我們新增 age 為 int、hobby 為 varchar(100) 並且皆為 not null 的欄位：**
+**There is one thing worth noting in the use of update, when we add a field with age as int, hobby as varchar(100) and all of them are not null:**
 
 ```sql
 alter table students add age int not null;
@@ -258,52 +244,49 @@ alter table students add hobby varchar(100) not null;
 
 ![](10.png)
 
-**update 使用範例：**
+**Update usage example:**
 
 ```sql
 update students set age = case name when 'frank' then 21 else age end;
 ```
->該欄設定 not null 的情況如果要 update  部分的值，必須加上else xxx 否則會報錯
+
+>If the column is set to not null and the value of the update part must be added, else xxx must be added, otherwise an error will be reported.
 
 ![](12.png)
 
 
-### 輔助指令
+### Auxiliary command
 
-### 1. ORDER BY 資料排序
+### 1. ORDER BY
 
-**將欲查詢的資料進行排序**
+**Sort the data to be queried**
 
-- 預設為小到：**ASC**
+- The default is small to large: **ASC**
 
     ```sql
     select * from students order by math;
     ```
 
 
-- 由大到小：**DESC**
+- From big to small: **DESC**
 
     ```sql
     elect * from students order by math desc;
     ```
 
 
-### 2. GROUP BY 資料分群
+### 2. GROUP BY
 
-**將欲查詢的資料進行分組**
+**Grouping the data to be queried**
 
 ```sql
 select gender,count(*) from students group by gender;
 ```
 
-![](17.png)
 
-![](12.png)
+### Aggregate Function
 
-
-### Aggregate Function 函式
-
-**常見函式如 count、sum、max、min、age**
+**Common functions such as count, sum, max, min, age**
 
 - count
 
@@ -338,13 +321,12 @@ select gender,count(*) from students group by gender;
     select avg(english) from students;
     ```
 
-![](22.png)
 
-## 四、DCL（Data Control Language）
+## DCL（Data Control Language）
 
-### 1. GRAN 授權使用者
+### 1. GRAN - authorized User
 
-[WITH GRANT OPTION]：如果在 GRANT 命令末尾包含可選的「與 GRANT 選項」條款，不僅授予指定使用者 SQL 語句中定義的許可權，還允許使用者進一步授予其他資料庫使用者相同的許可權。
+`[WITH GRANT OPTION]` If an optional **with GRANT OPTION** clause is included at the end of the GRANT command, it not only grants the specified user the permissions defined in the SQL statement, but also allows the user to further grant the same permissions to other database users.
 
 ```
 GRANT [privilege]
@@ -359,11 +341,12 @@ on school.students
 to Andy
 ```
 
-### 2. REVOKE 取消使用者權限
+### 2. REVOKE - cancel user privileges
 
-[GRANT OPTION FOR]：條款的授予選項刪除指定使用者授予其他使用者指定許可權的能力。如果您在撤銷聲明中包含「授予選項」條款，則主要許可權不會被撤銷。本條款僅撤銷授予能力。
+`[GRANT OPTION FOR] `
+The grant option of a term removes the ability of a given user to grant given permissions to other users. If you include a "grant option" clause in your revocation statement, the primary permission will not be revoked. This clause only revokes the conferred capacity.
 
-[CASCADE]：CASCADE選項會撤銷指定使用者授予該許可權的任何使用者的指定許可權。
+`[CASCADE]` The CASCADE option revokes the specified permission from any user that the specified user grants that permission.
 
 ```sql
 revoke [grant option for] [permission]
@@ -379,9 +362,9 @@ from Andy
 ```
 ![](12.png)
 
-### 3. COMMIT 將操作更新到資料庫
+### 3. COMMIT - update operation to database
 
-**檢視 AUTOCOMMIT 狀態**
+**Query AUTOCOMMIT status**
 
 ```sql
 select @@autocommit;
@@ -389,24 +372,24 @@ select @@autocommit;
 
 ![](23.png)
 
-**AUTOCOMMIT 變數預設設定為 true 。這可以通過以下方式更改**
+**The AUTOCOMMIT variable is set to true by default. This can be changed in the following way**
 
-- 設定為 false：
+- set to false：
 
     ```sql
     set autocommit=false; ／ set autocommit=0;
     ```
 
-- 設定為 true：
+- set to true：
 
     ```sql
     set autocommit=true;  /   set autocommit=1
     ```
 
-**如果 AUTOCOMMIT 設定為 false 且未 commit，則只有當前連線可以看見更新**
+**If AUTOCOMMIT is set to false and not committed, only the current connection will see the update**
 
 ```sql
-# 目前連線
+# currently connected
 insert into testTable values (1);
 set autocommit=false;
 insert into testTable values (2), (3);
@@ -414,34 +397,26 @@ select * from testTable;
 ```
 
 ```sql
-# 其他連線
+# other connections
 select * from testTable;
 ```
 
-![](24.png)
-
-![](25.png)
-
-**但若進行 commit 則目前連線和其他連線皆可以看見更新**
+**But if committed, the current connection and other connections can see the update**
 
 ```sql
-# 目前連線
+# currently connected
 commit;
 select * from testTable;
 ```
 
 ```sql
-# 其他連線
+# other connections
 select * from testTable;
 ```
 
-![](26.png)
+### 4. ROLLBACK - cancels the operation on the database
 
-![](27.png)
-
-### 4. ROLLBACK 取消對資料庫的操作
-
-**commit 前，使用 rollback 可以改變**
+**Before commit, you can use rollback to change**
 ```sql
 insert into testTable values (1);
 set autocommit=false;
@@ -449,14 +424,12 @@ insert into testTable values (2), (3);
 select * from testTable;
 ```
 
-![](28.png)
 
 ```sql
 rollback;
 select * from testTable;
 ```
 
-![](29.png)
 
 ```sql
 insert into testTable values (2), (3);
@@ -464,19 +437,18 @@ select * from testTable;
 commit;
 ```
 
-![](12.png)
 
 
-**commit 後使用 rollback 無法改變**
+**Cannot use rollback to change after commit**
 ```sql
 rollback;
 select * from testTable;
 ```
->如果 AUTOCOMMIT 設定為 true ，那麼 COMMIT 和 ROLLBACK 就沒用了
+>If AUTOCOMMIT is set to true , then COMMIT and ROLLBACK are useless
 
-### 5. DENY 明確拒絕資料庫訪問
+### 5. DENY - explicitly deny database access
 
-**DENY 命令明確阻止使用者接收特定許可權**
+**The DENY command explicitly prevents the user from receiving certain permissions**
 
 ```sql
 deny [permission]
@@ -489,7 +461,3 @@ deny delete
 on school.studends
 to Blackmaple
 ```
-
-
-## 結論
-大家可以動手試試才能真正了解整個資料庫的使用噢。
