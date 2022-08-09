@@ -1,5 +1,5 @@
 ---
-title: "Python - Function 入門的重要概念"
+title: "Python - Important Concepts of Function"
 description: ""
 date: 2021-07-10
 draft: false
@@ -12,31 +12,32 @@ cover:
     relative: true
 ---
 
-##  一、函式的基本認識
+## Basic understanding of the function
 
-函式是程式中的**子程式**或**副程式**。概念有點類似於數學上的函數，它負責處理程式碼中的某項功能。
+A function is a subroutine in a program. The concept is somewhat similar to a mathematical function, which is responsible for handling a function in the code.
 
 <!--more-->
 
-像是我們在學習 Python 時，最常接觸的 print() 其實就是一種函式。print() 是屬於 Python 中的內建函式，而我們也可以自己定義的函式來創建一個我們想要執行的一段程式或功能。
+For example, when we are learning Python, the most commonly used `print()` is actually a function. `print()` is a built-in function in Python, and we can also define a function by ourselves to create a program or function that we want to execute.
 
-這樣一來就方便我們在需要這段程式的時候，執行這個函式來處理，不僅能夠減少重複的程式碼，也能使我們的程式看起來更結構化，若之後要修改程式碼也會比較方便。
+In this way, it is convenient for us to execute this function to process when we need this program, which can not only reduce repeated code, but also make our program look more structured. If we want to modify the code later, it will compare convenient.
 
-## 二、自定義函式
+## Custom function
 
-那我們該怎麼自定義一個函式呢，我們可以先來看看函式的組成結構：
+So how do we customize a function, we can first take a look at the structure of the function:
 
 ```python
-def 函式名(参數1，参數2，...參數n):
-    函式內容
-    return 回傳值
+def function_name(parameter 1, parameter 2,...parameter n):
+    function content
+    return value
 ```
 
-在函式中我們使用 **def**  開頭，後面接續函式名稱，如果有參數可以在 **()** 中加入參數名稱，並以**冒號**來分隔，在冒號後換行並縮排即可定義函式的程式內容，最後以 **return** 來回傳程式執行的結果，我們稱結果為回傳值。
+In the function, we use `def` at the beginning, followed by the function name, and return the result of the program execution with the `return`, we call the result the return value.
 
-在一個函式中，參數相當於函式的 **input** (輸入)，而回傳值則為函式的 **output** (輸出)。
 
-執行函式的行為則稱為「函式呼叫」，呼叫函式時，我們可以藉由撰寫函式名稱來執行函式，如果有參數則需要給予參數。參考範例：
+In a function, the parameters are equivalent to the function's **input**, and the return value is the function's **output**.
+The act of executing a function is called **function call**. When calling a function, we can execute the function by writing the function name, and if there are parameters, we need to give parameters. 
+
 
 ```python
 def calc_add(x,y):
@@ -46,25 +47,25 @@ calc_add(4,9)
 ```
 
 ```python
-輸出：
+# output
 9
 ```
 
-## 三、函式的變數範圍
+## The variable scope of the function
 
 
-在程式語言中，變數皆有一個有效範圍，根據變數所在的位置，會影響所存取的值，可分為：「全域變數」及「區域變數」。
+In a program, variables all have a valid range. According to the location of the variable, it will affect the value accessed. It can be divided into **global variable** and **regional variable**.
 
-在 Python 中，全域變數只要在同一份 Python 檔中皆可存取，而區域變數是只有在函式的範圍中才可以進行存取的值，函式以外的地方無法存取。
+In Python, global variables can be accessed as long as they are in the same Python file, while local variables are values that can only be accessed within the scope of the function, and cannot be accessed outside the function.
 
-可以參考下方範例，在函式的範圍內會印出區域變數的 x 值，而在函式以外的地方則是印出全域變數的 x 值：
+You can refer to the following example, the x value of the local variable is printed within the scope of the function, and the x value of the global variable is printed outside the function:
 
 ```python
-# 全域變數
+# global variable
 x = 100
 
 def calc_num():
-	# 區域變數
+	# local variable
 	x = 20
 	return x
 
@@ -74,40 +75,40 @@ print(x)
 ```
 
 ```python
-輸出：     
-20           # 印出區域變數 x = 20
-100          # 印出全域變數 x = 100
+# output     
+20           # print out the local variable x = 20
+100          # print out the global variable x = 100
 ```
 
-如果想要透過函式來取得全域變數的值，則可以在函式中使用「global」，參考範例：
+If you want to get the value of a global variable through a function, you can use **global** in the function, refer to the example:
 
 ```python
-# 全域變數
-x = 100
-
-def calc_num():
-	global x
-	return x
-
-print(calc_num())    
-print(x)  
-```
-
-```python
-輸出：     
-100          # 印出全域變數 x = 100
-100          # 印出全域變數 x = 100
-```
-
-如果想要透過函式來修改全域變數的值，同樣可以在函式中使用「global」並進行修改，會連同全域變數一併被修改，參考範例：
-
-```python
-# 全域變數
+# global variable
 x = 100
 
 def calc_num():
 	global x
-	# 區域變數
+	return x
+
+print(calc_num())    
+print(x)  
+```
+
+```python
+# output     
+100          # print out the global variable x = 100
+100          # print out the global variable x = 100
+```
+
+If you want to modify the value of the global variable through a function, you can also use **global** in the function and modify it, and it will be modified together with the global variable. Refer to the example:
+
+```python
+# global variable
+x = 100
+
+def calc_num():
+	global x
+	# local variable
 	x = 20
 	return x
 
@@ -116,17 +117,17 @@ print(x)
 ```
 
 ```python
-輸出：     
-20          # 印出區域變數 x = 20
-20          # 印出區域變數 x = 20
+# output     
+20          # # print out the local variable x = 20
+20          # # print out the local variable x = 20
 ```
 
-> 非必要的時候，避免在函式中修改全域變數的值，因為永遠不會知道程式的其他地方有沒有使用了這個全域變數來進行運算，而在函式中修改了它的值後，很容易導致程式的 Side Effect (副作用)或 Bug (錯誤)。
+> Avoid modifying the value of the global variable in the function when it is not necessary, because you will never know whether the global variable is used in other places in the program to perform operations, and after modifying its value in the function, it is easy to cause a **Side Effect** or **Bug** of the program.
 
-## 四、函式返回值
+## Function return value
 
-函式需要 return 值，如果在函式最後沒有加 return 只會執行完函式裡的內容並回傳為 None，
-參考範例：
+The function needs a return value. If no return is added at the end of the function, it will only execute the contents of the function and return None.
+example:
 
 ```python
 def calc_num():
@@ -136,32 +137,31 @@ print(calc_num())
 ```
 
 ```python
-輸出：     
-None         # 因為沒有 return 值
+# output     
+None         # because there is no return value
 ```
 
-## 五、函式參數
+## Function parameter
 
-函式的參數類型主要有三種，分別是默認參數、關鍵字參數、不定量參數。
-
-一般來說，我們在呼叫函式，通常會傳值給函式參數當作參考，如下：
+There are three main types of parameters for functions, namely Default parameters, Keyword parameters, and Arbitrary parameters.
+Generally speaking, when we call functions, we usually pass values to function parameters as references, as follows:
 
 ```python
 def say_hello(name):
-    print('Hello '+ name);
+    print('Hello '+ name)
     
 say_hello('Anila')
 ```
 
 ```python
-輸出：
+# output
 Hello Anila
 ```
 
 
-### 1. 默認參數
+### 1. Default parameters
 
-若呼叫函式時沒有傳值時，我們可以透過默認參數提供給函式參考，也就是給函式預設值，在沒有傳值的清況下，函式在會根據預設值來執行。
+If no value is passed when calling the function, we can provide the function reference through the default parameter, which is to give the function default value. In the case of no value passed, the function will be executed according to the default value.
 
 ```python
 def say_hello(name = 'Andy'):
@@ -171,13 +171,13 @@ sayhello()
 ```
 
 ```python
-輸出：
+# output
 Hello Andy
 ```
 
-### 2. 關鍵字參數
+### 2. Keyword arguments
 
-有時候，我們定義的函式希望某些參數強制使用關鍵字參數傳遞，透過關鍵字參數就可以將我們要傳進去的值指定參數名稱，這樣一來我們也可以不用按順序來輸入參數的值。
+Sometimes, the functions we define want to force some parameters to be passed using keyword parameters. Through the keyword parameters, we can specify the parameter name with the value we want to pass in, so that we can also input the value of the parameter without order.
 
 ```python
 def say_hello(name,age):
@@ -187,13 +187,13 @@ say_hello(age = '18', name='Anila')
 ```
 
 ```python
-輸出：
+# output
 Hello Anila you are 18 years olds.
 ```
 
-### 3. 不定量參數 *args 及 **kwargs
+### 3. Arbitrary arguments (`*args` and `**kwargs`)
 
-有的時候，我們在設計函式時，不確定要傳入函式的參數數量，當輸入多個不確定數量的參數時，則可以在參數名稱前加上「 *」，便可以一次傳入多個參數，而結果會以 tuple 的形式輸出。
+Sometimes, when designing a function, we are not sure about the number of parameters to be passed into the function. When inputting multiple parameters of an indeterminate number, we can add `*` before the parameter name to pass in at one time. Multiple arguments, and the result is output as a tuple.
 
 ```python
 def info(*temp):
@@ -203,11 +203,11 @@ info('Toby','Andy','Anila')
 ```
 
 ```python
-輸出：
+#output
 ('Toby','Andy','Anila')
 ```
 
-我們也可以使用「 **」 來將參數資料轉成 Dictionary 的型態。
+We can also use `**` to convert parameter data into Dictionary type.
 
 ```python
 def info(**temp):
@@ -217,22 +217,21 @@ foo(name = 'Toby',age= 2)
 ```
 
 ```python
-輸出：
+# output
 {'name':'Toby', 'age':2}
 ```
 
-### 4. 函式傳值的概念
+### 4. The concept of function passing by value
 
-Python 值的傳遞主要基於 pass by reference 的作法來實現，也就是說傳遞物件的參照，而這些被傳遞的參照物件有些資料型態是可變的，有些資料型態則是不可變的。
+The transfer of Python values is mainly based on the method of pass by reference, that is to say, the reference of objects is passed, and some data types of these passed reference objects are mutable, and some data types are immutable.
 
-可變的資料型態如：list、array，不可變的資料型態(基本的資料型態) 如：int、string 等，
+Variable data types such as **list**, **array**. Immutable data types such as **int**, **string**, etc.,
 
-可變的資料型態與不可變的資料型態傳遞值給函式進行簡單的運算時，都不會改動到原本參考的值，但若可變的資料型態傳遞值給函數時使用本身的方法來改變本身的值，則會連同原本參考的值一起被改變。
+When the variable data type and immutable data type pass the value to the function for simple operation, the original reference value will not be changed, but if the variable data type is passed to the function, its own value is used. method to change the value of itself, it will be changed along with the value of the original reference.
 
-不可變的資料型態 int 傳遞值給函式進行簡單的運算時不會改變原本參考的值，參考範例：
+The immutable data type int does not change the original reference value when passing a value to a function to perform a simple operation. Refer to the example:
 
 ```python
-
 x = 100
 def calc_num(x):
 		result = x*2
@@ -243,12 +242,12 @@ print(x)
 ```
 
 ```python
-輸出：
-200        # 印出經函式運算過的變數 x = 200
-100        # 印出原本的變數 x = 100
+# output
+200        # print the variable x = 200
+100        # print the original variable x = 100
 ```
 
-可變的資料型態 list 傳遞值給函式進行簡單的運算不會改變原本參考的值，參考範例：
+The mutable data type list passes a value to a function to perform a simple operation without changing the original reference value. Reference example:
 
 ```python
 x = [1,2,3,4]
@@ -261,12 +260,12 @@ print(x)
 ```
 
 ```python
-輸出：
+# output
 [1, 2, 3, 4, 1, 2, 3, 4]
 [1, 2, 3, 4]
 ```
 
-可變的資料型態 list 傳遞值給函式時使用本身的方法(直接改變本身)會改變原本參考的值：
+The mutable data type list passed a value to a function using its own method (changing itself directly) will change the value of the original reference:
 
 ```python
 x = [1,2,3,4]
@@ -279,18 +278,17 @@ print(x)
 ```
 
 ```python
-輸出：
+# output
 [1,2,3,4,5]
 [1,2,3,4,5]
 
-＊注意：append() 不會回傳值，而是直接改變 x 這個 list，
-	錯誤寫法： x = x.append，x 會變成 None
-	正確寫法：直接使用 x.append，來改變 x 本身
 ```
+＊Note: `append()` does not return a value, but directly changes the list of x
 
-### 5. 補充
 
-若沒有給於函式裡變數的參考值，函式會根據最近的階層來拿值：
+### 5. Function without parameters
+
+If no reference value is given to the variable in the function, the function will take the value according to the nearest hierarchy:
 
 ```python
 x = 100
@@ -303,7 +301,7 @@ print(x)
 ```
 
 ```python
-輸出：
+# output
 200
 100
 ```
@@ -319,42 +317,43 @@ print(x)
 ```
 
 ```python
-輸出：
+# output 
 [1,2,3,4,5]
 [1,2,3,4,5]
 ```
 
-＊注意：在函式使用時，盡量避免函式內與和函式外有重複的變數名稱而搞混
+＊Note: When using a function, try to avoid confusion with repeated variable names inside the function and outside the function.
 
-## 六、匿名函式
+## Anonymous function
 
-最後來介紹函式裡的匿名函式，所謂的匿名函式就是不需要定義函式的名稱，將函式的內容直接撰寫在要執行的地方。
+Finally, let's introduce the anonymous function in the function. The so-called anonymous function does not need to define the name of the function, and the content of the function is written directly in the place to be executed.
 
-在 Python 中，使用「lambda」來創建匿名函式，並在 lambda 後方接續參數名稱及執行的內容，即可給予參數的值執行來執行函式的內容，參考範例：
+In Python, **lambda** is used to create an anonymous function, and the parameter name and execution content are followed by the lambda, and the value of the parameter can be given to execute to execute the content of the function. Refer to the example:
 
 ```python
-#寫法一
 sum = (lambda x,y:x+y)
 print(sum((4,5)))
 
-# 寫法二
+# or
+
 print((lambda x,y:x+y)(4,5))
 ```
 
 ```python
-輸出：
+# output
 9
 9
 ```
 
-在這個範例中，「lambda x, y: 」相當於函式名稱後的 (x, y)，並以「:」 區隔函式內容，並return x+y，這便是逆函式的基本寫法。
+In this example, `lambda x, y:` is equivalent to `def function_name(x, y)`, and the return `x+y`, which is the basis of the inverse function spelling.
+There are a few things to pay attention to in anonymous functions:
 
-在匿名函式中有幾點需要特別注意：
+- lambda is just an expression, not a block of code, so it can only encapsulate limited logic in it.
 
-- lambda 只是一個表達式，並不是一個程式碼區塊，因此只能封裝有限的邏輯進去
+- A lambda function has its own namespace and cannot access parameters outside its own parameter list or in the global namespace.
 
-- lambda 函式擁有自己的命名空間，不能訪問自己參數列表以外或全域命名空間裡的參數。
+## Conclusion
 
-## 結論
+Functions are very useful functions in program writing, especially when writing more complex projects. It not only has greater flexibility to adjust the program, but also can understand the structure of the actual project more clearly.
 
-函式是在程式撰寫中非常好用的功能，尤其在撰寫比較複雜的專案時非常適合使用，不僅擁有更大的彈性調整程式，也能更清楚明瞭的了解正個專案的架構，那這次就先介紹到這邊。希望這篇文章可以幫助正在學習程式的你。一起加油！
+ Hope this article can help you who are learning programming!
