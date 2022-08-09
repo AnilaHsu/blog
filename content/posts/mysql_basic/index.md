@@ -12,7 +12,7 @@ cover:
     relative: true
 ---
 
-### Foreword
+## Foreword
 SQL is short for Structured Query Language, pronounced S.Q.L or sequel. Chinese is called Structured Query Language.
 
 <!--more-->
@@ -104,9 +104,7 @@ show columns from students;
 
 
 ## DQL(Data Query Language)
-DQL is used to query data without modifying the data itself.
-
-### 1.Use SElECT to query data
+DQL is used to query data without modifying the data itself,usually using SElECT to query data.
 
 **Query data for all fields in the table**
 
@@ -115,7 +113,7 @@ select * from students;
 ```
 
 **Query data for specific field in the table** 
-- Query data in the math field
+- query data in the math field
 
     ```sql
     select math from students;
@@ -205,8 +203,6 @@ Insert Into when the data does not exist, and Update when it already exists.
 alter table students add gender varchar(6);
 ```
 
-
-
 **Then use update to update the data in the gender field, example:**
 
 ```sql
@@ -242,8 +238,6 @@ alter table students add age int not null;
 alter table students add hobby varchar(100) not null;
 ```
 
-![](10.png)
-
 **Update usage example:**
 
 ```sql
@@ -252,32 +246,26 @@ update students set age = case name when 'frank' then 21 else age end;
 
 >If the column is set to not null and the value of the update part must be added, else xxx must be added, otherwise an error will be reported.
 
-![](12.png)
-
 
 ### Auxiliary command
 
-### 1. ORDER BY
+### 1. ORDER BY - sort the data to be queried
 
-**Sort the data to be queried**
-
-- The default is small to large: **ASC**
+- **ASC:** the default form small to large
 
     ```sql
     select * from students order by math;
     ```
 
 
-- From big to small: **DESC**
+- **DESC:** sort from big to small
 
     ```sql
     elect * from students order by math desc;
     ```
 
 
-### 2. GROUP BY
-
-**Grouping the data to be queried**
+### 2. GROUP BY - grouping the data to be queried
 
 ```sql
 select gender,count(*) from students group by gender;
@@ -360,7 +348,6 @@ revoke select
 on school.students
 from Andy
 ```
-![](12.png)
 
 ### 3. COMMIT - update operation to database
 
@@ -370,17 +357,16 @@ from Andy
 select @@autocommit;
 ```
 
-![](23.png)
 
-**The AUTOCOMMIT variable is set to true by default. This can be changed in the following way**
+**The AUTOCOMMIT variable is set to true by default. This can be changed in the following way:**
 
-- set to false：
+- set to false
 
     ```sql
     set autocommit=false; ／ set autocommit=0;
     ```
 
-- set to true：
+- set to true
 
     ```sql
     set autocommit=true;  /   set autocommit=1
