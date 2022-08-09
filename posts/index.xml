@@ -88,33 +88,12 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>Meow - Newbie&#39;s Meow Diary</title>
+      <title>Meow - Newbie&#39;s Cat Diary</title>
       <link>https://anila.me/posts/cat_life-i/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/posts/cat_life-i/</guid>
-      <description>&lt;h3 id=&#34;我領養了一隻來自彰化的貓咪-mimi&#34;&gt;我領養了一隻來自彰化的貓咪 mimi！&lt;/h3&gt;
-&lt;p&gt;牠來自我同事家的茶行，是同事的姊姊經營的ㄧ家茶行-茗茶丘好。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Python 建構 Web Crawler - 入門實作</title>
-      <link>https://anila.me/posts/ptt_job_crawler-ii/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/ptt_job_crawler-ii/</guid>
-      <description>&lt;h3 id=&#34;了解網路爬蟲的概念後那我們就接著來實作看看吧&#34;&gt;了解網路爬蟲的概念後，那我們就接著來實作看看吧！&lt;/h3&gt;
-&lt;p&gt;其實網路爬蟲的原理就是模擬我們操作網頁的行為，只是這過程許多行為都是透過瀏覽器幫我們完成的，因此我們才需要先了解瀏覽器運作的原理。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title> Python 建構 Web Crawler - 基礎概念</title>
-      <link>https://anila.me/posts/ptt_job_crawler-i/</link>
-      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/posts/ptt_job_crawler-i/</guid>
-      <description>&lt;h3 id=&#34;什麼是網路爬蟲呢&#34;&gt;什麼是網路爬蟲呢？&lt;/h3&gt;
-&lt;p&gt;在撰寫爬蟲之前先來建立一些基礎觀念。&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;我領養了來自彰化的咪咪&#34;&gt;我領養了來自彰化的咪咪！&lt;/h3&gt;</description>
     </item>
     
     <item>
