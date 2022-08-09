@@ -68,13 +68,13 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>Python - Function 入門的重要概念</title>
+      <title>Python - Important Concepts of Function</title>
       <link>https://anila.me/posts/python_fun-i/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/posts/python_fun-i/</guid>
-      <description>&lt;h2 id=&#34;一函式的基本認識&#34;&gt;一、函式的基本認識&lt;/h2&gt;
-&lt;p&gt;函式是程式中的&lt;strong&gt;子程式&lt;/strong&gt;或&lt;strong&gt;副程式&lt;/strong&gt;。概念有點類似於數學上的函數，它負責處理程式碼中的某項功能。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;basic-understanding-of-the-function&#34;&gt;Basic understanding of the function&lt;/h2&gt;
+&lt;p&gt;A function is a subroutine in a program. The concept is somewhat similar to a mathematical function, which is responsible for handling a function in the code.&lt;/p&gt;</description>
     </item>
     
     <item>
