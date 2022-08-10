@@ -13,10 +13,10 @@
     <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/python-function/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python - Important Concepts of Function</title>
-      <link>https://anila.me/posts/python_fun-i/</link>
+      <link>https://anila.me/posts/python-function/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_fun-i/</guid>
+      <guid>https://anila.me/posts/python-function/</guid>
       <description>&lt;h2 id=&#34;basic-understanding-of-the-function&#34;&gt;Basic understanding of the function&lt;/h2&gt;
 &lt;p&gt;A function is a subroutine in a program. The concept is somewhat similar to a mathematical function, which is responsible for handling a function in the code.&lt;/p&gt;</description>
     </item>

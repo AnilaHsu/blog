@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/firestore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firebase - Cloud Firestore in Web</title>
-      <link>https://anila.me/posts/firebase_firestore/</link>
+      <link>https://anila.me/posts/firebase-firestore/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/firebase_firestore/</guid>
+      <guid>https://anila.me/posts/firebase-firestore/</guid>
       <description>What is the Cloud Firestore Cloud Firestore Database of Google Cloud, provide to mobile, Web, and sever development. Through realtime listeners and offers offline support so we can build responsive apps without network latency or Internet connectivity.
 step1: create project and application Create a project and add application as needed then register applications.
 step2: add the Firebase SDK to our project in development. First, we install the latest version of Firebase.</description>

@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/mysql-note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL - Basic Concepts &amp; Command Operations</title>
-      <link>https://anila.me/posts/mysql_basic/</link>
+      <link>https://anila.me/posts/mysql-basic/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/mysql_basic/</guid>
+      <guid>https://anila.me/posts/mysql-basic/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;SQL is short for Structured Query Language, pronounced S.Q.L or sequel. Chinese is called Structured Query Language.&lt;/p&gt;</description>
     </item>

@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firebase - Cloud Firestore in Web</title>
-      <link>https://anila.me/posts/firebase_firestore/</link>
+      <link>https://anila.me/posts/firebase-firestore/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/firebase_firestore/</guid>
+      <guid>https://anila.me/posts/firebase-firestore/</guid>
       <description>What is the Cloud Firestore Cloud Firestore Database of Google Cloud, provide to mobile, Web, and sever development. Through realtime listeners and offers offline support so we can build responsive apps without network latency or Internet connectivity.
 step1: create project and application Create a project and add application as needed then register applications.
 step2: add the Firebase SDK to our project in development. First, we install the latest version of Firebase.</description>
@@ -24,10 +24,10 @@ step2: add the Firebase SDK to our project in development. First, we install the
     
     <item>
       <title>Pandas - A useful way to access DataFrame data</title>
-      <link>https://anila.me/posts/python_pandas-ii/</link>
+      <link>https://anila.me/posts/python-pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_pandas-ii/</guid>
+      <guid>https://anila.me/posts/python-pandas-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;This article will introduce the value method of DataFrame in Pandas, which is mainly divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -39,60 +39,60 @@ step2: add the Firebase SDK to our project in development. First, we install the
     
     <item>
       <title>Pandas - Data manipulation of Series &amp; DataFrame</title>
-      <link>https://anila.me/posts/python_pandas-i/</link>
+      <link>https://anila.me/posts/python-pandas-i/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_pandas-i/</guid>
+      <guid>https://anila.me/posts/python-pandas-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Python - Numpy Array &amp; Matrix Operations</title>
-      <link>https://anila.me/posts/python_numpy-ii/</link>
+      <link>https://anila.me/posts/python-numpy-ii/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_numpy-ii/</guid>
+      <guid>https://anila.me/posts/python-numpy-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In Numpy, array is used to represent general-purpose N-dimensional arrays, and matrix is used specifically for linear algebra calculations. Both two-dimensional array and matrix can be used to represent matrices, but there are some differences between the two when multiplication is performed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Python - How to create and use NumPy</title>
-      <link>https://anila.me/posts/python_numpy-i/</link>
+      <link>https://anila.me/posts/python-numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_numpy-i/</guid>
+      <guid>https://anila.me/posts/python-numpy-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In data science, we often need to deal with a large amount of data to process, calculate and analyze the data. In order to efficiently process various data, we often import Python packages for use to reduce Complex code during data processing.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Python - Important Concepts of Function</title>
-      <link>https://anila.me/posts/python_fun-i/</link>
+      <link>https://anila.me/posts/python-function/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python_fun-i/</guid>
+      <guid>https://anila.me/posts/python-function/</guid>
       <description>&lt;h2 id=&#34;basic-understanding-of-the-function&#34;&gt;Basic understanding of the function&lt;/h2&gt;
 &lt;p&gt;A function is a subroutine in a program. The concept is somewhat similar to a mathematical function, which is responsible for handling a function in the code.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MySQL - Basic Concepts &amp; Command Operations</title>
-      <link>https://anila.me/posts/mysql_basic/</link>
+      <link>https://anila.me/posts/mysql-basic/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/mysql_basic/</guid>
+      <guid>https://anila.me/posts/mysql-basic/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;SQL is short for Structured Query Language, pronounced S.Q.L or sequel. Chinese is called Structured Query Language.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Meow - Newbie&#39;s Cat Diary</title>
-      <link>https://anila.me/posts/cat_life-i/</link>
+      <link>https://anila.me/posts/cat-life/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/cat_life-i/</guid>
+      <guid>https://anila.me/posts/cat-life/</guid>
       <description>&lt;h3 id=&#34;我領養了來自彰化的咪咪&#34;&gt;我領養了來自彰化的咪咪！&lt;/h3&gt;</description>
     </item>
     
