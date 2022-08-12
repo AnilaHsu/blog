@@ -78,7 +78,7 @@ const db = getFirestore(app);
 In Could Firestore, our data will be stored in Documents in json format, a data corresponds to a Documents, and these Documents will be stored in a Collections.
 We can add Data through `setDoc()` or `addDoc()` method.
 
-- **`addDoc()`**：Using `addDoc()` method Firestore will automatically create an ID for each Documents.
+- **`addDoc()`**: Using `addDoc()` method Firestore will automatically create an ID for each Documents.
 
 ```
 import { collection, addDoc } from "firebase/firestore"; 
@@ -93,7 +93,7 @@ console.log("Document written with ID: ", docRef.id);
     
 
 
-- **`setDoc()`**：Using the `setDoc()` method we need to specify an ID for each Documents. `setDoc()` is more like updating the current Documents, comparing whether the  current data exists through the Document ID. if it exists, it overwrites the data of the Document. If is doesn’t exist, it adds the Document and data.
+- **`setDoc()`**: Using the `setDoc()` method we need to specify an ID for each Documents. `setDoc()` is more like updating the current Documents, comparing whether the  current data exists through the Document ID. if it exists, it overwrites the data of the Document. If is doesn’t exist, it adds the Document and data.
       
 ```
 import { doc, setDoc } from "firebase/firestore"; 
@@ -121,7 +121,7 @@ await updateDoc(washingtonRef, {
 
 We can call `getDoc()` or `onSnapshot()` to get data in Cloud Firestore, if we just want to get data once, we can call `getDoc()` to get the data, or if we want to receive data changes in  realtime, we can set a listener use `onSnapshot()`.
 
-- **`getDoc()`**：This method is for us to take the initiative to get data from Firestore, unless we call it again to get the new data, we will not know any changes to the date on the Firestore.
+- **`getDoc()`**: This method is for us to take the initiative to get data from Firestore, unless we call it again to get the new data, we will not know any changes to the date on the Firestore.
     
 **get a document**
   
@@ -165,7 +165,7 @@ querySnapshot.forEach((doc) => {
 ```
         
 
-- **`onSnapshot()`**：We can receive data changes on Firestore in realtime  through this method. When an initial call using the callback will create a document snapshot immediately with the current data of the single document.Then each time the data changes, another call updates the snapshot.
+- **`onSnapshot()`**: We can receive data changes on Firestore in realtime  through this method. When an initial call using the callback will create a document snapshot immediately with the current data of the single document.Then each time the data changes, another call updates the snapshot.
 
 **Listen to a document**
 
