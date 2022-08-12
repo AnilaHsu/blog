@@ -1,10 +1,10 @@
 ---
 title: "MySQL - Basic Concepts & Command Operations"
 description: ""
-date: 2021-06-30
+date: 2021-05-30
 draft: false
 categories: 
-- MySQL Note
+- MySQL
 tags:
 - MySQL
 cover:

@@ -1,9 +1,9 @@
 ---
-title: "My journey in Seattle Part I"
+title: "Life - My journey in Seattle Part I"
 date: 2020-12-18
 draft: false
 categories: 
-- Travel
+- Life
 tags:
 - Seattle Study Tour
 cover:

@@ -1,10 +1,11 @@
 ---
-title: "Pandas - A useful way to access DataFrame data"
+title: "Great ways to access data using Pandas' DataFrames!"
 description: ""
-date: 2021-08-18
+date: 2021-09-16
 draft: false
 categories: 
 - Data Analytics
+- Python
 tags:
 - Python Pandas
 cover:

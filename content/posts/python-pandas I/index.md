@@ -1,10 +1,11 @@
 ---
-title: "Pandas - Data manipulation of Series & DataFrame"
+title: "Data manipulation with Series & DataFrame in Pandas!"
 description: ""
 date: 2021-08-18
 draft: false
 categories: 
 - Data Analytics
+- Python
 tags:
 - Python Pandas
 cover:

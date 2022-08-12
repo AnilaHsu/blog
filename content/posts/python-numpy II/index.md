@@ -1,10 +1,11 @@
 ---
 title: "Python - Numpy Array & Matrix Operations"
 description: ""
-date: 2021-07-16
+date: 2021-07-24
 draft: false
 categories: 
 - Data Analytics
+- Python
 tags:
 - Python Numpy
 cover:

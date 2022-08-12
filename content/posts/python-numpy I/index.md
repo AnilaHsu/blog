@@ -5,6 +5,7 @@ date: 2021-07-13
 draft: false
 categories: 
 - Data Analytics
+- Python
 tags:
 - Python Numpy
 cover:
@@ -225,9 +226,9 @@ In Numpy, we can get the dimension and number of elements of the array through t
 data = np.random.randint(0, 10, (3, 4))
 print(data)
 print('\n')
-print('維度:',data.ndim)
-print('形狀:',data.shape)
-print('元素數量:',data.size)
+print('dimension:',data.ndim)
+print('shape:',data.shape)
+print('number of elements:',data.size)
 ```
 
 ```python
