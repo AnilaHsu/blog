@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>React Hook and Redux Toolkit</title>
+      <title>Create Redux Toolkit in React Hook</title>
       <link>https://anila.me/posts/react-redux/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@ This state is read-only, through pure reducer functions look at those actions an
     </item>
     
     <item>
-      <title>Firebase - Cloud Firestore in Web</title>
+      <title>Firebase - How to use Cloud Firestore in our application</title>
       <link>https://anila.me/posts/firebase-firestore/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
@@ -99,7 +99,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>Meow - Newbie&#39;s Cat Diary</title>
+      <title>Newbie&#39;s Cat Diary Meow!</title>
       <link>https://anila.me/posts/cat-life/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -108,7 +108,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>My journey in Seattle - Part I</title>
+      <title>My journey in Seattle Part I</title>
       <link>https://anila.me/posts/seattle-i/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
