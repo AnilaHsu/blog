@@ -1,5 +1,5 @@
 ---
-title: "Meow - Newbie's Cat Diary"
+title: "Newbie's Cat Diary Meow!"
 description: ""
 date: 2021-04-20
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "My journey in Seattle - Part I"
+title: "My journey in Seattle Part I"
 date: 2020-12-18
 draft: false
 categories: 

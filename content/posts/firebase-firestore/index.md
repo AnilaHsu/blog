@@ -1,5 +1,5 @@
 ---
-title: "Firebase - Cloud Firestore in Web"
+title: "Firebase - How to use Cloud Firestore in our application"
 description: ""
 date: 2022-07-20
 draft: false

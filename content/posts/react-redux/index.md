@@ -1,5 +1,5 @@
 ---
-title: "React Hook and Redux Toolkit"
+title: "Create Redux Toolkit in React Hook"
 date: 2022-08-10
 draft: false
 categories: 
