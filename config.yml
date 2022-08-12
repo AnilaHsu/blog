@@ -41,8 +41,8 @@ params:
     tocopen: false
 
     assets:
-        # disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
+        disableHLJS: false # to disable highlight.js
+        disableFingerprinting: true
         favicon: "<link / abs url>"
         favicon16x16: "<link / abs url>"
         favicon32x32: "<link / abs url>"
@@ -128,12 +128,12 @@ menu:
           name: Tags
           url: /tags/
           weight: 20
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+    highlight:
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        style: tango
