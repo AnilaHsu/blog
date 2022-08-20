@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/redux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redux - Implement lacalstorage middleware with toolkit</title>
+      <title>Redux - Implement localStorage middleware with toolkit</title>
       <link>https://anila.me/posts/redux-middleware/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
