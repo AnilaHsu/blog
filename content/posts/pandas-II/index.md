@@ -1,5 +1,5 @@
 ---
-title: "Data manipulation with Series & DataFrame in Pandas!"
+title: "Pandas - Data manipulation with Series & DataFrame"
 description: ""
 date: 2021-08-18
 draft: false

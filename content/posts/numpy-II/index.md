@@ -1,5 +1,5 @@
 ---
-title: "Python - Numpy Array & Matrix Operations"
+title: "Numpy - Array & Matrix Operations"
 description: ""
 date: 2021-07-24
 draft: false
