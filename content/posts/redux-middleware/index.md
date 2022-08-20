@@ -1,5 +1,5 @@
 ---
-title: "Redux - Implement lacalstorage middleware with toolkit"
+title: "Redux - Implement localStorage middleware with toolkit"
 description: ""
 date: 2022-08-20
 draft: false
@@ -24,9 +24,9 @@ But in practice, we may often need to deal with asynchronous behaviors, such as 
 
 So what can we do? 
 
-Using redux's middleware can help handle these asynchronous behaviors, dispatch(action)→middleware→reducer, that is, using middleware between `dispatch`'s `action` and `reducer` to extend asynchronous behavior , such as the aforementioned API requests or log records. As for middleware, we can use the official `redux-thunk` or use `redux-saga` to implement our own middleware.
+Using redux's middleware can help handle these asynchronous behaviors, dispatch(action) → middleware → reducer , that is, using middleware between `dispatch` `action` and `reducer` to extend asynchronous behavior , such as the aforementioned API requests or log records. As for middleware, we can use the official `redux-thunk` or use `redux-saga` to implement our own middleware.
 
-This article will implement a simple middleware in the redux toolkit. The redux toolkit's `configureStore()`, in addition to automatically combining `slice reducers`, also includes `thunk` by default, and automatically starts redux DevTools.
+This article will implement a simple middleware in the redux toolkit. The redux toolkit's `configureStore()`, in addition to automatically combining slice reducers, also includes `thunk` by default, and automatically starts redux DevTools.
 
 ### **Create Middleware**
 
@@ -40,7 +40,7 @@ const thinkMiddleware = (store) => (next) => (action) => {
 
 ```
 
-### localstoage
+### localStorage
 
 Suppose we have a user.js component with login and logout buttons respectively, and define our action and reducer in userSlice as follows. When we login, we will dispatch the login result to the store in the component, and then dispatch the logout result to the store when we logout.
 
@@ -64,11 +64,11 @@ export const userSlice = createSlice({
 export const { login, logout } = userSlice.actions;
 export default userSlice.reducer;
 ```
-We want the browser update to remain logged in, so we store the login result in the localstorage of the browser when logging in, and clear the localstorage on the browser when logging out, because localstoage is a side effect, We will implement Middleware below to operate.
+We want the browser update to remain logged in, so we store the login result in the `localStorage` of the browser when logging in, and clear the `localStorage` on the browser when logging out, because `localStorage` is a side effect, We will implement Middleware below to operate.
 
-### Implementing localstoage **Middleware**
+### Implementing localStorage **Middleware**
 
-In addition to subscribing to callbacks in the store, we can also perform this operation in middleware, or even use other permanent repositories, in this example we will implement a middleware. Using the action creator function of the redux toolkit contains a useful function `match()`, we can use `match()` without looking at the type of the function, if `login.match(action)` is true, it will Execute the result of the login in our `localstorage`, and if `logout.match(action)` is true, the `localstorage` will be cleared.
+In addition to subscribing to callbacks in the store, we can also perform this operation in middleware, or even use other permanent repositories, in this example we will implement a middleware. Using the action creator function of the redux toolkit contains a useful function `match()`, we can use `match()` without looking at the type of the function, if `login.match(action)` is true, it will Execute the result of the login in our `localStorage`, and if `logout.match(action)` is true, the `localStorage` will be cleared.
 
 ```jsx
 import { login, logout } from './features/user';
