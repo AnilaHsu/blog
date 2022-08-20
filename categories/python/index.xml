@@ -12,11 +12,11 @@
     <language>zh-TW</language>
     <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Great ways to access data using Pandas&#39; DataFrames!</title>
-      <link>https://anila.me/posts/python-pandas-ii/</link>
+      <title>Pandas - Great ways to access data using DataFrame</title>
+      <link>https://anila.me/posts/pandas-i/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python-pandas-ii/</guid>
+      <guid>https://anila.me/posts/pandas-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;This article will introduce the value method of DataFrame in Pandas, which is mainly divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -27,31 +27,31 @@
     </item>
     
     <item>
-      <title>Data manipulation with Series &amp; DataFrame in Pandas!</title>
-      <link>https://anila.me/posts/python-pandas-i/</link>
+      <title>Pandas - Data manipulation with Series &amp; DataFrame</title>
+      <link>https://anila.me/posts/pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python-pandas-i/</guid>
+      <guid>https://anila.me/posts/pandas-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Python - Numpy Array &amp; Matrix Operations</title>
-      <link>https://anila.me/posts/python-numpy-ii/</link>
+      <title>Numpy - Array &amp; Matrix Operations</title>
+      <link>https://anila.me/posts/numpy-ii/</link>
       <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python-numpy-ii/</guid>
+      <guid>https://anila.me/posts/numpy-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In Numpy, array is used to represent general-purpose N-dimensional arrays, and matrix is used specifically for linear algebra calculations. Both two-dimensional array and matrix can be used to represent matrices, but there are some differences between the two when multiplication is performed.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Python - How to create and use NumPy</title>
-      <link>https://anila.me/posts/python-numpy-i/</link>
+      <title>NumPy - How to create and use NumPy</title>
+      <link>https://anila.me/posts/numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python-numpy-i/</guid>
+      <guid>https://anila.me/posts/numpy-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In data science, we often need to deal with a large amount of data to process, calculate and analyze the data. In order to efficiently process various data, we often import Python packages for use to reduce Complex code during data processing.&lt;/p&gt;</description>
     </item>

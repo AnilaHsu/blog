@@ -17,19 +17,19 @@
     <loc>https://anila.me/tags/redux/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/localstorage-middleware/</loc>
+    <loc>https://anila.me/posts/redux-middleware/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/react-redux/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://anila.me/tags/react/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/categories/react/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/posts/react-redux/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/categories/firebase/</loc>
@@ -44,7 +44,7 @@
     <loc>https://anila.me/categories/data-analytics/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/python-pandas-ii/</loc>
+    <loc>https://anila.me/posts/pandas-i/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/categories/python/</loc>
@@ -53,16 +53,16 @@
     <loc>https://anila.me/tags/python-pandas/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/python-pandas-i/</loc>
+    <loc>https://anila.me/posts/pandas-ii/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/python-numpy-ii/</loc>
+    <loc>https://anila.me/posts/numpy-ii/</loc>
     <lastmod>2021-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/python-numpy/</loc>
     <lastmod>2021-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/python-numpy-i/</loc>
+    <loc>https://anila.me/posts/numpy-i/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/python-function/</loc>
