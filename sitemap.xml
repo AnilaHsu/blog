@@ -3,27 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://anila.me/categories/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/posts/react-redux/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+    <loc>https://anila.me/categories/life/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/redux/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/posts/localstorage-middleware/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/posts/react-redux/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/react/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/categories/react/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/redux/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/categories/firebase/</loc>
@@ -75,9 +81,6 @@
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/cat/</loc>
-    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/categories/life/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/cat-life/</loc>

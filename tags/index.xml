@@ -10,22 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>redux</title>
+      <link>https://anila.me/tags/redux/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/tags/redux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>React</title>
       <link>https://anila.me/tags/react/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redux</title>
-      <link>https://anila.me/tags/redux/</link>
-      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/tags/redux/</guid>
       <description></description>
     </item>
     
