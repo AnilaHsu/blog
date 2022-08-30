@@ -58,7 +58,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: Anila Blog
-        subtitle: "Hi. Glad to meet you! :)"
+        subtitle: "Hi. Glad to meet you!"
         imageUrl: "profile.png"
         # imageWidth: 120
         # imageHeight: 120
