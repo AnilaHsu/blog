@@ -1,5 +1,5 @@
 ---
-title: "Redux - Implement localStorage middleware with toolkit"
+title: "Redux - Write localStorage using middleware"
 description: ""
 date: 2022-08-20
 draft: false
@@ -18,15 +18,16 @@ Basically, we manage global state through `store`, `action`, `reducer` in redux.
 
  <!--more-->
 
-But in practice, we may often need to deal with asynchronous behaviors, such as API requests, accessing data stored locally in the browser, etc. We hope that these behaviors or data can also be handed over to redux for unified management, rather than writing in hadling event or In `useEffect`, we make our components as simple as possible to improve the testability of the program.
+But in practice, we may often need to handle asynchronous behavior, such as API requests, handling browser localStorage data, logging, etc. We hope that these behaviors or data can also be unified and managed by redux, rather than written in the Handling event or `useEffect` of react, so that our react can be as simple and state more transparent and clear as possible.
 
 ### Middleware
 
 So what can we do? 
 
-Using redux's middleware can help handle these asynchronous behaviors, dispatch(action) → middleware → reducer , that is, using middleware between `dispatch` `action` and `reducer` to extend asynchronous behavior , such as the aforementioned API requests or log records. As for middleware, we can use the official `redux-thunk` or use `redux-saga` to implement our own middleware.
+We can use middleware between the `action` and `reducer` of the `dispatch` to extend the content we want to execute. In addition to using the official `redux-thunk` or using third-party `redux-saga` or a middleware written by someone else, we can also implement our own middleware.
 
-This article will implement a simple middleware in the redux toolkit. The redux toolkit's `configureStore()`, in addition to automatically combining slice reducers, also includes `thunk` by default, and automatically starts redux DevTools.
+This article will implement a simple middleware in the redux toolkit to write localStorage. In the `configureStore()` of the redux toolkit, besides automatically combining slice reducers, it also includes `thunk` by default and automatically starts the redux DevTools.
+
 
 ### **Create Middleware**
 
@@ -97,4 +98,4 @@ const store = configureStore({
 });
 ```
 
-This completes the preparation of a simple middleware.
+This completes the preparation of a simple middleware!
