@@ -10,7 +10,43 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>google login</title>
+      <link>https://anila.me/tags/google-login/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/tags/google-login/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://anila.me/tags/react/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redux</title>
+      <link>https://anila.me/tags/redux/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/tags/redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thunk</title>
+      <link>https://anila.me/tags/thunk/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/tags/thunk/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>localStorage</title>
       <link>https://anila.me/tags/localstorage/</link>
@@ -26,24 +62,6 @@
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://anila.me/tags/middleware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://anila.me/tags/react/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redux</title>
-      <link>https://anila.me/tags/redux/</link>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://anila.me/tags/redux/</guid>
       <description></description>
     </item>
     
