@@ -5,7 +5,10 @@
     <loc>https://anila.me/categories/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/google-login/</loc>
+    <loc>https://anila.me/categories/firebase/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/firebase-authentication/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/</loc>
@@ -14,22 +17,25 @@
     <loc>https://anila.me/posts/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/react/</loc>
+    <loc>https://anila.me/categories/react/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/redux/</loc>
-    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/categories/redux/</loc>
+    <loc>https://anila.me/tags/react-redux/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/redux-thunk/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/</loc>
+    <loc>https://anila.me/tags/redux-middleware/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/thunk/</loc>
+    <loc>https://anila.me/tags/redux-thunk/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/redux-toolkit/</loc>
+    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/tags/localstorage/</loc>
@@ -38,7 +44,10 @@
     <loc>https://anila.me/tags/middleware/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/categories/react/</loc>
+    <loc>https://anila.me/tags/react/</loc>
+    <lastmod>2022-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/redux/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/redux-middleware/</loc>
@@ -46,15 +55,6 @@
   </url><url>
     <loc>https://anila.me/posts/react-redux/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/react-redux/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/tags/redux-toolkit/</loc>
-    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://anila.me/categories/firebase/</loc>
-    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/firebase-firestore/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>

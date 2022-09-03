@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/react-redux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/react-redux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redux - thunk handles Google Authentication async logic</title>
+      <link>https://anila.me/posts/redux-thunk/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/redux-thunk/</guid>
+      <description>&lt;p&gt;In Redux we often use middleware to handle asynchronous behavior, so that we can add different asynchronous logic to the store, and gradually we have developed various kinds of middleware.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>React - Create Redux Toolkit in React Hook</title>
       <link>https://anila.me/posts/react-redux/</link>
