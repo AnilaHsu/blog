@@ -4,9 +4,12 @@ description: ""
 date: 2022-08-20
 draft: false
 categories: 
-- Life
+- react
 tags:
+- react
 - redux
+- middleware
+- localStorage
 cover:
     image: "cover.jpg"
     relative: true
