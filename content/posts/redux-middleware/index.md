@@ -34,10 +34,21 @@ This article will implement a simple middleware in the redux toolkit to write lo
 We first need to initialize middleware. Our middleware is called when each `action` is `dispatch`, that is to say, each `action` will go through the middleware. If it matches the function type, it will execute what we want to execute, otherwise it will do nothing. But in either case, `action` will be passed to the next middleware in the chain through `return next(action)`, and if there is no next middleware, it will be handed over to `reducer` for processing.
 
 ```
-const thinkMiddleware = (store) => (next) => (action) => {
-//
-   return next(action);
+# Simplified Writing
+const Middleware = (store) => (next) => (action) => {
+  //..
+  return next(action);
 }
+
+
+// Complete Writing
+const Middleware = function(store) {
+  return function(next) {
+    return function(action) {
+    //..
+    };
+  };
+};
 
 ```
 
