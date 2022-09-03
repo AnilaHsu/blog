@@ -17,10 +17,10 @@
     <loc>https://anila.me/tags/react/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/categories/redux/</loc>
+    <loc>https://anila.me/tags/redux/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anila.me/tags/redux/</loc>
+    <loc>https://anila.me/categories/redux/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/redux-thunk/</loc>
@@ -45,6 +45,12 @@
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/posts/react-redux/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/react-redux/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://anila.me/tags/redux-toolkit/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anila.me/categories/firebase/</loc>
