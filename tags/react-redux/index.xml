@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Redux - Write localStorage using middleware</title>
+      <link>https://anila.me/posts/redux-middleware/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anila.me/posts/redux-middleware/</guid>
+      <description>&lt;p&gt;Basically, we manage global state through &lt;code&gt;store&lt;/code&gt;, &lt;code&gt;action&lt;/code&gt;, &lt;code&gt;reducer&lt;/code&gt; in redux. We can define our &lt;code&gt;action&lt;/code&gt; and &lt;code&gt;reducer&lt;/code&gt; first, &lt;code&gt;dispatch&lt;/code&gt; &lt;code&gt;action&lt;/code&gt; through synchronous operations, and then processed by the &lt;code&gt;reducer&lt;/code&gt; to update the &lt;code&gt;store&lt;/code&gt; so that components can access the &lt;code&gt;state&lt;/code&gt; from the &lt;code&gt;store&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>React - Create Redux Toolkit in React Hook</title>
       <link>https://anila.me/posts/react-redux/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
