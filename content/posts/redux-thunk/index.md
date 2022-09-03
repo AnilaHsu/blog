@@ -1,15 +1,17 @@
 ---
-title: "Redux - Using thank to handle Google login async logic"
+title: "Redux - thunk handles Google Authentication async logic"
 description: ""
 date: 2022-09-02
 draft: false
 categories: 
-- redux
+- React
+- Firebase
 tags:
-- react
-- redux
-- thunk
-- google login
+- React Redux
+- Redux Toolkit
+- Redux Thunk
+- Redux Middleware
+- Firebase Authentication
 cover:
     image: "cover.jpg"
     relative: true
