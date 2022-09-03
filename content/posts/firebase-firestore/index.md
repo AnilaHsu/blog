@@ -6,7 +6,7 @@ draft: false
 categories: 
 - Firebase
 tags:
-- Firestore
+- Firebase Firestore
 cover:
     image: "cover.jpg"
     relative: true
