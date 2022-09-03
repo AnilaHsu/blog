@@ -4,11 +4,11 @@ description: ""
 date: 2022-08-20
 draft: false
 categories: 
-- react
+- React
 tags:
-- react
-- redux
-- middleware
+- React Redux
+- Redux Toolkit
+- Redux Middleware
 - localStorage
 cover:
     image: "cover.jpg"
