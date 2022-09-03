@@ -5,8 +5,8 @@ draft: false
 categories: 
 - React
 tags:
-- React
-- Redux
+- React Redux
+- Redux Toolkit
 cover:
     image: "cover.jpg"
     relative: true
