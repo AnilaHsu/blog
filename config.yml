@@ -75,16 +75,17 @@ params:
         Content: Welcome to my blog
 
     socialIcons:
+        - name: email
+          url: "simple01281017@gmail.com"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/AnilaHsu"          
         - name: github
           url: "https://github.com/AnilaHsu"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/AnilaHsu"
         - name: twitter
           url: "https://twitter.com/AnilaHsu"
-        - name: facebook
-          url: "https://www.facebook.com/AnilaxHsu/"
         - name: Instagram
           url: "https://www.instagram.com/anila_hsu/"
+
 
     analytics:
         google:
