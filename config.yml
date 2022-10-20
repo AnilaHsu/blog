@@ -1,6 +1,6 @@
 baseURL: 'https://anila.me/'
 languageCode: zh-TW
-title: My New Hugo Site
+title: Anila Blog
 paginate: 5
 theme: PaperMod
 
