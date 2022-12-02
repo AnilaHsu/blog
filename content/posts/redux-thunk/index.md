@@ -22,7 +22,7 @@ In Redux we often use middleware to handle asynchronous behavior, so that we can
  <!--more-->
 In redux, we often use middleware to handle asynchronous behavior, so that we can add different asynchronous logic to the store. Gradually, various kinds of middleware have been developed, among which `redux-thunk` is officially recommended to help us handle AJAX requirements well.
 
-### Firebase setup
+### Login Firebase
 
 First, login to the Firebase site and add the google login service, add our Firebase configuration and `GoogleAuthProvider` and `getAuth` to the project, and we can add a `firebase.js` to store the Firebase information separately.
 
@@ -125,7 +125,7 @@ import { useDispatch } from "react-redux";
 export function Lonin(){
 const dispatch = useDispatch();
 return(
-		<div>
+    <div>
       <button
         onClick={() => {
           dispatch(userLogin());
