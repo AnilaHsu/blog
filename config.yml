@@ -43,11 +43,11 @@ params:
     assets:
         disableHLJS: false # to disable highlight.js
         disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "favicon.png"
+        favicon16x16: "favicon.png"
+        favicon32x32: "favicon.png"
+        apple_touch_icon: "favicon.png"
+        safari_pinned_tab: "favicon.png"
 
     label:
         text: "Home"
@@ -59,7 +59,7 @@ params:
         enabled: true # needs to be explicitly set
         title: Anila Blog
         subtitle: "Hi. Glad to meet you!"
-        imageUrl: "profile.png"
+        imageUrl: "profile.jpg"
         # imageWidth: 120
         # imageHeight: 120
         # imageTitle: my image
