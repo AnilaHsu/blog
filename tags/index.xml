@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Anila Blog</title>
-    <link>https://anilahsu.github.io/Blog/tags/</link>
+    <link>https://anilahsu.github.io/blog/tags/</link>
     <description>Recent content in Tags on Anila Blog</description>
     <image>
-      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firebase Authentication</title>
-      <link>https://anilahsu.github.io/Blog/tags/firebase-authentication/</link>
+      <link>https://anilahsu.github.io/blog/tags/firebase-authentication/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/firebase-authentication/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/firebase-authentication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React Redux</title>
-      <link>https://anilahsu.github.io/Blog/tags/react-redux/</link>
+      <link>https://anilahsu.github.io/blog/tags/react-redux/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/react-redux/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/react-redux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redux Middleware</title>
-      <link>https://anilahsu.github.io/Blog/tags/redux-middleware/</link>
+      <link>https://anilahsu.github.io/blog/tags/redux-middleware/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/redux-middleware/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/redux-middleware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redux Thunk</title>
-      <link>https://anilahsu.github.io/Blog/tags/redux-thunk/</link>
+      <link>https://anilahsu.github.io/blog/tags/redux-thunk/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/redux-thunk/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/redux-thunk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redux Toolkit</title>
-      <link>https://anilahsu.github.io/Blog/tags/redux-toolkit/</link>
+      <link>https://anilahsu.github.io/blog/tags/redux-toolkit/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/redux-toolkit/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/redux-toolkit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>localStorage</title>
-      <link>https://anilahsu.github.io/Blog/tags/localstorage/</link>
+      <link>https://anilahsu.github.io/blog/tags/localstorage/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/localstorage/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/localstorage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase Firestore</title>
-      <link>https://anilahsu.github.io/Blog/tags/firebase-firestore/</link>
+      <link>https://anilahsu.github.io/blog/tags/firebase-firestore/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/firebase-firestore/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/firebase-firestore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python Pandas</title>
-      <link>https://anilahsu.github.io/Blog/tags/python-pandas/</link>
+      <link>https://anilahsu.github.io/blog/tags/python-pandas/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/python-pandas/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/python-pandas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python Numpy</title>
-      <link>https://anilahsu.github.io/Blog/tags/python-numpy/</link>
+      <link>https://anilahsu.github.io/blog/tags/python-numpy/</link>
       <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/python-numpy/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/python-numpy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python Function</title>
-      <link>https://anilahsu.github.io/Blog/tags/python-function/</link>
+      <link>https://anilahsu.github.io/blog/tags/python-function/</link>
       <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/python-function/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/python-function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>https://anilahsu.github.io/Blog/tags/mysql/</link>
+      <link>https://anilahsu.github.io/blog/tags/mysql/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/mysql/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cat</title>
-      <link>https://anilahsu.github.io/Blog/tags/cat/</link>
+      <link>https://anilahsu.github.io/blog/tags/cat/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/cat/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/cat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seattle Study Tour</title>
-      <link>https://anilahsu.github.io/Blog/tags/seattle-study-tour/</link>
+      <link>https://anilahsu.github.io/blog/tags/seattle-study-tour/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/tags/seattle-study-tour/</guid>
+      <guid>https://anilahsu.github.io/blog/tags/seattle-study-tour/</guid>
       <description></description>
     </item>
     

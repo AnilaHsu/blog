@@ -2,109 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://anilahsu.github.io/Blog/</loc>
+    <loc>https://anilahsu.github.io/blog/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/categories/</loc>
+    <loc>https://anilahsu.github.io/blog/categories/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/categories/firebase/</loc>
+    <loc>https://anilahsu.github.io/blog/categories/firebase/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/firebase-authentication/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/firebase-authentication/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/categories/react/</loc>
+    <loc>https://anilahsu.github.io/blog/categories/react/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/react-redux/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/react-redux/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/redux-thunk/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/redux-thunk/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/redux-middleware/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/redux-middleware/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/redux-thunk/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/redux-thunk/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/redux-toolkit/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/redux-toolkit/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/localstorage/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/localstorage/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/redux-middleware/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/redux-middleware/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/react-redux/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/react-redux/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/firebase-firestore/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/firebase-firestore/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/firebase-firestore/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/firebase-firestore/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/categories/data-analytics/</loc>
+    <loc>https://anilahsu.github.io/blog/categories/data-analytics/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/pandas-i/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/pandas-i/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/categories/python/</loc>
+    <loc>https://anilahsu.github.io/blog/categories/python/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/python-pandas/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/python-pandas/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/pandas-ii/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/pandas-ii/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/numpy-ii/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/numpy-ii/</loc>
     <lastmod>2021-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/python-numpy/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/python-numpy/</loc>
     <lastmod>2021-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/numpy-i/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/numpy-i/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/python-function/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/python-function/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/python-function/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/python-function/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/mysql/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/mysql/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/categories/mysql/</loc>
+    <loc>https://anilahsu.github.io/blog/categories/mysql/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/mysql-basic/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/mysql-basic/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/cat/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/cat/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/categories/life/</loc>
+    <loc>https://anilahsu.github.io/blog/categories/life/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/life-cat/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/life-cat/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/posts/life-seattle/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/life-seattle/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/Blog/tags/seattle-study-tour/</loc>
+    <loc>https://anilahsu.github.io/blog/tags/seattle-study-tour/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
 </urlset>

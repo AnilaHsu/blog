@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MySQL on Anila Blog</title>
-    <link>https://anilahsu.github.io/Blog/categories/mysql/</link>
+    <link>https://anilahsu.github.io/blog/categories/mysql/</link>
     <description>Recent content in MySQL on Anila Blog</description>
     <image>
-      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL - Basic Concepts &amp; Command Operations</title>
-      <link>https://anilahsu.github.io/Blog/posts/mysql-basic/</link>
+      <link>https://anilahsu.github.io/blog/posts/mysql-basic/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/mysql-basic/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/mysql-basic/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;SQL is short for Structured Query Language, pronounced S.Q.L or sequel. Chinese is called Structured Query Language.&lt;/p&gt;</description>
     </item>

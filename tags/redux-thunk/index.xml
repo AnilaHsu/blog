@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Redux Thunk on Anila Blog</title>
-    <link>https://anilahsu.github.io/Blog/tags/redux-thunk/</link>
+    <link>https://anilahsu.github.io/blog/tags/redux-thunk/</link>
     <description>Recent content in Redux Thunk on Anila Blog</description>
     <image>
-      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/tags/redux-thunk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/tags/redux-thunk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redux - thunk handles Google Authentication async logic</title>
-      <link>https://anilahsu.github.io/Blog/posts/redux-thunk/</link>
+      <link>https://anilahsu.github.io/blog/posts/redux-thunk/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/redux-thunk/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/redux-thunk/</guid>
       <description>&lt;p&gt;In Redux we often use middleware to handle asynchronous behavior, so that we can add different asynchronous logic to the store, and gradually we have developed various kinds of middleware.&lt;/p&gt;</description>
     </item>
     

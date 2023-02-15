@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python Numpy on Anila Blog</title>
-    <link>https://anilahsu.github.io/Blog/tags/python-numpy/</link>
+    <link>https://anilahsu.github.io/blog/tags/python-numpy/</link>
     <description>Recent content in Python Numpy on Anila Blog</description>
     <image>
-      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 24 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/tags/python-numpy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/tags/python-numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Numpy - Array &amp; Matrix Operations</title>
-      <link>https://anilahsu.github.io/Blog/posts/numpy-ii/</link>
+      <link>https://anilahsu.github.io/blog/posts/numpy-ii/</link>
       <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/numpy-ii/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/numpy-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In Numpy, array is used to represent general-purpose N-dimensional arrays, and matrix is used specifically for linear algebra calculations. Both two-dimensional array and matrix can be used to represent matrices, but there are some differences between the two when multiplication is performed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>NumPy - How to create and use NumPy</title>
-      <link>https://anilahsu.github.io/Blog/posts/numpy-i/</link>
+      <link>https://anilahsu.github.io/blog/posts/numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/numpy-i/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/numpy-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In data science, we often need to deal with a large amount of data to process, calculate and analyze the data. In order to efficiently process various data, we often import Python packages for use to reduce Complex code during data processing.&lt;/p&gt;</description>
     </item>

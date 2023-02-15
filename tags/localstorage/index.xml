@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>localStorage on Anila Blog</title>
-    <link>https://anilahsu.github.io/Blog/tags/localstorage/</link>
+    <link>https://anilahsu.github.io/blog/tags/localstorage/</link>
     <description>Recent content in localStorage on Anila Blog</description>
     <image>
-      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/tags/localstorage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/tags/localstorage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redux - Write localStorage using middleware</title>
-      <link>https://anilahsu.github.io/Blog/posts/redux-middleware/</link>
+      <link>https://anilahsu.github.io/blog/posts/redux-middleware/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/redux-middleware/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/redux-middleware/</guid>
       <description>&lt;p&gt;Basically, we manage global state through &lt;code&gt;store&lt;/code&gt;, &lt;code&gt;action&lt;/code&gt;, &lt;code&gt;reducer&lt;/code&gt; in redux. We can define our &lt;code&gt;action&lt;/code&gt; and &lt;code&gt;reducer&lt;/code&gt; first, &lt;code&gt;dispatch&lt;/code&gt; &lt;code&gt;action&lt;/code&gt; through synchronous operations, and then processed by the &lt;code&gt;reducer&lt;/code&gt; to update the &lt;code&gt;store&lt;/code&gt; so that components can access the &lt;code&gt;state&lt;/code&gt; from the &lt;code&gt;store&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     

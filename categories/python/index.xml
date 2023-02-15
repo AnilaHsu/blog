@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on Anila Blog</title>
-    <link>https://anilahsu.github.io/Blog/categories/python/</link>
+    <link>https://anilahsu.github.io/blog/categories/python/</link>
     <description>Recent content in Python on Anila Blog</description>
     <image>
-      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pandas - Great ways to access data using DataFrame</title>
-      <link>https://anilahsu.github.io/Blog/posts/pandas-i/</link>
+      <link>https://anilahsu.github.io/blog/posts/pandas-i/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/pandas-i/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/pandas-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;This article will introduce the value method of DataFrame in Pandas, which is mainly divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -28,40 +28,40 @@
     
     <item>
       <title>Pandas - Data manipulation with Series &amp; DataFrame</title>
-      <link>https://anilahsu.github.io/Blog/posts/pandas-ii/</link>
+      <link>https://anilahsu.github.io/blog/posts/pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/pandas-ii/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/pandas-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Numpy - Array &amp; Matrix Operations</title>
-      <link>https://anilahsu.github.io/Blog/posts/numpy-ii/</link>
+      <link>https://anilahsu.github.io/blog/posts/numpy-ii/</link>
       <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/numpy-ii/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/numpy-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In Numpy, array is used to represent general-purpose N-dimensional arrays, and matrix is used specifically for linear algebra calculations. Both two-dimensional array and matrix can be used to represent matrices, but there are some differences between the two when multiplication is performed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>NumPy - How to create and use NumPy</title>
-      <link>https://anilahsu.github.io/Blog/posts/numpy-i/</link>
+      <link>https://anilahsu.github.io/blog/posts/numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/numpy-i/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/numpy-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In data science, we often need to deal with a large amount of data to process, calculate and analyze the data. In order to efficiently process various data, we often import Python packages for use to reduce Complex code during data processing.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Python - Important Concepts of Function</title>
-      <link>https://anilahsu.github.io/Blog/posts/python-function/</link>
+      <link>https://anilahsu.github.io/blog/posts/python-function/</link>
       <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/Blog/posts/python-function/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/python-function/</guid>
       <description>&lt;h2 id=&#34;basic-understanding-of-the-function&#34;&gt;Basic understanding of the function&lt;/h2&gt;
 &lt;p&gt;A function is a subroutine in a program. The concept is somewhat similar to a mathematical function, which is responsible for handling a function in the code.&lt;/p&gt;</description>
     </item>
