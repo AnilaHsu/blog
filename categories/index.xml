@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Anila Blog</title>
-    <link>https://anila.me/categories/</link>
+    <link>https://anilahsu.github.io/Blog/categories/</link>
     <description>Recent content in Categories on Anila Blog</description>
     <image>
-      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firebase</title>
-      <link>https://anila.me/categories/firebase/</link>
+      <link>https://anilahsu.github.io/Blog/categories/firebase/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/firebase/</guid>
+      <guid>https://anilahsu.github.io/Blog/categories/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>https://anila.me/categories/react/</link>
+      <link>https://anilahsu.github.io/Blog/categories/react/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/react/</guid>
+      <guid>https://anilahsu.github.io/Blog/categories/react/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Analytics</title>
-      <link>https://anila.me/categories/data-analytics/</link>
+      <link>https://anilahsu.github.io/Blog/categories/data-analytics/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/data-analytics/</guid>
+      <guid>https://anilahsu.github.io/Blog/categories/data-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://anila.me/categories/python/</link>
+      <link>https://anilahsu.github.io/Blog/categories/python/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/python/</guid>
+      <guid>https://anilahsu.github.io/Blog/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>https://anila.me/categories/mysql/</link>
+      <link>https://anilahsu.github.io/Blog/categories/mysql/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/mysql/</guid>
+      <guid>https://anilahsu.github.io/Blog/categories/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>https://anila.me/categories/life/</link>
+      <link>https://anilahsu.github.io/Blog/categories/life/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/categories/life/</guid>
+      <guid>https://anilahsu.github.io/Blog/categories/life/</guid>
       <description></description>
     </item>
     

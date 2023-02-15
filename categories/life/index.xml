@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Life on Anila Blog</title>
-    <link>https://anila.me/categories/life/</link>
+    <link>https://anilahsu.github.io/Blog/categories/life/</link>
     <description>Recent content in Life on Anila Blog</description>
     <image>
-      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Life - Newbie&#39;s Cat Diary</title>
-      <link>https://anila.me/posts/life-cat/</link>
+      <link>https://anilahsu.github.io/Blog/posts/life-cat/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/life-cat/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/life-cat/</guid>
       <description>&lt;h3 id=&#34;我領養了來自彰化的咪咪&#34;&gt;我領養了來自彰化的咪咪！&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Life - My journey in Seattle Part I</title>
-      <link>https://anila.me/posts/life-seattle/</link>
+      <link>https://anilahsu.github.io/Blog/posts/life-seattle/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/life-seattle/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/life-seattle/</guid>
       <description>&lt;h1 id=&#34;20180803&#34;&gt;&lt;strong&gt;2018.08.03&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;The two-week study tour and I have been looking forward to it for two years！&lt;/p&gt;</description>
     </item>

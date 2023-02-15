@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>React Redux on Anila Blog</title>
-    <link>https://anila.me/tags/react-redux/</link>
+    <link>https://anilahsu.github.io/Blog/tags/react-redux/</link>
     <description>Recent content in React Redux on Anila Blog</description>
     <image>
-      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/react-redux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/tags/react-redux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redux - thunk handles Google Authentication async logic</title>
-      <link>https://anila.me/posts/redux-thunk/</link>
+      <link>https://anilahsu.github.io/Blog/posts/redux-thunk/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/redux-thunk/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/redux-thunk/</guid>
       <description>&lt;p&gt;In Redux we often use middleware to handle asynchronous behavior, so that we can add different asynchronous logic to the store, and gradually we have developed various kinds of middleware.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Redux - Write localStorage using middleware</title>
-      <link>https://anila.me/posts/redux-middleware/</link>
+      <link>https://anilahsu.github.io/Blog/posts/redux-middleware/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/redux-middleware/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/redux-middleware/</guid>
       <description>&lt;p&gt;Basically, we manage global state through &lt;code&gt;store&lt;/code&gt;, &lt;code&gt;action&lt;/code&gt;, &lt;code&gt;reducer&lt;/code&gt; in redux. We can define our &lt;code&gt;action&lt;/code&gt; and &lt;code&gt;reducer&lt;/code&gt; first, &lt;code&gt;dispatch&lt;/code&gt; &lt;code&gt;action&lt;/code&gt; through synchronous operations, and then processed by the &lt;code&gt;reducer&lt;/code&gt; to update the &lt;code&gt;store&lt;/code&gt; so that components can access the &lt;code&gt;state&lt;/code&gt; from the &lt;code&gt;store&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>React - Create Redux Toolkit in React Hook</title>
-      <link>https://anila.me/posts/react-redux/</link>
+      <link>https://anilahsu.github.io/Blog/posts/react-redux/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/react-redux/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/react-redux/</guid>
       <description>What is Redux? Redux has several important concepts: store, action, and reducer.
 Redux is used to manage the state of JavaScript apps. It is used to manage the state uniformly, containing the &amp;ldquo;global&amp;rdquo; state in a single store, and the state of the entire application will be stored in the store in the form of an object tree.
 This state is read-only, through pure reducer functions look at those actions and return an immutably updated state, the only way to change the state is to change the state in the store through dispatch actions.</description>

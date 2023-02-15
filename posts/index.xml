@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Anila Blog</title>
-    <link>https://anila.me/posts/</link>
+    <link>https://anilahsu.github.io/Blog/posts/</link>
     <description>Recent content in Posts on Anila Blog</description>
     <image>
-      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redux - thunk handles Google Authentication async logic</title>
-      <link>https://anila.me/posts/redux-thunk/</link>
+      <link>https://anilahsu.github.io/Blog/posts/redux-thunk/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/redux-thunk/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/redux-thunk/</guid>
       <description>&lt;p&gt;In Redux we often use middleware to handle asynchronous behavior, so that we can add different asynchronous logic to the store, and gradually we have developed various kinds of middleware.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Redux - Write localStorage using middleware</title>
-      <link>https://anila.me/posts/redux-middleware/</link>
+      <link>https://anilahsu.github.io/Blog/posts/redux-middleware/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/redux-middleware/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/redux-middleware/</guid>
       <description>&lt;p&gt;Basically, we manage global state through &lt;code&gt;store&lt;/code&gt;, &lt;code&gt;action&lt;/code&gt;, &lt;code&gt;reducer&lt;/code&gt; in redux. We can define our &lt;code&gt;action&lt;/code&gt; and &lt;code&gt;reducer&lt;/code&gt; first, &lt;code&gt;dispatch&lt;/code&gt; &lt;code&gt;action&lt;/code&gt; through synchronous operations, and then processed by the &lt;code&gt;reducer&lt;/code&gt; to update the &lt;code&gt;store&lt;/code&gt; so that components can access the &lt;code&gt;state&lt;/code&gt; from the &lt;code&gt;store&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>React - Create Redux Toolkit in React Hook</title>
-      <link>https://anila.me/posts/react-redux/</link>
+      <link>https://anilahsu.github.io/Blog/posts/react-redux/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/react-redux/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/react-redux/</guid>
       <description>What is Redux? Redux has several important concepts: store, action, and reducer.
 Redux is used to manage the state of JavaScript apps. It is used to manage the state uniformly, containing the &amp;ldquo;global&amp;rdquo; state in a single store, and the state of the entire application will be stored in the store in the form of an object tree.
 This state is read-only, through pure reducer functions look at those actions and return an immutably updated state, the only way to change the state is to change the state in the store through dispatch actions.</description>
@@ -42,10 +42,10 @@ This state is read-only, through pure reducer functions look at those actions an
     
     <item>
       <title>Firebase - How to use Cloud Firestore in our application</title>
-      <link>https://anila.me/posts/firebase-firestore/</link>
+      <link>https://anilahsu.github.io/Blog/posts/firebase-firestore/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/firebase-firestore/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/firebase-firestore/</guid>
       <description>What is the Cloud Firestore Cloud Firestore Database of Google Cloud, provide to mobile, Web, and sever development. Through realtime listeners and offers offline support so we can build responsive apps without network latency or Internet connectivity.
 step1: create project and application Create a project and add application as needed then register applications.
 step2: add the Firebase SDK to our project in development. First, we install the latest version of Firebase.</description>
@@ -53,10 +53,10 @@ step2: add the Firebase SDK to our project in development. First, we install the
     
     <item>
       <title>Pandas - Great ways to access data using DataFrame</title>
-      <link>https://anila.me/posts/pandas-i/</link>
+      <link>https://anilahsu.github.io/Blog/posts/pandas-i/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/pandas-i/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/pandas-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;This article will introduce the value method of DataFrame in Pandas, which is mainly divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -68,69 +68,69 @@ step2: add the Firebase SDK to our project in development. First, we install the
     
     <item>
       <title>Pandas - Data manipulation with Series &amp; DataFrame</title>
-      <link>https://anila.me/posts/pandas-ii/</link>
+      <link>https://anilahsu.github.io/Blog/posts/pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/pandas-ii/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/pandas-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Numpy - Array &amp; Matrix Operations</title>
-      <link>https://anila.me/posts/numpy-ii/</link>
+      <link>https://anilahsu.github.io/Blog/posts/numpy-ii/</link>
       <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/numpy-ii/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/numpy-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In Numpy, array is used to represent general-purpose N-dimensional arrays, and matrix is used specifically for linear algebra calculations. Both two-dimensional array and matrix can be used to represent matrices, but there are some differences between the two when multiplication is performed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>NumPy - How to create and use NumPy</title>
-      <link>https://anila.me/posts/numpy-i/</link>
+      <link>https://anilahsu.github.io/Blog/posts/numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/numpy-i/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/numpy-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;In data science, we often need to deal with a large amount of data to process, calculate and analyze the data. In order to efficiently process various data, we often import Python packages for use to reduce Complex code during data processing.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Python - Important Concepts of Function</title>
-      <link>https://anila.me/posts/python-function/</link>
+      <link>https://anilahsu.github.io/Blog/posts/python-function/</link>
       <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/python-function/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/python-function/</guid>
       <description>&lt;h2 id=&#34;basic-understanding-of-the-function&#34;&gt;Basic understanding of the function&lt;/h2&gt;
 &lt;p&gt;A function is a subroutine in a program. The concept is somewhat similar to a mathematical function, which is responsible for handling a function in the code.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MySQL - Basic Concepts &amp; Command Operations</title>
-      <link>https://anila.me/posts/mysql-basic/</link>
+      <link>https://anilahsu.github.io/Blog/posts/mysql-basic/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/mysql-basic/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/mysql-basic/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;SQL is short for Structured Query Language, pronounced S.Q.L or sequel. Chinese is called Structured Query Language.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Life - Newbie&#39;s Cat Diary</title>
-      <link>https://anila.me/posts/life-cat/</link>
+      <link>https://anilahsu.github.io/Blog/posts/life-cat/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/life-cat/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/life-cat/</guid>
       <description>&lt;h3 id=&#34;我領養了來自彰化的咪咪&#34;&gt;我領養了來自彰化的咪咪！&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Life - My journey in Seattle Part I</title>
-      <link>https://anila.me/posts/life-seattle/</link>
+      <link>https://anilahsu.github.io/Blog/posts/life-seattle/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/life-seattle/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/life-seattle/</guid>
       <description>&lt;h1 id=&#34;20180803&#34;&gt;&lt;strong&gt;2018.08.03&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;The two-week study tour and I have been looking forward to it for two years！&lt;/p&gt;</description>
     </item>

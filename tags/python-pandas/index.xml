@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python Pandas on Anila Blog</title>
-    <link>https://anila.me/tags/python-pandas/</link>
+    <link>https://anilahsu.github.io/Blog/tags/python-pandas/</link>
     <description>Recent content in Python Pandas on Anila Blog</description>
     <image>
-      <url>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://anila.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/Blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anila.me/tags/python-pandas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/Blog/tags/python-pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pandas - Great ways to access data using DataFrame</title>
-      <link>https://anila.me/posts/pandas-i/</link>
+      <link>https://anilahsu.github.io/Blog/posts/pandas-i/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/pandas-i/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/pandas-i/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;This article will introduce the value method of DataFrame in Pandas, which is mainly divided into three parts:&lt;/p&gt;
 &lt;ul&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Pandas - Data manipulation with Series &amp; DataFrame</title>
-      <link>https://anila.me/posts/pandas-ii/</link>
+      <link>https://anilahsu.github.io/Blog/posts/pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anila.me/posts/pandas-ii/</guid>
+      <guid>https://anilahsu.github.io/Blog/posts/pandas-ii/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;Among the Python libraries, Numpy, Pandas, Matplotlib, Scipy, and scikit-learn are important libraries and modules commonly used for data analysis, data science, and machine learning.&lt;/p&gt;</description>
     </item>
