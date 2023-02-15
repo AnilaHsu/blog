@@ -1,4 +1,4 @@
-baseURL: 'https://anilahsu.github.io/Blog/'
+baseURL: 'https://anilahsu.github.io/blog/'
 languageCode: zh-TW
 title: Anila Blog
 paginate: 5
