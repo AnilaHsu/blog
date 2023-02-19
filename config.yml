@@ -43,11 +43,11 @@ params:
     assets:
         disableHLJS: false # to disable highlight.js
         disableFingerprinting: true
-        favicon: "favicon.png"
-        favicon16x16: "favicon.png"
-        favicon32x32: "favicon.png"
-        apple_touch_icon: "favicon.png"
-        safari_pinned_tab: "favicon.png"
+        favicon: "favicon.ico"
+        favicon16x16: "favicon.ico"
+        favicon32x32: "favicon.ico"
+        apple_touch_icon: "favicon.ico"
+        safari_pinned_tab: "favicon.ico"
 
     label:
         text: "Home"
@@ -57,8 +57,8 @@ params:
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
-        title: Anila Blog
-        subtitle: "Hi. Glad to meet you!"
+        title: Anila's Blog
+        subtitle: "Hi. I'm a Frontend Developer in Tokyo."
         imageUrl: "profile.jpg"
         # imageWidth: 120
         # imageHeight: 120
@@ -78,11 +78,11 @@ params:
         - name: email
           url: "yashuhsu.anila@gmail.com"
         - name: linkedin
-          url: "https://www.linkedin.com/in/AnilaHsu"          
+          url: "https://www.linkedin.com/in/anilahsu"          
         - name: github
-          url: "https://github.com/AnilaHsu"
+          url: "https://github.com/anilahsu"
         - name: twitter
-          url: "https://twitter.com/AnilaHsu"
+          url: "https://twitter.com/anila_yashu"
         - name: Instagram
           url: "https://www.instagram.com/anila.yashu/"
 
