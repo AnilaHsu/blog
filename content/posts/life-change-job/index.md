@@ -1,5 +1,5 @@
 ---
-title: "I left my last job, and decide to work as a Frontend developer in Japan."
+title: "I left my last job, and work as a Frontend Developer in Japan."
 description: ""
 date: 2023-02-20
 draft: false
