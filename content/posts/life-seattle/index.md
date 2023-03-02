@@ -1,5 +1,5 @@
 ---
-title: "Life - My journey in Seattle Part I"
+title: "My journey in Seattle, USA - reunion with friends in Seattle whom I miss (I)"
 date: 2020-12-18
 draft: false
 categories: 
