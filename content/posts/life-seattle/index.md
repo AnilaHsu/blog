@@ -1,5 +1,5 @@
 ---
-title: "My journey in Seattle, USA - reunion with friends in Seattle (I)"
+title: "My journey in Seattle, USA - reunion with friends in Seattle(I)"
 date: 2020-12-18
 draft: false
 categories: 
@@ -11,8 +11,8 @@ cover:
     relative: true
 ---
 
-# **2018.08.03**
-
+### The day I reunion with my friend whom I miss
+#### Aug. 3, 2018
 The two-week study tour and I have been looking forward to it for two years！
 <!--more-->
 
