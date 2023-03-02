@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life - I left my last job, and decide to work as a Frontend developer in Japan.</title>
+      <link>https://anilahsu.github.io/blog/posts/life-change-job/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anilahsu.github.io/blog/posts/life-change-job/</guid>
+      <description>&lt;h3 id=&#34;preface&#34;&gt;Preface.&lt;/h3&gt;
+&lt;p&gt;I would like to thank my friends around me for meeting each other through different interactions, and thanks for taking care of my friends who care about me because your company has brought me warmth and happiness.&lt;/p&gt;
+&lt;p&gt;Thank you my friends in Seattle, USA, and the love of our Heavenly Father for accompanying me on this very long and difficult journey from the past to the present. Knowing those friends and The Christian Faith has been the most precious gift in my life.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Redux - thunk handles Google Authentication async logic</title>
       <link>https://anilahsu.github.io/blog/posts/redux-thunk/</link>
