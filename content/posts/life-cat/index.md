@@ -1,5 +1,5 @@
 ---
-title: "Life - Newbie's Cat Diary"
+title: "I adopted a stray kitten and became a newbie kitten girl!"
 description: ""
 date: 2021-04-20
 draft: false
@@ -8,67 +8,67 @@ categories:
 tags:
 - Cat
 cover:
-    image: "cover1.jpg"
+    image: "cover.jpg"
     relative: true
 ---
 
-### 我領養了來自彰化的咪咪！
+### I adopted Mimi from Changhua!
 
- <!--more-->
+  <!--more-->
 
-#### 我與 mimi 的相遇故事：
+#### The story of my encounter with mimi:
 
-第一次看見 mimi 是在茶行官網貼文，實習同事的姊姊正在為 mimi 尋找新主人，一直很想養寵物我當下非常心動，猶豫了幾天決定問問看同事領養的狀況，結果沒想到那麼可愛的貓咪還沒被領養，於是我就下定心意，接手領養 mimi 。
+The first time I saw mimi was when I posted a post on the tea shop website. The sister of an intern colleague was looking for a new owner for mimi. I always wanted to adopt a pet. I was very excited. After a few days of hesitation, I decided to ask my colleagues about the adoption status, but there was no result. Thinking that such a cute cat has not been adopted yet, I made up my mind to adopt mimi.
 
-在除夕前夕我從彰化把 mimi 帶回目前的租屋的家。因為沒好好做準備，當天的我才幫買 mimi 的貓砂、貓砂屋、罐頭、碗，mimi 剛來的第一天真的手忙腳亂，不知道怎麼安撫，做了很多功課、查了很多資訊、看了很多網友的分享也問一些有養貓經驗的朋友，於是整理出了下面這些心得跟大家分享。
+I brought mimi back from Changhua to my current rental home just before New Year's Eve. Because I didn't prepare well, I bought Mimi's cat litter, cat litter house, cans, and bowls that day. Mimi was really busy on the first day of her arrival. I didn't know how to comfort her. I did a lot of homework and checked a lot of information. , After reading many netizens’ sharing and asking some friends who have experience in raising cats, I sorted out the following experiences to share with you.
 
-### 喵喵注意事項
+### Meow Meow Precautions
 
-#### 注意 1：
-貓咪通常到新環境會很不習慣，可以先預備好一個比較安靜、舒適的空間給貓咪，也可以給貓咪熟悉的物品讓牠安心 ex 可以給喵咪吃之前會吃的食物、用之用過的貓砂、還有貓咪之前的玩具等。
+#### Note 1:
+Cats are usually not used to the new environment. You can prepare a quieter and more comfortable space for the cat. You can also give the cat familiar items to make it feel at ease ex. You can give the cat the food that it will eat before and use it before. Cat litter, as well as the cat's previous toys, etc.
 
-#### 注意 2：
-貓咪可能會到新環境可能會到處躲在家裡的角落或高出，不用太關注貓咪，讓貓咪自己慢慢熟悉新環境就可以(大一個禮拜至一個月)，帶貓咪回來之前也盡量先將家裡打掃乾淨，讓貓咪可以感到舒適也維持貓咪的乾淨。
+#### Note 2:
+The cat may go to a new environment and may hide in the corners of the house or high above. You don’t need to pay too much attention to the cat, just let the cat get familiar with the new environment slowly (one week to one month after the cat is older). Before bringing the cat back, try to remove it Clean up the house so that the cat can feel comfortable and keep the cat clean.
 
-#### 注意 3：
-要確認貓咪是否結紮、打疫苗、植晶片，如果要會帶貓咪出門，建議是幫貓咪打疫苗比較安全，若貓咪是要當家貓不一定要去植晶片，植晶片的目的是幫助貓咪走失可以協助主人找到遺失的寵物。
+#### Note 3:
+It is necessary to confirm whether the cat is ligated, vaccinated, and microchipped. If you want to take the cat out, it is recommended that it is safer to vaccinate the cat. If the cat wants to be a house cat, it is not necessary to have the microchipped. The purpose of the microchipped is to help the cat get lost. Assist owners in finding lost pets.
 
-#### 注意 4：
-在貓咪回家前先預備好貓咪需要的東西，主要就是貓咪的廁所-貓砂和貓砂盆、貓咪的食物-罐頭/飼料。也可以準備貓抓板，避免貓咪亂抓，還有貓貓的玩具也可以避免貓咪咬壞家裡的東西，有玩具也可以幫助消耗貓咪的精力。
+#### Note 4:
+Before the cat goes home, prepare the things the cat needs, mainly the cat's toilet-cat litter and litter box, cat food-canned food/feed. You can also prepare cat scratching boards to prevent cats from scratching randomly, and cat toys can also prevent cats from biting things at home, and having toys can also help consume cats’ energy.
 
-#### 注意 5：
-大部分的貓貓都不愛喝水，可以在家裡的多處放水，當貓咪經過可能水可能就會喝，也可以多給貓咪吃罐頭，因為罐頭富含水分，比起乾飼料，富含水份的罐頭對貓咪來說比較健康。
+#### Note 5:
+Most cats don’t like to drink water. You can put water in many places in the house. When the cat passes by, the water may drink. You can also give the cat more canned food, because canned food is rich in water. Compared with dry feed, it is rich in Canned food with water content is healthier for cats.
 
-#### 注意 6：
-貓咪的飼料有分主食罐和副食罐，主食罐對貓咪來說營養會比較均衡也必較足夠，副食罐比教偏向吃好吃的罐頭，主食罐通常也會比副食罐貴一點，在購買罐頭的時候可以注意一下是主食還是副食罐。
+#### Note 6:
+Feed for cats is divided into staple food cans and non-staple food cans. The staple food cans are more balanced and sufficient for cats. The non-staple food cans are more delicious than the teachings. The staple food cans are usually more expensive than the non-staple food cans. When canning, you can pay attention to whether it is a staple food or a non-staple food can.
 
-#### 注意 7：
-要記得幫貓咪買跳蚤藥，一個月一次幫貓咪點在脖子的皮膚處，避免貓咪身上的跳蚤太多，造成貓咪的不舒服，因為貓咪身體比人類高溫，跳蚤特別喜歡，也為了避免家裡的環境產生太多的跳蚤大便，更重要的是要避免跳蚤潛藏在家裡四圍隨時把貓咪當目標。
+#### Note 7:
+Remember to buy flea medicine for cats, once a month to help cats on the skin of the neck, to avoid too many fleas on cats, causing discomfort to cats, because cats are hotter than humans, fleas like it very much, and to avoid fleas at home The environment produces too much flea poop, and it's even more important to avoid fleas lurking around the home ready to target your cat.
 
-#### 注意 8：
-大部分的貓咪都很喜歡紙箱或紙袋，可以準備幾個給貓咪窩著，貓咪也很喜歡往高處爬，可以準備跳高台或是給貓咪一個可以跳躍的空間，另外，逗貓棒、線、不倒翁娃娃大部分貓咪也都挺喜歡的，可以準備給貓咪。
+#### Note 8:
+Most cats like cardboard boxes or paper bags very much. You can prepare some for cats to nest in. Cats also like to climb to high places. You can prepare high jump platforms or give cats a space to jump. In addition, cat teasers, strings , Tumbler dolls, most cats also like it, you can prepare them for cats.
 
-### 喵喵日常要點
+### Meow Meow Daily Essentials
 
-#### 要點 1 - 關於貓砂：
+#### Point 1 - About cat litter:
 
- 貓砂有分豆腐砂、礦砂、木屑砂等，貓砂通常一個禮拜換一次，我們是使用豆腐砂，因為豆腐砂比較環保可以直接沖馬桶，不過礦砂貓咪通常最喜歡，因為材質、觸感，接近貓咪本能找尋廁所的習慣，但是不能沖馬桶只能丟垃圾，而木屑砂有分單層和雙層貓砂盆使用，也有分可以沖馬桶和不濃能沖馬桶。記得貓砂盆不要放在食物與水附近，因為貓咪也不喜歡食物或水在廁所旁邊。
+  Cat litter can be divided into bean curd sand, mineral sand, sawdust sand, etc. Cat litter is usually changed once a week. We use tofu sand because tofu sand is more environmentally friendly and can be flushed directly into the toilet. It is close to the cat's instinct to find the toilet, but it can't flush the toilet and can only throw garbage, and the sawdust litter can be used in single-layer and double-layer cat litter boxes, and there are also types that can flush the toilet and those that are not thick enough to flush the toilet. Remember that the cat litter box should not be placed near food and water, because cats don't like food or water next to the toilet.
 
-#### 要點 2 - 關於玩具：
+#### POINT 2 - ABOUT TOYS:
 
-大部分的貓咪對於會快速移動的東西都非常感興趣，比如羽毛、線條，因此市面上有許多類似材質的逗貓棒，逗貓棒除了是消耗貓咪體力的來源，也是貓咪的生活樂趣之一，對於貓咪來說百玩不厭其膩。除此之外，大部分的貓咪也很著迷於類似塑膠袋摩擦的聲音，因此有些寵物店會販賣有塑膠磨擦聲音的玩偶，像是我們家貓咪常常抱著玩偶學兔子踢，萌翻了!
+Most cats are very interested in things that move quickly, such as feathers and lines. Therefore, there are many cat teasers made of similar materials on the market. The cat teaser is not only a source of energy consumption for cats, but also one of the joys of life for cats. , For cats, they never tire of playing. In addition, most cats are also fascinated by the sound of rubbing plastic bags, so some pet shops will sell dolls with plastic rubbing sounds. For example, our cats often hold dolls and learn how to kick rabbits. They are so cute!
 
-#### 要點 3 - 關於飲食：
+#### POINT 3 - ABOUT DIET:
 
-貓咪是肉食主義者，需要的營養來源為動物性蛋白質，因為貓咪體內的澱粉酶較少，不適合飲食含有大量穀物(碳水化合物)或植物成份的食材，對於貓咪來說，罐頭相較於乾飼料還要健康營養。
+Cats are carnivorous, and the source of nutrition they need is animal protein. Because cats have less amylase in their bodies, they are not suitable for eating foods that contain a lot of grains (carbohydrates) or plant ingredients. For cats, canned food is better than dry food. Also healthy and nutritious.
 
-乾飼料最大的優點就是可以常溫保存及久放，但乾飼料通常碳水化合物的成分高，熱量也相對較高，加上乾飼料缺乏水分，長期食用對於不愛喝水的貓咪來說，容易發生肥胖、糖尿病、體重過重甚至是腎臟疾病，因此我主要餵食罐頭給我們家貓咪。
+The biggest advantage of dry feed is that it can be stored at room temperature and stored for a long time. However, dry feed usually has high carbohydrate content and relatively high calories. In addition, dry feed lacks water. For cats who do not like to drink water, long-term consumption is prone to Obesity, diabetes, overweight and even kidney disease, so I mainly feed our cats canned food.
 
-挑選罐頭的要點，是要查看罐頭的成分標示，避免選擇多於、不必要的成分，例如：易使貓致敏的玉米、大豆、馬鈴薯或是有致癌疑慮的BHT、BHA、BPA(雙酚A)等。
-而罐頭又分為主食罐跟副食罐兩種，如果罐頭包裝上面有標符合AAFCO(美國飼料管理協會)或是NRC認證，基本上就是主食罐。
+The main point of choosing canned food is to check the ingredient label of the canned food and avoid choosing excessive and unnecessary ingredients, such as: corn, soybeans, potatoes that are easy to cause cat allergies, or BHT, BHA, BPA (bisphenols) that are suspected of causing cancer. A) etc.
+Canned food is divided into two types: staple food cans and non-staple food cans. If the canned food packaging is marked with AAFCO (American Feed Control Association) or NRC certification, it is basically a staple food can.
 
-主食罐較適合當作貓咪的主餐，主食罐可以挑選不含爭議性膠類、蔬果、穀類、中藥等的不必要添加物。主食罐除了有較高的含肉量，含水量至少也都有70%，而副食罐比較沒注重營養成分，口味較鹹，對於不吃濕食、只吃乾糧的貓咪來說，副食罐可以用來騙貓咪多喝水的食物，不過如果貓咪願意吃清淡口味和喝水，就要避免給口味較重、較鹹的副食罐和零食吃。
+The staple food cans are more suitable as the main meal for cats. The staple food cans can be selected without unnecessary additives such as controversial gums, fruits and vegetables, grains, and traditional Chinese medicines. In addition to the high meat content, the staple food cans also have a water content of at least 70%, while the non-staple food cans pay less attention to nutrients and taste salty. For cats who do not eat wet food and only eat dry food, non-staple food cans can Foods used to trick cats into drinking more water, but if cats are willing to eat light taste and drink water, they should avoid giving cans of non-staple food and snacks with strong taste and salty taste.
 
-## 結語
-我不是專業貓咪打人或資深的貓奴，不過想成為一個稱職的貓媽媽，也希望之後能多多分享與貓咪的日常生活！
+## Conclusion
+I am not a professional cat beater or a senior cat slave, but I want to be a competent cat mother, and I hope to share more about my daily life with cats in the future!
 
