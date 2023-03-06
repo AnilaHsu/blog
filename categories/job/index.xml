@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Job on Anila Blog</title>
+    <link>https://anilahsu.github.io/blog/categories/job/</link>
+    <description>Recent content in Job on Anila Blog</description>
+    <image>
+      <url>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://anilahsu.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 20 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/categories/job/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I left my last job, and work as a Frontend Developer in Japan.</title>
+      <link>https://anilahsu.github.io/blog/posts/job-change-career/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anilahsu.github.io/blog/posts/job-change-career/</guid>
+      <description>&lt;h3 id=&#34;preface&#34;&gt;Preface.&lt;/h3&gt;
+&lt;p&gt;I would like to thank my friends around me for meeting each other through different interactions, and thanks for taking care of my friends who care about me because your company has brought me warmth and happiness.&lt;/p&gt;
+&lt;p&gt;Thank you my friends in Seattle, USA, and the love of our Heavenly Father for accompanying me on this very long and difficult journey from the past to the present. Knowing those friends and The Christian Faith has been the most precious gift in my life.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
