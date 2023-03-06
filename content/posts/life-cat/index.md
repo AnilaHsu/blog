@@ -6,7 +6,7 @@ draft: false
 categories: 
 - Life
 tags:
-- Cat
+- Adopt Cat
 cover:
     image: "cover.jpg"
     relative: true
