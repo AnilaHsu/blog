@@ -39,11 +39,11 @@ Some of my friends may wonder why? not because I don't like to do data anymore. 
 However, for me, rather than working with and analyzing a lot of data in order to provide more accurate and valuable information to company. I enjoy learning new technologies more while focusing on developing and designing products, creating more services that can be used by users through technology, and integrating them into our daily lives, which is probably more fulfilling and exciting thing.
 
 
-At the same time, in order to achieve a longer-term goal, I would like to bring my enthusiasm and courage to step out of my comfort zone life, to continue to learn and grow while working happily, to continue to accumulate technical strength and experience, and then to further challenge myself to enjoy life and enrich my life experience.
+Therefore, for further goals, I would like to work with full enthusiasm in a proud profession, full of enthusiasm and happiness, continuously accumulate technical strength and experience, and then further challenge myself to enrich my life experience. I also hope that I can become the strength of the company, and at the same time, the company can also help me make more progress and growth.
 
 ### Conclusion
 
 I am very happy to share with you that I am fortunate to have the opportunity and ability to choose my favorite career in different paths, and to be able to have a life with more challenges unknown and full of excitement and anticipation in my favorite country.
-For the sake of my family, I have been pursuing a more mature and capable version of myself, and perhaps it is time to pursue more of my life's meaning, career, and values. Go for it~~!
+For the sake of my family, I am constantly pursuing a more mature and capable self. Perhaps, it is time to pursue more for my own life. At the beginning of 2023, being able to achieve the staged goals for yourself can be said to be the best gift for yourself.
 
 
