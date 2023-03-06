@@ -69,6 +69,6 @@ Canned food is divided into two types: staple food cans and non-staple food cans
 
 The staple food cans are more suitable as the main meal for cats. The staple food cans can be selected without unnecessary additives such as controversial gums, fruits and vegetables, grains, and traditional Chinese medicines. In addition to the high meat content, the staple food cans also have a water content of at least 70%, while the non-staple food cans pay less attention to nutrients and taste salty. For cats who do not eat wet food and only eat dry food, non-staple food cans can Foods used to trick cats into drinking more water, but if cats are willing to eat light taste and drink water, they should avoid giving cans of non-staple food and snacks with strong taste and salty taste.
 
-## Conclusion
+### Conclusion
 I am not a professional cat beater or a senior cat slave, but I want to be a competent cat mother, and I hope to share more about my daily life with cats in the future!
 
