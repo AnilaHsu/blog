@@ -10,9 +10,28 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>淺談台灣 Data Analyst 求職之路之見解</title>
+      <title>Career | How to Self Teach to be a Frontend Developer</title>
+      <link>https://anilahsu.github.io/blog/posts/frondend-learning/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anilahsu.github.io/blog/posts/frondend-learning/</guid>
+      <description>&lt;p&gt;Recently, some friends have asked me for advice about transitioning into a career in frontend development. So, based on my personal experience, I have organized these questions and answers to share with those interested or preparing to change careers, hope the article can be helpful to you.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本生活｜了解租屋、門號、開戶必備之三大手續</title>
+      <link>https://anilahsu.github.io/blog/posts/start-life-japan/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anilahsu.github.io/blog/posts/start-life-japan/</guid>
+      <description>&lt;p&gt;疫情過後，來到日本工作生活的外國人越來越多，在經過一番的努力和等待後，我也終於收到來自公司的五年技術簽證，以軟體工程師的身份前往日本生活和工作!&lt;/p&gt;
+&lt;p&gt;不論工作簽、留學簽或是打工度假簽，在日本生活首先最重要的大概就是找到棲身之處，把生活安頓好，但在日本不論租房、申辦手機門號的流程和手續辦理與台灣有很大的不同，因此決定把自己的經驗記錄下來，提供給即將入境日本或是對這個主題感到興趣的朋友們一些參考!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Career | 淺談台灣 Data Analyst 求職之路</title>
       <link>https://anilahsu.github.io/blog/posts/job-advice/</link>
       <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
       
@@ -21,7 +40,7 @@
     </item>
     
     <item>
-      <title>I left my last job, and work as a Frontend Developer</title>
+      <title>Career | I left my last job, and work as a Frontend Developer</title>
       <link>https://anilahsu.github.io/blog/posts/job-change-career/</link>
       <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
       
@@ -32,7 +51,7 @@
     </item>
     
     <item>
-      <title>Redux - thunk handles Google Authentication async logic</title>
+      <title>Redux | thunk handles Google Authentication async logic</title>
       <link>https://anilahsu.github.io/blog/posts/redux-thunk/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
@@ -41,7 +60,7 @@
     </item>
     
     <item>
-      <title>Redux - Write localStorage using middleware</title>
+      <title>Redux | Write localStorage using middleware</title>
       <link>https://anilahsu.github.io/blog/posts/redux-middleware/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
@@ -50,7 +69,7 @@
     </item>
     
     <item>
-      <title>React - Create Redux Toolkit in React Hook</title>
+      <title>React | Create Redux Toolkit in React Hook</title>
       <link>https://anilahsu.github.io/blog/posts/react-redux/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
       
@@ -61,7 +80,7 @@ This state is read-only, through pure reducer functions look at those actions an
     </item>
     
     <item>
-      <title>Firebase - How to use Cloud Firestore in our application</title>
+      <title>Firebase | How to use Cloud Firestore in our application</title>
       <link>https://anilahsu.github.io/blog/posts/firebase-firestore/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
       
@@ -72,7 +91,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>Pandas - Great ways to access data using DataFrame</title>
+      <title>Pandas | Great ways to access data using DataFrame</title>
       <link>https://anilahsu.github.io/blog/posts/pandas-i/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -87,7 +106,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>Pandas - Data manipulation with Series &amp; DataFrame</title>
+      <title>Pandas | Data manipulation with Series &amp; DataFrame</title>
       <link>https://anilahsu.github.io/blog/posts/pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       
@@ -97,7 +116,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>Numpy - Array &amp; Matrix Operations</title>
+      <title>Numpy | Array &amp; Matrix Operations</title>
       <link>https://anilahsu.github.io/blog/posts/numpy-ii/</link>
       <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -107,7 +126,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>NumPy - How to create and use NumPy</title>
+      <title>NumPy | How to create and use NumPy</title>
       <link>https://anilahsu.github.io/blog/posts/numpy-i/</link>
       <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -117,7 +136,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>Python - Important Concepts of Function</title>
+      <title>Python | Important Concepts of Function</title>
       <link>https://anilahsu.github.io/blog/posts/python-function/</link>
       <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -127,17 +146,17 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>MySQL - Basic Concepts &amp; Command Operations</title>
-      <link>https://anilahsu.github.io/blog/posts/mysql-basic/</link>
+      <title>Database | Basic Concepts &amp; Command Operations of MySQL</title>
+      <link>https://anilahsu.github.io/blog/posts/mysql-basics/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/blog/posts/mysql-basic/</guid>
+      <guid>https://anilahsu.github.io/blog/posts/mysql-basics/</guid>
       <description>&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
 &lt;p&gt;SQL is short for Structured Query Language, pronounced S.Q.L or sequel. Chinese is called Structured Query Language.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>I adopted a stray kitten and became a newbie kitten girl!</title>
+      <title>Life | I adopted a stray kitten and became a newbie kitten girl!</title>
       <link>https://anilahsu.github.io/blog/posts/life-cat/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -146,7 +165,7 @@ step2: add the Firebase SDK to our project in development. First, we install the
     </item>
     
     <item>
-      <title>My journey in Seattle, USA - reunion with friends in Seattle(I)</title>
+      <title>Journey in Seattle, USA | reunion with friends in Seattle(I)</title>
       <link>https://anilahsu.github.io/blog/posts/life-seattle/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       

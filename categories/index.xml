@@ -10,13 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 05 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Job</title>
-      <link>https://anilahsu.github.io/blog/categories/job/</link>
-      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <title>Career</title>
+      <link>https://anilahsu.github.io/blog/categories/career/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/blog/categories/job/</guid>
+      <guid>https://anilahsu.github.io/blog/categories/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontend</title>
+      <link>https://anilahsu.github.io/blog/categories/frontend/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anilahsu.github.io/blog/categories/frontend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://anilahsu.github.io/blog/categories/life/</link>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://anilahsu.github.io/blog/categories/life/</guid>
       <description></description>
     </item>
     
@@ -39,6 +57,15 @@
     </item>
     
     <item>
+      <title>Redux</title>
+      <link>https://anilahsu.github.io/blog/categories/redux/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://anilahsu.github.io/blog/categories/redux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Analytics</title>
       <link>https://anilahsu.github.io/blog/categories/data-analytics/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
@@ -57,20 +84,11 @@
     </item>
     
     <item>
-      <title>MySQL</title>
-      <link>https://anilahsu.github.io/blog/categories/mysql/</link>
+      <title>Database</title>
+      <link>https://anilahsu.github.io/blog/categories/database/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://anilahsu.github.io/blog/categories/mysql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://anilahsu.github.io/blog/categories/life/</link>
-      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://anilahsu.github.io/blog/categories/life/</guid>
+      <guid>https://anilahsu.github.io/blog/categories/database/</guid>
       <description></description>
     </item>
     

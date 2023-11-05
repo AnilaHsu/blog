@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/tags/localstorage/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redux - Write localStorage using middleware</title>
+      <title>Redux | Write localStorage using middleware</title>
       <link>https://anilahsu.github.io/blog/posts/redux-middleware/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       

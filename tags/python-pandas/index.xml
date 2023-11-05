@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Thu, 16 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/tags/python-pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pandas - Great ways to access data using DataFrame</title>
+      <title>Pandas | Great ways to access data using DataFrame</title>
       <link>https://anilahsu.github.io/blog/posts/pandas-i/</link>
       <pubDate>Thu, 16 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -27,7 +27,7 @@
     </item>
     
     <item>
-      <title>Pandas - Data manipulation with Series &amp; DataFrame</title>
+      <title>Pandas | Data manipulation with Series &amp; DataFrame</title>
       <link>https://anilahsu.github.io/blog/posts/pandas-ii/</link>
       <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
       

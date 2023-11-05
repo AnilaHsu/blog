@@ -12,7 +12,7 @@
     <language>zh-TW</language>
     <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://anilahsu.github.io/blog/categories/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redux - thunk handles Google Authentication async logic</title>
+      <title>Redux | thunk handles Google Authentication async logic</title>
       <link>https://anilahsu.github.io/blog/posts/redux-thunk/</link>
       <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Redux - Write localStorage using middleware</title>
+      <title>Redux | Write localStorage using middleware</title>
       <link>https://anilahsu.github.io/blog/posts/redux-middleware/</link>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>React - Create Redux Toolkit in React Hook</title>
+      <title>React | Create Redux Toolkit in React Hook</title>
       <link>https://anilahsu.github.io/blog/posts/react-redux/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
       
