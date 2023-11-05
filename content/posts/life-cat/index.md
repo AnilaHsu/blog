@@ -1,5 +1,5 @@
 ---
-title: "I adopted a stray kitten and became a newbie kitten girl!"
+title: "Life | I adopted a stray kitten and became a newbie kitten girl!"
 description: ""
 date: 2021-04-20
 draft: false

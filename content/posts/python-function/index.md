@@ -1,5 +1,5 @@
 ---
-title: "Python - Important Concepts of Function"
+title: "Python | Important Concepts of Function"
 description: ""
 date: 2021-06-10
 draft: false

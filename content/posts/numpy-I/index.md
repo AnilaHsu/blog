@@ -1,5 +1,5 @@
 ---
-title: "NumPy - How to create and use NumPy"
+title: "NumPy | How to create and use NumPy"
 description: ""
 date: 2021-07-13
 draft: false

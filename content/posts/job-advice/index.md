@@ -1,10 +1,10 @@
 ---
-title: "淺談台灣 Data Analyst 求職之路之見解"
+title: "Career | 淺談台灣 Data Analyst 求職之路"
 description: ""
 date: 2023-03-05
 draft: false
 categories: 
-- Job
+- Career
 tags:
 - Data Analyst
 

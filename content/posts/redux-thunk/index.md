@@ -1,11 +1,13 @@
 ---
-title: "Redux - thunk handles Google Authentication async logic"
+title: "Redux | thunk handles Google Authentication async logic"
 description: ""
 date: 2022-09-02
 draft: false
 categories: 
+- Frontend
 - React
 - Firebase
+- Redux
 tags:
 - React Redux
 - Redux Toolkit

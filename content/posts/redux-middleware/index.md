@@ -1,10 +1,12 @@
 ---
-title: "Redux - Write localStorage using middleware"
+title: "Redux | Write localStorage using middleware"
 description: ""
 date: 2022-08-20
 draft: false
 categories: 
+- Frontend
 - React
+- Redux
 tags:
 - React Redux
 - Redux Toolkit

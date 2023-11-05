@@ -1,9 +1,10 @@
 ---
-title: "Firebase - How to use Cloud Firestore in our application"
+title: "Firebase | How to use Cloud Firestore in our application"
 description: ""
 date: 2022-07-20
 draft: false
 categories: 
+- Frontend
 - Firebase
 tags:
 - Firebase Firestore
