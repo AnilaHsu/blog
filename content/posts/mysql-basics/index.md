@@ -1,12 +1,12 @@
 ---
-title: "MySQL - Basic Concepts & Command Operations"
+title: "Database | Basic Concepts & Command Operations of MySQL"
 description: ""
 date: 2021-05-30
 draft: false
 categories: 
-- MySQL
+- Database
 tags:
-- MySQL
+- MySQL Basics
 cover:
     image: "photo/cover.jpeg"
     relative: true
