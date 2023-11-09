@@ -8,7 +8,7 @@
     <loc>https://anilahsu.github.io/blog/categories/career/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/frondend-learning/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/frondend-learning-suggestions/</loc>
     <lastmod>2023-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/categories/</loc>
@@ -32,16 +32,16 @@
     <loc>https://anilahsu.github.io/blog/tags/life-in-japan/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/start-life-japan/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/start-life-in-japan/</loc>
     <lastmod>2023-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/job-advice/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/advice-about-data-analyst/</loc>
     <lastmod>2023-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/tags/data-analyst/</loc>
     <lastmod>2023-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/job-change-career/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/career-change-story/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/tags/change-career/</loc>
@@ -62,7 +62,7 @@
     <loc>https://anilahsu.github.io/blog/categories/redux/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/redux-thunk/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/redux-thunk-google-authentication/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/tags/redux-middleware/</loc>
@@ -77,13 +77,13 @@
     <loc>https://anilahsu.github.io/blog/tags/localstorage/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/redux-middleware/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/redux-middleware-localstorage/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/react-redux/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/redux-toolkit-with-redux-hook/</loc>
     <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/firebase-firestore/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/firebase-firestore-usage/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/tags/firebase-firestore/</loc>
@@ -92,7 +92,7 @@
     <loc>https://anilahsu.github.io/blog/categories/data-analytics/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/pandas-i/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/pandas-dataframe-intro/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/categories/python/</loc>
@@ -101,19 +101,19 @@
     <loc>https://anilahsu.github.io/blog/tags/python-pandas/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/pandas-ii/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/pandas-series-and-dataframe/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/numpy-ii/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/numpy-array-and-matrix/</loc>
     <lastmod>2021-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/tags/python-numpy/</loc>
     <lastmod>2021-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/numpy-i/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/get-started-with-numpy/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/python-function/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/python-function-concepts/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/tags/python-function/</loc>
@@ -131,10 +131,10 @@
     <loc>https://anilahsu.github.io/blog/tags/adopt-cat/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/life-cat/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/adopted-a-cat-from-changhua/</loc>
     <lastmod>2021-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://anilahsu.github.io/blog/posts/life-seattle/</loc>
+    <loc>https://anilahsu.github.io/blog/posts/journey-in-setttle/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://anilahsu.github.io/blog/tags/seattle-study-tour/</loc>
