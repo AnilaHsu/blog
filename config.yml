@@ -76,7 +76,7 @@ params:
 
     socialIcons:
         - name: email
-          url: "yashuhsu.anila@gmail.com"
+          url: "mailto:yashuhsu.anila@gmail.com"
         - name: linkedin
           url: "https://www.linkedin.com/in/anilahsu"          
         - name: github
